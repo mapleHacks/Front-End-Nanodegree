@@ -1,0 +1,927 @@
+{
+  "data": {
+    "lesson": {
+      "id": 860794,
+      "key": "566843fd-9e65-489f-97d8-56f99a62f505",
+      "title": "Asynchronous JavaScript",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson students will learn how to implement asynchronous JavaScript with the Fetch API and Web APIs.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/566843fd-9e65-489f-97d8-56f99a62f505/860794/1572420277950/Asynchronous+JavaScript+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/566843fd-9e65-489f-97d8-56f99a62f505/860794/1572420274358/Asynchronous+JavaScript+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 860790,
+          "key": "f6f63d3f-fc9c-401b-81d9-b55ce51c73f6",
+          "title": "Async JS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f6f63d3f-fc9c-401b-81d9-b55ce51c73f6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860757,
+              "key": "7127ad72-caf2-4131-bac9-f05f329d7c72",
+              "title": "Async JS Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Asynchronous JavaScript\n\nJavaScript is a single threaded programming language, which means for the most part it will be run as a single process in your computer (essentially writing and running it top to bottom).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860754,
+              "key": "849689b9-2995-4a47-af7d-1bea8f5bb773",
+              "title": "Async Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To be an effective web developer you have to be comfortable writing async code when the situation calls for it. For those times JavaScript does have a few async  tricks up its sleeve. One of the most common is `setTimeout()` which allows you to break out of the inherent JS behavior of executing code line by line starting at the top. Let’s explore these ideas more in a video:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860755,
+              "key": "d783d951-69dd-4fb5-80ee-2a4a6c7aa5ce",
+              "title": "ND#0001 C3 L4 A01 Async JS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bPMhcWjqVrA",
+                "china_cdn_id": "bPMhcWjqVrA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 899069,
+          "key": "286a4a78-20f9-4831-ba06-a40a70fd8128",
+          "title": "Async Promises",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "286a4a78-20f9-4831-ba06-a40a70fd8128",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860759,
+              "key": "471b7e29-c9ba-4849-94bb-a4b7862c9008",
+              "title": "JS Async Keywords",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Async Promises\n\nWhile there have always been some async work arounds in JS, including setTimeout(), and AJAX, more recently a tool called Promises has been introduced natively to JavaScript, and Promises are now the accepted best practice for writing asynchronous functions in JavaScript.\n\nYou can think of Promises as a special function that either satisfy (resolve) or fail (reject) to execute a task, and then executes the corresponding actions, usually another task with the returned data in the case of 'resolved' and usually throw an error in the case of 'reject'.  \n\nHere is the basic anatomy of a Promise:\n```\nvar promise = new Promise(function(resolve, reject) {\n  // do a thing, possibly async, then…\n\n  if (/* everything turned out fine */) {\n    resolve(\"Stuff worked!\");\n  }\n  else {\n    reject(Error(\"It broke\"));\n  }\n});\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860762,
+              "key": "b72463a3-d20f-486a-83bc-b177cfca2a27",
+              "title": "Code Demo",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\nThere are many methods to handle asynchronous work already, however Promises are the recommended option because they give you flexibility, intuitive syntax, and easy error handling. Promises are an amazing development in JavaScript, but until ES2017 (ES8) they still required extra boilerplate code, called generators, to run asynchronously. Now however, with the addition of native `async` functions to JavaScript, we can easily apply the async keywords to a Promise to execute asynchronous JavaScript code. \n\nTo make a `fetch()` call, or any other methods inside of a function, asynchronous we must use the keywords provided by JavaScript. Here is an example of what it would look like to turn the fetch function from the previous example into an asynchronous function:\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860775,
+              "key": "f1914c4c-8978-4e84-bd3f-c7afef1f4d91",
+              "title": "Code Demo",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```\nconst postData = async ( url = '', data = {})=>{\n    // console.log(data)\n      const response = await fetch(url, {\n      method: 'POST', // *GET, POST, PUT, DELETE, etc.\n      credentials: 'same-origin', // include, *same-origin, omit\n      headers: {\n          'Content-Type': 'application/json',\n      },\n      body: JSON.stringify(data), // body data type must match \"Content-Type\" header        \n    });\n  \n      try {\n        const newData = await response.json();\n        console.log(newData);\n        return newData\n      }catch(error) {\n      console.log(\"error\", error);\n      // appropriately handle the error\n      }\n  }\n\n  postData('/addMovie', {movie:' the matrix', score: 5})\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860756,
+              "key": "38fac935-108c-4567-9dd5-724ea79e3708",
+              "title": "Async JS Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "`postData` is an async arrow function that is called with parameters on the last line of code. It is asynchronous because of the keyword `async` placed before its parameters. Once you mark a function as 'async' you have access to the keywords `await`, `try`, and `catch` which mirror the underlying Promise functionality of resolving or rejecting a condition-- here the condition is successfully making a POST request to the specified route. The `await` keyword is used in places where the next actions requires data from the current action so we want to tell our program to wait until the data has been received before continuing with the next steps-- this is the magic of ASYNC JavaScript.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860776,
+              "key": "9d5fbf02-49fd-45ff-aba2-3e2d1a3f413b",
+              "title": "Async JS Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9d5fbf02-49fd-45ff-aba2-3e2d1a3f413b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these amazing ‘facts’ are also true about asynchronous JavaScript",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Asynchronous JavaScript is impossible-- don’t even try it.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Native Promises in JavaScript allow for asynchronous functions that are dependent on satisfying a condition.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "JavaScript functions can be made asynchronous simply by using the keyword `async`.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "JavaScript functions denoted by the keyword `async` allow for the syntax of `await`, `try`, `catch`, for an elegant way of dealing with code asynchronously.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "JavaScript naturally runs asynchronously and simply using the keyword `await` before any method will be sufficient to run code asynchronously.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860770,
+              "key": "f3b5ad21-9584-45af-bafd-7209ebfcb8c7",
+              "title": "Async JS Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the next lesson we will learn how to pair JavaScript async fetch functions with Web APIS to unleash the dynamic power of front-end programming.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860760,
+              "key": "9adcb09f-5ea5-4cb8-a9c5-e9e02bdc1c30",
+              "title": "Async JS Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### More on Async JS\n\nFor a more detailed overview on Promises and why they matter, read the article [here](https://developers.google.com/web/fundamentals/primers/promises).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 900382,
+          "key": "4a41bfc3-752c-4cc2-b6c7-2dfdfb4b4c9c",
+          "title": "Exercise: Async Function",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a41bfc3-752c-4cc2-b6c7-2dfdfb4b4c9c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900638,
+              "key": "67b9360e-9ce8-41c8-91f6-17e094ef9402",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900382xJUPYTERLgp53x1xz",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-t59bg",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "7",
+                    "pageStart": "7",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 860792,
+          "key": "9aeacb75-72cb-41fd-b34d-d97c2dec695b",
+          "title": "Async Fetch w/ Web APIs Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9aeacb75-72cb-41fd-b34d-d97c2dec695b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860782,
+              "key": "c694c5b5-7738-4b75-9016-f1b9f204b533",
+              "title": "Async Fetch w/ Web APIs Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Asynchronous JavaScript with Fetch Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860758,
+              "key": "fe30d206-02b5-4e71-b54c-505bea95664f",
+              "title": "ND#0001 C3 L4 A02 Async Fetch W- Web APIs (1 Of 3)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "X1rpMbSLb40",
+                "china_cdn_id": "X1rpMbSLb40.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 899068,
+          "key": "fad27c05-0a08-4b3b-b8fe-30395d70c7be",
+          "title": "Credentials and API keys",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fad27c05-0a08-4b3b-b8fe-30395d70c7be",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899060,
+              "key": "0751dc96-e2ea-48c4-98aa-90aba409ed3f",
+              "title": "Credentials and API keys Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Credentials and API keys\r\nMany APIs require you to sign up, create credentials, and use an API key in order to start sending requests to the API.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 899064,
+              "key": "6ceb126e-47e1-49e1-a499-988c0ca7b2ee",
+              "title": "ND#0001 C3 L4 A03 Async Fetch W- APIs (2 Of 3)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mEC4yYjS3LM",
+                "china_cdn_id": "mEC4yYjS3LM.mp4"
+              }
+            },
+            {
+              "id": 899059,
+              "key": "9a71feda-4ff4-4d6d-bd6a-969b1c33ad5f",
+              "title": "Credentials and API keys example",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "For instance, if you travel to [NASA’s API documentation](https://api.nasa.gov), the next step after testing out an example API call is to sign up for an API key.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 899074,
+          "key": "9292d504-e4db-464d-8c51-eb77e640f96f",
+          "title": "Adding Fetch to Your Code",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9292d504-e4db-464d-8c51-eb77e640f96f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899058,
+              "key": "3501c56f-b726-4f86-9600-d1f8fd11f406",
+              "title": "Adding Fetch to Your Code Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Adding Fetch to Your Code",
+              "instructor_notes": ""
+            },
+            {
+              "id": 899061,
+              "key": "a1a3346b-baa5-47d0-829c-1a4abefcc412",
+              "title": "ND#0001 C3 L4 A04 Async Fetch W- APIs (3 Of 3)-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hQi4wfwAeFE",
+                "china_cdn_id": "hQi4wfwAeFE.mp4"
+              }
+            },
+            {
+              "id": 860761,
+              "key": "f3f6c60b-597e-4626-b574-c92e894353bb",
+              "title": "Async Fetch w/ Web APIs Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is the client side code that would make a GET request to the animal info API:\n```\nlet baseURL = 'http://api.animalinfo.org/data/?animal='\nlet apiKey = '&appid=9f15e45060...';\n\ndocument.getElementById('generate').addEventListener('click', performAction);\n\nfunction performAction(e){\nconst newAnimal =  document.getElementById('animal').value;\ngetAnimal(baseURL,newAnimal, apiKey)\n\n}\nconst getAnimal = async (baseURL, animal, key)=>{\n\n  const res = await fetch(baseURL+animal+key)\n  try {\n\n    const data = await res.json();\n    console.log(data)\n    return data;\n  }  catch(error) {\n    console.log(\"error\", error);\n    // appropriately handle the error\n  }\n}\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 900384,
+          "key": "097bb17f-3924-4b50-910d-dcbc67aff782",
+          "title": "Exercise: Async GET",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "097bb17f-3924-4b50-910d-dcbc67aff782",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900639,
+              "key": "b8ebd0cc-a2fc-4114-bae0-ee6433f73cf3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900384xJUPYTERLz1uw8e90",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-io7yy",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "8",
+                    "pageStart": "8",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 899070,
+          "key": "464f740d-4c9a-4d45-9aab-7b72b43c1570",
+          "title": "Async Fetch with Web APIs Demo",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "464f740d-4c9a-4d45-9aab-7b72b43c1570",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899062,
+              "key": "e3b0fa26-3e8d-4a33-9fe6-9ccdbdede8c8",
+              "title": "Async Fetch with Web APIs Demo Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Async Fetch with Web APIs Demo",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860764,
+              "key": "78b7a1d2-96b1-4c4e-9b4e-1094829a8f10",
+              "title": "ND#0001 C3 L4 A05 Async Fetch W- APIs Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ObQWHNuXFCE",
+                "china_cdn_id": "ObQWHNuXFCE.mp4"
+              }
+            },
+            {
+              "id": 860768,
+              "key": "61d8cb79-4da5-43c4-9c01-40a313139e36",
+              "title": "Async Fetch w/ Web APIs Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you continue to work with Promises and Async JavaScript it will start to feel more natural to do so. In the meantime, you can keep checking back against the keywords and making sure you are using `async` `await` `try` and `catch` to lead you to async dreamland.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860769,
+              "key": "ad5556e7-bd16-40ae-8549-1d100182c1c7",
+              "title": "Async Fetch w/ Web APIs Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad5556e7-bd16-40ae-8549-1d100182c1c7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the steps below are associated with working with Web APIs asynchronously?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Registering for developer credentials on the Web API’s website.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Creating variables to hold the base url and api key for the Web API.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Including `setTimeout` functions to wait until you have got a response from the Web API before moving on to the next step in your code.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Building a dynamic URL to make a query to the Web API.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Using Fetch in an `async` function to make a GET request to the Web API.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860780,
+              "key": "88ad1c4e-5bd7-4bee-a1a1-6dabdcc12f56",
+              "title": "Async Fetch w/ Web APIs Quiz 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "88ad1c4e-5bd7-4bee-a1a1-6dabdcc12f56",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Create a dynamic URL for a web api with the base url `www.api.com/data?` where the variable holding the user input you are interested in is named `holder`, and your API key is the number `68`.",
+                "matchers": [
+                  {
+                    "expression": "['\"]www\\.api\\.com\\/data\\?\\=['\"]\\+holder\\+68"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860765,
+              "key": "6684e596-5215-4728-9837-6c1d5bf00887",
+              "title": "Async Fetch w/ Web APIs Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\n```\n'www.api.com/data?='+holder+68\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>\n\nThe JavaScript Fetch API provides a more elegant interface and syntax for working with HTTP requests.  This makes it a perfect fit for working with Web API data. Up next, we will learn how to chain Fetch calls together to dynamically update the UI of an app.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860763,
+              "key": "ec61b6be-8fc7-4a28-85b5-ce5c74a2aac4",
+              "title": "Async Fetch w/ Web APIs Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- [Fetch over view on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)\n- [Using Fetch on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 860793,
+          "key": "a893497b-40fe-4897-94f9-e2458f55439b",
+          "title": "Chaining Promises",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a893497b-40fe-4897-94f9-e2458f55439b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860767,
+              "key": "1e8aad6f-0d27-4a50-82c6-09d9dcfdb9ef",
+              "title": "Chaining Promises Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Chaining Promises - Dependent GET and POST Requests",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860785,
+              "key": "db923b2d-d635-49bf-9682-e8554aff59cf",
+              "title": "ND#0001 C3 L4 A06 Chaining Promises",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "E7UZPIrGpGk",
+                "china_cdn_id": "E7UZPIrGpGk.mp4"
+              }
+            },
+            {
+              "id": 860784,
+              "key": "9b6424db-3826-459a-aab9-1b0731faebfd",
+              "title": "Chaining Promises Prep Part III",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Notice we have set up a helper function to use fetch to make an async GET request for a route that is made to simulate the Animal Info Web API we are using as an example.\n\nInside `.then()` we could call another async function to make a POST request to store this data in our app. Assuming a POST route has been setup on the server side to add data it received to the app endpoint, we could simply call the function we have been using to create POST requests on the client side and pass it the POST route url and the data we want to save to our app. The only tricky part (which can also be fun!), is that we need to use the returned data, and data that we retrieve from a DOM element to create the structure for our POST request.\n\nAs a reminder, the `postData()` function takes a URL, and a data object as parameters. To build the data object using data received from the previous fetch call we can use dot notation. So we could set our first elements like this: \n\n  `postData('/addAnimal', {animal:data.animal, fact: data.fact} )`\n\nBut we also want to include the users favorite thing about the animal, which we can add using the variable name which selects the textarea where the users response is. So our final code for creating a POST route to save the data to our app would look like this:\n\n  `postData('/addAnimal', {animal:data.animal, fact: data.fact, fav:favFact} )`\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860772,
+              "key": "91e80e1a-4b1c-4d28-8815-f31a9ce1c869",
+              "title": "Chaining Promises Heading Example II",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Then on the server side to actually add the sent data to our app, we would use this code:\n\n```\napp.post('/addAnimal', addAnimal);\n\nfunction addAnimal(req,res){\n\n  newEntry = {\n    animal: req.body.animal,\n    facts: req.body.fact,\n    fav: req.body.fav\n  }\n\n  animalData.push(newEntry)\n  console.log(animalData)\n}\n```\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860787,
+              "key": "9f3ecb09-87a9-4a5f-b8d1-b7dbc36a1f49",
+              "title": "ND#0001 C3 L4 A07 Chaining Promises Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "enhFqqLMpuU",
+                "china_cdn_id": "enhFqqLMpuU.mp4"
+              }
+            },
+            {
+              "id": 860773,
+              "key": "30673f8f-e3df-43f1-a06e-608d5fbb309c",
+              "title": "Chaining Promises Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "30673f8f-e3df-43f1-a06e-608d5fbb309c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true about working with Promises?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Nesting Promises is best practice.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Chaining Promises with `.then()` allows you to make multiple dependent HTTP requests.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860766,
+              "key": "9dd93c95-d756-4398-abab-8637cdf4ccf4",
+              "title": "Chaining Promises Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Great! Now let’s finally learn how to update the UI of an app with the data gathered from requests and routes.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 860791,
+          "key": "527c00c8-3432-4384-9f8c-390e784e895d",
+          "title": "Updating UI Elements",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "527c00c8-3432-4384-9f8c-390e784e895d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860781,
+              "key": "2c8a6cff-6605-4ef4-83f9-ac4d95e6658d",
+              "title": "Updating UI Elements Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Dynamic UI Updates",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860778,
+              "key": "7462ff79-d1dd-46cd-8493-03b2af82095f",
+              "title": "ND#0001 C3 L4 A08 Updating UI Elements",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hQL2VGtrV9w",
+                "china_cdn_id": "hQL2VGtrV9w.mp4"
+              }
+            },
+            {
+              "id": 860783,
+              "key": "5e0ee977-607a-4804-b8bb-cd7c7dcc9f7e",
+              "title": "Updating UI Elements Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is what it would look like to use chained GET and POST requests to retrieve information from our animal Web API, and then update DOM elements accordingly:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860786,
+              "key": "f08458f1-70a4-4c8a-b5ae-19042aa9b6f3",
+              "title": "Updating UI Elements Heading Example",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "HTML\n```\n<label for=\"animal\">Enter the name of your favorite animal</label>\n<input id=\"animal\" name=\"animal\">\n<textarea id=\"favorite\" placeholder=\"Enter your favorite thing about your favorite animal\" rows=\"9\" cols=\"50\"></textarea>\n<button id = \"generate\">GO</button>\n```\n\nJS\n```\ndocument.getElementById('generate').addEventListener('click', performAction);\n\nfunction performAction(e){\n  const newAnimal =  document.getElementById('animal').value;\n  const favFact =  document.getElementById('favorite').value;\n\n  getAnimal('/animalData',)\n  // New Syntax!\n  .then(function(data){\n    // Add data\n    console.log(data);\n    postData('/addAnimal', {animal:data.animal, fact: data.fact, fav:favFact} );\n  })\n  .then(\n    updateUI()\n  )\n}\n\nconst updateUI = async () => {\n  const request = await fetch('/all');\n  try{\n    const allData = await request.json();\n    document.getElementById('animalName').innerHTML = allData[0].animal;\n    document.getElementById('animalFact').innerHTML = allData[0].facts;\n    document.getElementById('animalFav').innerHTML = allData[0].fav;\n\n  }catch(error){\n    console.log(\"error\", error);\n  }\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860777,
+              "key": "cc614f25-5bac-475b-bfd2-0c940d4fb782",
+              "title": "Updating UI Elements Heading Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Notice how calling the function to update the UI is the last thing we do -- this is because the update UI function depends on data from each of the other functions, so each Promise must be resolved successfully before we can update the UI. This demonstrates why native Promises and the Fetch API are such powerful tools for Asynchronous JavaScript. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 900386,
+          "key": "b724e5b7-342e-48d6-a1fb-1742f441aff9",
+          "title": "Exercise: Putting It All Together",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b724e5b7-342e-48d6-a1fb-1742f441aff9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900640,
+              "key": "eca33d70-becc-4048-9bca-ba6845d64851",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900386xJUPYTERLrcvsp9pj",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-ymjdh",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "9",
+                    "pageStart": "9",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 899073,
+          "key": "6d095f68-bdba-44e1-80d2-446480821b02",
+          "title": "Updating UI Elements Demo",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6d095f68-bdba-44e1-80d2-446480821b02",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899063,
+              "key": "ebf9b630-d958-42a9-9f5f-7e9553492ae1",
+              "title": "Updating UI Elements Demo Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Updating UI Elements Demo",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860774,
+              "key": "4db35844-bb82-4139-8010-ad55668a6b46",
+              "title": "ND#0001 C3 L4 A09 Updating UI Elements Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "l5QrsuQy2R0",
+                "china_cdn_id": "l5QrsuQy2R0.mp4"
+              }
+            },
+            {
+              "id": 860789,
+              "key": "a124a6d5-9322-4172-8bad-d51b70883d11",
+              "title": "Updating UI Elements Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a124a6d5-9322-4172-8bad-d51b70883d11",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which are the three steps to updating the UI of an app dynamically...",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Create a selector, capture the data you want to update the element with, set updated property for element.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Connect an element to an API, updated the element, update the UI.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Select an element, update it, request an API.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860771,
+              "key": "fd70307a-1e9d-44d9-9079-51d937c61357",
+              "title": "Updating UI Elements Quiz 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fd70307a-1e9d-44d9-9079-51d937c61357",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Assume you have a `div` with the id: `score`. Assume you also have the data object below returned from a `fetch()` call-- what line of code would you write to assign the `innerHTML` property of `<div id=”score”></div>` to the value of the key `returnedScore` .\n\n```\ndata = {\n  name: ‘who cares’,\n  returnedScore: 6\n}\n```",
+                "matchers": [
+                  {
+                    "expression": "document\\.getElementById\\(['\"]score['\"]\\)\\.innerHTML\\s*\\=\\s*data\\.returnedScore(\\s|\\;)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860788,
+              "key": "05128890-1239-4ae6-8da8-7949b1567ccd",
+              "title": "Updating UI Elements Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "And that’s it! Now you have learned how to create an Asynchronous App that uses Web APIs with routes and requests using Express! Hooray!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 899071,
+          "key": "a98c0f7e-337c-4567-b9e5-5589e64d38ca",
+          "title": "Outro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a98c0f7e-337c-4567-b9e5-5589e64d38ca",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899067,
+              "key": "99ff663a-ba03-4166-aa26-88dac574ab30",
+              "title": "ND#0001 C3 L4 A10 Outro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5dpaBqRGD4k",
+                "china_cdn_id": "5dpaBqRGD4k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 899072,
+          "key": "7df8c0e1-73f8-4871-9fad-7b6dbdcf5de2",
+          "title": "Instructor Interview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7df8c0e1-73f8-4871-9fad-7b6dbdcf5de2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899066,
+              "key": "3fbd0b63-7cdc-4288-9319-e198b58ac9ad",
+              "title": "Instructor Interview Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instructor Interview\n\nHere, you’ll get a chance to listen to Daniel talk about the importance of the skills you’ve learned, how to use them to build a portfolio-worthy project, what jobs you can apply these skills towards, and more!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 899065,
+              "key": "74d6b20e-ca17-482a-93c4-3c97ae01c753",
+              "title": "ND#0001 C3 Instructor Interview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VB3MHkTSHVA",
+                "china_cdn_id": "VB3MHkTSHVA.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

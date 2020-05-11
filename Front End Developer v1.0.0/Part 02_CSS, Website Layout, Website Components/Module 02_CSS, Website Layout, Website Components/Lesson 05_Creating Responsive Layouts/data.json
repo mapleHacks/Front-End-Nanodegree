@@ -1,0 +1,649 @@
+{
+  "data": {
+    "lesson": {
+      "id": 909366,
+      "key": "7ac50193-5960-4653-8ff9-d7afeeed82f3",
+      "title": "Creating Responsive Layouts",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Start with a basic Grid-based layout for a blog, and learn how to use media queries to build a responsive layout for device types of all sizes! ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/7ac50193-5960-4653-8ff9-d7afeeed82f3/909366/1581983678658/Creating+Responsive+Layouts+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/7ac50193-5960-4653-8ff9-d7afeeed82f3/909366/1581983674179/Creating+Responsive+Layouts+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 909360,
+          "key": "ed521639-cba7-44ae-8db3-e0ed8166aa2a",
+          "title": "Building Layouts with Grid",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ed521639-cba7-44ae-8db3-e0ed8166aa2a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909334,
+              "key": "c472218b-246b-4e0a-a42b-fa212ccca309",
+              "title": "Building Layouts with Grid Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Building Layouts with Grid",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909327,
+              "key": "ff147c48-4cfb-4463-bf33-9470f42d8c6e",
+              "title": "ND001 C01 L05 01 Building Layouts With Grid",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TOmVNaQZgMU",
+                "china_cdn_id": "TOmVNaQZgMU.mp4"
+              }
+            },
+            {
+              "id": 909328,
+              "key": "1e6f2528-1ddb-4e2f-af37-42580801f042",
+              "title": "Building Layouts with Grid Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "CSS Grid allows you to create simple, elegant and professional quality webpage designs.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909357,
+          "key": "76156cc3-6bee-4b87-bfae-2d5a4a45da93",
+          "title": "A Simple Blog Page",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "76156cc3-6bee-4b87-bfae-2d5a4a45da93",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909330,
+              "key": "e0b35eb9-3aca-42a9-b801-9872adfa6154",
+              "title": "Building Layouts with Grid Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# A Simple Blog Page\n\nIn the following screencast we will build the template for a simple blog webpage that has some dummy links and one real link to a demo page. In the end we will have a layout for a blog homepage and a blog entry itself. Let's dive in!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909329,
+              "key": "3671a159-ac48-4e0e-847b-8b0583ea8a9f",
+              "title": "ND001 C01 L05 02 Building Layouts With Grid Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "o961IzxE_YY",
+                "china_cdn_id": "o961IzxE_YY.mp4"
+              }
+            },
+            {
+              "id": 909335,
+              "key": "50e4a978-8314-471a-a926-1e7f41f3e022",
+              "title": "Building Layouts with Grid Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "CSS Grid can be used to setup multiple displays within a single site. In the previous demo we used to CSS Grid to create a blog home page and an individual page for blog posts. \n\nSeparate pages within a web app can be stored in the same folder and linked to each other using `<a>` tags to create links with the name of the file as the target. For example, in a file `index.html` you could use the following code to link to another file in the same directory named `go.html`:\n\n```html\n<a href=\"go.html\">Go to page</a>\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909331,
+              "key": "b8d2731f-9957-4f6a-9422-5263500ef429",
+              "title": "Building Layouts with Grid Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b8d2731f-9957-4f6a-9422-5263500ef429",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You can only use one CSS grid per web project.",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 909333,
+              "key": "42378b71-4e19-4ef7-aeb5-a6cf9a23a92a",
+              "title": "Building Layouts with Grid+",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the workspace below add a link from the homepage to the individual blog post. Once you have successfully done this, navigate to the blog entry and then customize the style to start to get an idea of what you might want a blog post layout to look like.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909375,
+              "key": "ca542301-2dd1-4c74-b685-58fbebe672eb",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c909357xHTMLLIVE5tu2n9zc",
+              "pool_id": "webterminal",
+              "view_id": "html-live-adzsp",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html",
+                      "/home/workspace/blog-post.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 909332,
+              "key": "8c0b3e17-9f78-4ef4-916a-9199a551ef48",
+              "title": "Building Layouts with Grid Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this section we covered linking webpages together, with each page using its own custom CSS Grid layout. But what happens when people actually start using our web blog on different size screens?!?! Up next we'll cover how to get responsive!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909336,
+              "key": "59a8b58e-f075-48de-8347-857470161347",
+              "title": "Building Layouts with Grid Recap Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\nFor more on Grid Layouts, see the below articles.\n\n- [Creating complex Grid layouts](https://rachelandrew.co.uk/archives/2015/02/04/css-grid-layout-creating-complex-grids/)\n- [Nesting & overlapping of Grid items](https://gridbyexample.com/examples/example21/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909358,
+          "key": "2539ba14-be5e-49cd-a074-3b67771adbcd",
+          "title": "Media Queries",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2539ba14-be5e-49cd-a074-3b67771adbcd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909339,
+              "key": "98842d4e-5538-42b6-800e-753ca5ea399d",
+              "title": "Media Queries Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Media Queries",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909343,
+              "key": "9ef9fcad-05d1-49cb-9a8f-d873b90a5780",
+              "title": "ND001 C01 L05 03 Media Queries",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "To_DE-nL-N4",
+                "china_cdn_id": "To_DE-nL-N4.mp4"
+              }
+            },
+            {
+              "id": 909338,
+              "key": "0cd1c302-023d-4a2a-a578-ae5cd48fbb56",
+              "title": "Media Queries Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "While media queries can be used for a variety of things and in a number of ways, we are going to focus on what are called **breakpoints**, which are the `viewport` width at which we want our design to change. We then write the code inside that media query, with a set breakpoint, that we want to go into effect only when the viewport width that the app is being viewed on is at least the breakpoint width. Only the CSS that we want to change needs to go here - the original CSS rules will all still apply, and only the new CSS rules written inside the media query will override any pre-existing rules.\n\n\n---\n\n## Key Term\n\n**viewport** -  the area of the window in which web content can be seen.  We use the dimensions of the viewport (usually the width, but sometimes the height) as the basis of our media queries.  \n\n### For more information about `viewport` see  \n\n* [What is a viewport?](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts#What_is_a_viewport)\n\n* [Using the viewport meta tag to control layout on mobile browsers\n](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909359,
+          "key": "e78fda03-4d7a-47a9-ad68-6134d2fd47ec",
+          "title": "Adding Media Queries in Code",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e78fda03-4d7a-47a9-ad68-6134d2fd47ec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909326,
+              "key": "71a6e15f-f3ff-4911-b392-cef97e0b2a9b",
+              "title": "Media Queries Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Adding Media Queries in Code\n\nMedia queries are used to set different style rules for different devices or sized screens. We use breakpoints to set the condition of a media query. The logic is:\n\n```css\n@media(feature:value)\n```\n\nHere media features are aspects of the device that our media (website) is being viewed on. The media feature we are most interested in for this lesson is `width`, which allows us to evaluate the viewport width of the browser and set conditions based on that evaluation. We actually write this feature `min-width` (or `max-width`) because `width` is one of many media features that are range features, which means they can be prefixed with `min-` or `max-` to express constraints, which is what we're looking for with our breakpoints! If the constraint of the breakpoint (viewport width being in the range below our breakpoint) is broken (the width is larger than the breakpoint) the new CSS rule takes effect. Here is an example of how that could look in action:\n\n```css\n@media(min-width:900px) {\n  body{\n   background:red;\n }\n}\n```\n\nIn this example if the viewport width is greater than 900px the background of the webpage would turn red.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909337,
+              "key": "bb4e60fc-9740-48de-b96a-d8ac7b7cd111",
+              "title": "ND001 C01 L05 04 Media Queries Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "m8oWoQv_li4",
+                "china_cdn_id": "m8oWoQv_li4.mp4"
+              }
+            },
+            {
+              "id": 909325,
+              "key": "1334ffcf-6e96-4ac9-bfdc-be11b4abe843",
+              "title": "Media Queries Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Media queries are used to create responsive layouts using breakpoints. Below is an example of the syntax that is used for creating media queries:\n\n```css\n@media(min-width:1100px) {\n  body{\n    font-size: 27px;\n  }\n}\n```\n\nIn the example above, if the browser width of the webpage being viewed is above 1100px wide, then the font-size would become 27px.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909342,
+              "key": "99e74fc4-68f5-4306-abcd-ad25b0547951",
+              "title": "Media Queries Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/August/59a3a143_1-16-why-responsive2x/1-16-why-responsive2x.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/99e74fc4-68f5-4306-abcd-ad25b0547951",
+              "caption": "Media queries can help change the layout for different screen sizes",
+              "alt": "Media queries can help change the layout for different screen sizes",
+              "width": 300,
+              "height": 320,
+              "instructor_notes": null
+            },
+            {
+              "id": 909346,
+              "key": "24d5af87-22f8-4753-b643-74a89c76220a",
+              "title": "Media Queries Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "24d5af87-22f8-4753-b643-74a89c76220a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is the correct syntax for media queries with a responsive breakpoint?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "```javascript\n@media(width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "```javascript\n@media(min-width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "```javascript\nmedia(min-width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 909361,
+          "key": "e3a2de83-5b0a-4626-b838-78b37f142dec",
+          "title": "Multiple Breakpoints",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3a2de83-5b0a-4626-b838-78b37f142dec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909341,
+              "key": "3e48a2d3-3301-4474-8e24-69a4c01b9d35",
+              "title": "Media Queries+",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Multiple Breakpoints\n\nWe have seen how to set a breakpoint and use Media Queries to create different layouts for smaller screens and larger screens, but there are some development moments that will call for 3 possible layouts.   \r<br>\r<br>\rA simple example would be creating 2 different breakpoints so that up to x width one set of CSS rules apply, then between x and y width a second set would apply, and then for anything beyond a width of y a third set of CSS rules would apply.   \r<br>\r<br>\rHere is an example of what that code could look like:  \n\n```css\n/* Anything smaller than first breakpoint 600px */\n.container {\n  // rules for small screen\n}\n\n/* Medium Screens */\n@media (min-width: 600px) and (max-width:900px) {\n  .container {\n    // rules for medium-sized screen\n  }\n}\n\n/* Large Screens */\n@media (min-width:901px) {\n  .container {\n    // rules for large screen\n  }\n}\n```\n\nIn this example, the medium screens media query is new, and we use the keyword `and` to build a complex media query that evaluates both a min and max to create a range for the CSS rules to apply, in this case if the width of the viewport is between 600px-900px.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909345,
+              "key": "af3e8b81-ee42-4c79-9d28-716cd9afe3a7",
+              "title": "ND001 C01 L05 05 Media Queries+ Walkthru",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "y3v9X5IJl8E",
+                "china_cdn_id": "y3v9X5IJl8E.mp4"
+              }
+            },
+            {
+              "id": 909376,
+              "key": "4f16d306-0db0-463d-966e-f0587678e4c6",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c909361xHTMLLIVE282d9cbg",
+              "pool_id": "webterminal",
+              "view_id": "html-live-5mu8v",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 909340,
+              "key": "2ea90e97-ba5e-4146-8d2e-e5de4f33a440",
+              "title": "Media Queries Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Complex media queries can be built using the keyword `and` to bound CSS rules between a range using `min-width` and `max-width`.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909348,
+              "key": "716b6682-4e48-4c05-bc86-a7c34d7302b2",
+              "title": "Media Queries Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research \n\nMedia Queries are actually a vast landscape of possibility, most of which you will probably never use - but, having a strong grasp of media queries and responsive breakpoints is essential for a web developer. For more information see the [MDN docs entry on using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909362,
+          "key": "b4acc728-e1eb-4986-baf0-9b5b4a70d615",
+          "title": "Building Responsive Layouts with Flexbox & Grid",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b4acc728-e1eb-4986-baf0-9b5b4a70d615",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909347,
+              "key": "9ae97591-94f1-47eb-8ef8-ea99b8ed1af6",
+              "title": "Building Responsive Layouts with Flexbox & Grid Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Building Responsive Layouts with Flexbox & Grid",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909344,
+              "key": "2f87af4d-ba83-49f7-84c1-990e87162683",
+              "title": "ND001 C01 L05 06 Building Responsive Layouts With Flexbox   Grid",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Xr55JJsqNYc",
+                "china_cdn_id": "Xr55JJsqNYc.mp4"
+              }
+            },
+            {
+              "id": 909349,
+              "key": "de82b622-755c-47bd-8c55-4dbb28b962c3",
+              "title": "Building Responsive Layouts with Flexbox & Grid Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "One of the most useful features of CSS grid is that you can easily nest grids inside each other to create elegant, complex layouts. To nest CSS grids simply set the `display` property of the container element to `grid` and then select the child grid item you want to make the nested grid and set the `display` property of that element to `grid` as well! The same grid rules you’ve been learning still apply! Easy as that!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909364,
+          "key": "26b35194-edfc-4e1d-a094-56c6e19bdd83",
+          "title": "Nesting Grids in Practice",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26b35194-edfc-4e1d-a094-56c6e19bdd83",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909350,
+              "key": "b359b6c2-81b4-4805-a3f7-c9e48ecea695",
+              "title": "Building Responsive Layouts with Flexbox & Grid Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Nesting Grids in Practice\n\nIn the screencast below you’ll see how nesting grids works in practice, and how a nested grid can be used to make a simple image gallery.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909351,
+              "key": "725ffccb-9592-4e6a-ba4e-5ef776c8a4c4",
+              "title": "ND001 C01 L05 07 Building Responsive Layouts With Flexbox   Grid Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gm7cZatnBuc",
+                "china_cdn_id": "gm7cZatnBuc.mp4"
+              }
+            },
+            {
+              "id": 909354,
+              "key": "50ffdd02-7e0a-46cf-9966-33b8de5f2ff1",
+              "title": "Building Responsive Layouts with Flexbox & Grid Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Nesting CSS grids is simple and can be done simply by using the `display:grid` rule for both a parent and child element.\n\nHere is how that could look with real code:\n\n```css\n.container {\n  display:grid;\n  // ...\n}\n\n#one {\n  display:grid\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909377,
+              "key": "a4adc283-cac6-412c-b44d-d007a19b98a8",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c909364xHTMLLIVEmpruqfpi",
+              "pool_id": "webterminal",
+              "view_id": "html-live-6q77c",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html",
+                      "/home/workspace/css/style.css"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 909355,
+              "key": "48ae54c6-132e-450f-be8e-9e2bdcc26770",
+              "title": "Building Responsive Layouts with Flexbox & Grid Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this section we covered how to nest grids to make creative layouts for the web, and how CSS grid can be used to create an easy photo gallery for a website or blog.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 909363,
+          "key": "54459ec3-1817-4f8c-aeff-efec8393a340",
+          "title": "Course Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54459ec3-1817-4f8c-aeff-efec8393a340",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909353,
+              "key": "38b1250d-195d-4e04-9fac-5fc48a1ff781",
+              "title": "ND001 C01 L05 08 Course Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IBwd8FtVFfA",
+                "china_cdn_id": "IBwd8FtVFfA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 909365,
+          "key": "71a2dcaf-8871-4240-98a1-cc69c139b760",
+          "title": "Instructor Interview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "71a2dcaf-8871-4240-98a1-cc69c139b760",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 909356,
+              "key": "475abfd5-1717-45c5-98ae-3391527fa3e9",
+              "title": "Instructor Interview Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instructor Interview\n\nHere, you’ll get a chance to listen to Daniel talk about how he first learned front end development, some important tips for you on your front end journey, common mistakes developers might make, as well as a preview of where you’ll soon be going in the program!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 909352,
+              "key": "a9f84d4d-42a4-4a36-8b7a-7ee4f240032f",
+              "title": "Daniel Baker Interview V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JqbsIzO_Ofw",
+                "china_cdn_id": "JqbsIzO_Ofw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

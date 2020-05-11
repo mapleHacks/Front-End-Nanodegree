@@ -1,0 +1,3384 @@
+{
+  "data": {
+    "nanodegree": {
+      "id": 906866,
+      "key": "nd0011",
+      "title": "Front End Developer",
+      "semantic_type": "Degree",
+      "is_public": true,
+      "cohorts": [
+        {
+          "id": 14064,
+          "part_keys": [
+            "b4fc4c95-cd8a-4523-9629-8d3fee61afd7",
+            "819dc899-4e21-4884-b050-2328896d87c0",
+            "68c70b08-c36e-4c48-97af-c84d77ddef5e",
+            "1ec64536-b8b7-4be6-aaa6-2fe59c0716ed",
+            "5bb114fe-8add-4c47-bc13-1cee34886c1a",
+            "37256ac3-41f4-4aa0-b0f4-cd110eb81863",
+            "6626f10d-e207-475a-9139-7ebfe24daf38"
+          ],
+          "start_at": "2020-05-12T19:00:00.000Z",
+          "due_at": "2020-09-10T19:00:00.000Z",
+          "end_at": "2020-10-08T19:00:00.000Z"
+        }
+      ],
+      "version": "1.0.0",
+      "locale": "en-us",
+      "color_scheme": "color_scheme1",
+      "enrollment": {
+        "product_variant": "STANDARD",
+        "variant": "STANDARD",
+        "free_preview_status": "NONE",
+        "free_preview_expires_at": null,
+        "static_access": null
+      },
+      "nd_units": [
+        {
+          "id": 10252,
+          "part_keys": [
+            "b4fc4c95-cd8a-4523-9629-8d3fee61afd7",
+            "819dc899-4e21-4884-b050-2328896d87c0",
+            "68c70b08-c36e-4c48-97af-c84d77ddef5e",
+            "1ec64536-b8b7-4be6-aaa6-2fe59c0716ed",
+            "5bb114fe-8add-4c47-bc13-1cee34886c1a",
+            "37256ac3-41f4-4aa0-b0f4-cd110eb81863",
+            "6626f10d-e207-475a-9139-7ebfe24daf38"
+          ]
+        }
+      ],
+      "hero_image": {
+        "url": "https://video.udacity-data.com/topher/2017/April/58f5cbe9_front-end-large/front-end-large.jpg"
+      },
+      "forum_path": "",
+      "summary": "Become a Front-End Web Developer by completing a variety of projects for your portfolio - become an HTML, CSS and JavaScript pro!",
+      "is_graduated": false,
+      "is_term_based": true,
+      "is_default": true,
+      "project_deadlines": [
+        {
+          "due_at": "2020-06-02T19:00:00.000Z",
+          "node_key": "37bf126d-d1c5-43d4-94d0-b38072b97fd1"
+        },
+        {
+          "due_at": "2020-06-23T19:00:00.000Z",
+          "node_key": "3d051052-cefb-48a2-8f81-0012325bee0d"
+        },
+        {
+          "due_at": "2020-07-14T19:00:00.000Z",
+          "node_key": "4026017b-6c7d-40b3-9ce8-92e2cc835bad"
+        },
+        {
+          "due_at": "2020-08-04T19:00:00.000Z",
+          "node_key": "391dad87-db77-43f8-a84d-348ec20f259e"
+        },
+        {
+          "due_at": "2020-08-05T19:00:00.000Z",
+          "node_key": "0051a3da-930f-47a1-bd41-d7fe3bd324f4"
+        },
+        {
+          "due_at": "2020-08-06T19:00:00.000Z",
+          "node_key": "4180859007"
+        },
+        {
+          "due_at": "2020-08-27T19:00:00.000Z",
+          "node_key": "51287eb2-ed5e-4df4-9e5d-d64742fbc2ca"
+        }
+      ],
+      "user_state": {
+        "node_key": "nd0011",
+        "completed_at": "2020-05-11T18:44:50.267Z",
+        "last_viewed_at": "2020-05-11T18:45:37.408Z",
+        "unstructured": null
+      },
+      "aggregated_state": {
+        "node_key": "nd0011",
+        "completion_amount": 0.042622950819672135,
+        "completed_count": 7,
+        "concept_count": 238,
+        "last_viewed_child_key": "819dc899-4e21-4884-b050-2328896d87c0",
+        "part_aggregated_states": [
+          {
+            "node_key": "b4fc4c95-cd8a-4523-9629-8d3fee61afd7",
+            "completed_at": null,
+            "completion_amount": 0.2,
+            "completed_count": 1,
+            "concept_count": 5,
+            "last_viewed_child_key": "6fb748b9-7988-4175-a2b3-30fe84a03804",
+            "module_aggregated_states": [
+              {
+                "node_key": "6fb748b9-7988-4175-a2b3-30fe84a03804",
+                "completed_at": null,
+                "completion_amount": 0.2,
+                "completed_count": 1,
+                "concept_count": 5,
+                "last_viewed_child_key": "b6418dad-7cf2-40bc-86e7-b057ef400739",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "b6418dad-7cf2-40bc-86e7-b057ef400739",
+                    "completed_at": null,
+                    "completed_count": 1,
+                    "concept_count": 5,
+                    "completion_amount": 0.2,
+                    "last_viewed_child_key": "8344cff2-2fb7-49a3-8a99-1878aa6b1269"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "819dc899-4e21-4884-b050-2328896d87c0",
+            "completed_at": null,
+            "completion_amount": 0.09836065573770492,
+            "completed_count": 6,
+            "concept_count": 61,
+            "last_viewed_child_key": "a280da9f-d026-43e4-a06c-279d7bff7faa",
+            "module_aggregated_states": [
+              {
+                "node_key": "a280da9f-d026-43e4-a06c-279d7bff7faa",
+                "completed_at": null,
+                "completion_amount": 0.09836065573770492,
+                "completed_count": 6,
+                "concept_count": 61,
+                "last_viewed_child_key": "25962c91-c1d5-47a4-9580-ac6ff3a151ed",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "f4be330b-3406-4c6a-911b-c1871e1165d6",
+                    "completed_at": null,
+                    "completed_count": 1,
+                    "concept_count": 13,
+                    "completion_amount": 0.07692307692307693,
+                    "last_viewed_child_key": "cdebc425-8c65-45bd-812d-b2e4d1d97f7a"
+                  },
+                  {
+                    "node_key": "25962c91-c1d5-47a4-9580-ac6ff3a151ed",
+                    "completed_at": null,
+                    "completed_count": 5,
+                    "concept_count": 15,
+                    "completion_amount": 0.3333333333333333,
+                    "last_viewed_child_key": "9959d5bd-b1dc-4f37-83c9-4e2636d03bfa"
+                  },
+                  {
+                    "node_key": "af6deed7-3e8f-4bcc-9ece-1743adcc28e6",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "51bd0188-1c43-4a88-b507-b7be0129035d"
+                  },
+                  {
+                    "node_key": "eb6fbc90-f3d1-4ff7-99ad-ce245cf1ff92",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 10,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "a4b4325f-3a45-4ab7-9be8-dd74689cb5d2"
+                  },
+                  {
+                    "node_key": "7ac50193-5960-4653-8ff9-d7afeeed82f3",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "ed521639-cba7-44ae-8db3-e0ed8166aa2a"
+                  },
+                  {
+                    "node_key": "07824c5b-26fb-4178-92f6-4709ddbc2bf0",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 5,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "65a8fbfc-9c6a-448e-8525-5e45d1bd3292"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "68c70b08-c36e-4c48-97af-c84d77ddef5e",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 49,
+            "last_viewed_child_key": "f7eca45d-0cca-481f-a280-a835629b4be4",
+            "module_aggregated_states": [
+              {
+                "node_key": "f7eca45d-0cca-481f-a280-a835629b4be4",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 49,
+                "last_viewed_child_key": "42383e89-ac6a-491a-b7d0-198851287bbe",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "42383e89-ac6a-491a-b7d0-198851287bbe",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 17,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "08a224ff-d7f5-4086-ab89-f74d3da09d08"
+                  },
+                  {
+                    "node_key": "74c2a096-61db-4302-9d65-6b7fa9b8c329",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 8,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "354d9102-8b45-4a89-91df-6f5ec9022dbd"
+                  },
+                  {
+                    "node_key": "39d760cf-9593-420d-9a97-57bff31e29c1",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 6,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "24b00792-38d0-4d61-acc9-eb1422fcc284"
+                  },
+                  {
+                    "node_key": "f270dbcf-eb43-4ce3-b7be-a74d26023496",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 7,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "f63b1837-b096-4707-b0f5-72bc6a93bfac"
+                  },
+                  {
+                    "node_key": "364ca3da-1eb9-4213-beb4-7791ac4e1ea4",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 8,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "6e242deb-7793-4c9a-9898-44144ee2c603"
+                  },
+                  {
+                    "node_key": "00eee03f-0937-4416-8f4d-782ce948f168",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 3,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "145fd45b-e14a-4d03-9783-22f7c96daefb"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "1ec64536-b8b7-4be6-aaa6-2fe59c0716ed",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 38,
+            "last_viewed_child_key": "bd3c5e28-279d-4fab-95af-d90dabb4cc19",
+            "module_aggregated_states": [
+              {
+                "node_key": "bd3c5e28-279d-4fab-95af-d90dabb4cc19",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 38,
+                "last_viewed_child_key": "53b59aed-9f51-4f92-ac6e-65c6bbe24fef",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "53b59aed-9f51-4f92-ac6e-65c6bbe24fef",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 4,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "3b531417-d415-410d-9fe9-71badbc62f4d"
+                  },
+                  {
+                    "node_key": "d40095d0-2744-414c-9c80-cf83748f311e",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "d8e2d8f5-2a09-4848-b7af-11713f38ea02"
+                  },
+                  {
+                    "node_key": "f1b56940-804a-4b26-9ce0-ec3efa25be28",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "17a01afa-4238-4e33-96fe-c617ee95337a"
+                  },
+                  {
+                    "node_key": "566843fd-9e65-489f-97d8-56f99a62f505",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 14,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "f6f63d3f-fc9c-401b-81d9-b55ce51c73f6"
+                  },
+                  {
+                    "node_key": "76746498-058a-42e8-ad3a-76018c9d167d",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 2,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "6989772f-f9d4-4706-9815-19b4a621fb1a"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "5bb114fe-8add-4c47-bc13-1cee34886c1a",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 42,
+            "last_viewed_child_key": "aa658fdb-12bd-489f-9078-7e8b2f789ecb",
+            "module_aggregated_states": [
+              {
+                "node_key": "aa658fdb-12bd-489f-9078-7e8b2f789ecb",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 42,
+                "last_viewed_child_key": "c6e36b9d-8876-49cf-a05a-fea5bfba0786",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "c6e36b9d-8876-49cf-a05a-fea5bfba0786",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 4,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "b7f0c672-bd79-4741-a988-821f43f552af"
+                  },
+                  {
+                    "node_key": "91569c5d-69ec-4f20-a768-bbcc9b946306",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 18,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "f58d925e-cfa9-4f29-93a7-5407a8e51751"
+                  },
+                  {
+                    "node_key": "066b6252-7814-453b-a1ae-cb55bcfa9912",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "9e670ea0-ad3d-486d-8807-6f263c7d7c20"
+                  },
+                  {
+                    "node_key": "1cfa87cb-377a-4746-a32a-64853dd2624b",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "64d5f23c-f05d-43df-9e25-c96c72a822cb"
+                  },
+                  {
+                    "node_key": "adbf2a15-5fa5-466b-a8fe-19ce08b82b61",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 2,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "84dd3e36-517c-4683-8d46-78384355b372"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "6626f10d-e207-475a-9139-7ebfe24daf38",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 40,
+            "last_viewed_child_key": "97c40fd0-5f40-45fc-997f-6d25ed8cc1c9",
+            "module_aggregated_states": [
+              {
+                "node_key": "97c40fd0-5f40-45fc-997f-6d25ed8cc1c9",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 40,
+                "last_viewed_child_key": "b01370f1-8760-45f0-b243-dea6d8fd524d",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "b01370f1-8760-45f0-b243-dea6d8fd524d",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 11,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "0c5d9ad2-f611-43c9-a92c-b614a15c9000"
+                  },
+                  {
+                    "node_key": "20707806-8f14-420f-b613-4196199a88c1",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 12,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "c8c3fbd0-b7ba-471e-85b7-eb2b1c3820c0"
+                  },
+                  {
+                    "node_key": "de38d0de-afac-4d34-a339-25c2519cf9f9",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 17,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "00b53aa6-a4a0-4eee-a034-39915c379b68"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "37256ac3-41f4-4aa0-b0f4-cd110eb81863",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 3,
+            "last_viewed_child_key": "eb6b8a12-4ba5-449b-9f27-be55cc41cee3",
+            "module_aggregated_states": [
+              {
+                "node_key": "eb6b8a12-4ba5-449b-9f27-be55cc41cee3",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 3,
+                "last_viewed_child_key": "f04d6770-d0f2-4c4f-b5e2-199db5d3d53e",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "f04d6770-d0f2-4c4f-b5e2-199db5d3d53e",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 3,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "644b7809-6e07-4168-ba8d-dc5bc5bcd5c8"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "resources": null,
+      "specializations": [],
+      "parts": [
+        {
+          "id": 907301,
+          "key": "b4fc4c95-cd8a-4523-9629-8d3fee61afd7",
+          "title": "Welcome to the Program!",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "Welcome to the Front-End Web Developer Nanodegree program. This is your first step on your journey to become a Front-End programmer. Learn what this program is all about as well as how to find support along your learning journey.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 922127,
+              "key": "6fb748b9-7988-4175-a2b3-30fe84a03804",
+              "title": "Front End Web Developer Nanodegree Orientation",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 922128,
+                  "key": "b6418dad-7cf2-40bc-86e7-b057ef400739",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": null,
+                  "title": "Welcome to the Front End Web Developer Nanodegree Program",
+                  "duration": 20,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/April/5ad4e200_8-nanodegree-orientation2x/8-nanodegree-orientation2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 909718,
+                      "key": "8344cff2-2fb7-49a3-8a99-1878aa6b1269",
+                      "title": "Welcome to Udacity",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909720,
+                      "key": "62d3c73e-7c38-4ecc-a561-fb98d372fb89",
+                      "title": "Welcome to the Nanodegree Program Experience",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 922129,
+                      "key": "ccb3240c-7925-457b-ab5c-3c623b24bbad",
+                      "title": "Nanodegree Program Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909726,
+                      "key": "bf9b7121-c81f-4c38-9e1f-fc9fb892c92d",
+                      "title": "How to Succeed",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 831981,
+                      "key": "99232e4b-299c-40f5-a985-3162da96288e",
+                      "title": "Access the Career Portal",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 907296,
+          "key": "819dc899-4e21-4884-b050-2328896d87c0",
+          "title": "CSS, Website Layout, Website Components",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this part, you’ll create a multi-page blog website, using best practices for content and page styling with HTML and CSS. Practice using responsive layouts, Flexbox, and CSS Grid to create the structure and design for your own blog.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 860635,
+              "key": "d6b7df08-613e-4789-94ba-75ec97f3afa4",
+              "title": "Personal Blog Website",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": []
+            },
+            {
+              "id": 907856,
+              "key": "a280da9f-d026-43e4-a06c-279d7bff7faa",
+              "title": "CSS, Website Layout, Website Components",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 907926,
+                  "key": "f4be330b-3406-4c6a-911b-c1871e1165d6",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Learn the basics of HTML and start using different elements to build out the basic structure of webpages.",
+                  "title": "HTML",
+                  "duration": 150,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/August/5b85e8c1_1-4-html-basics2x/1-4-html-basics2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 907948,
+                      "key": "cdebc425-8c65-45bd-812d-b2e4d1d97f7a",
+                      "title": "Course Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907912,
+                      "key": "e18df41d-cf1c-4f80-8e9e-88aff6a512ee",
+                      "title": "Intro to HTML",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907911,
+                      "key": "06a64072-2e8d-4147-95f1-c1cf33cd70a9",
+                      "title": "Text Editors",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907915,
+                      "key": "1fd71bd3-7473-4863-b0d0-8b5bd0c7912c",
+                      "title": "Exercise: Creating an HTML File",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907916,
+                      "key": "53eab37d-626a-48b5-a915-ed480fc03329",
+                      "title": "Text Elements I",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907917,
+                      "key": "fcca212d-aad5-4844-bd32-455bfa7f4ffe",
+                      "title": "Text Elements II",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907922,
+                      "key": "bf18d017-659e-4b21-84d5-ce0ee168b2eb",
+                      "title": "HTML Lists",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907919,
+                      "key": "07b685e8-61c1-434a-b756-daa923790caf",
+                      "title": "Attributes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907920,
+                      "key": "08b569f1-4331-4d6a-b9e4-18a6829e8647",
+                      "title": "The DOM",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907925,
+                      "key": "7c673f30-bf41-429f-9998-46cc18bfff29",
+                      "title": "Exercise: Creating an HTML Template",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907924,
+                      "key": "40b67fe1-51d0-4788-8baf-682793921a20",
+                      "title": "Forms",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907921,
+                      "key": "20921cb9-9cb9-46be-bd41-8fb408606389",
+                      "title": "Exercise: Debugging HTML",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907923,
+                      "key": "1dbe1a89-7515-4c04-9cf0-4126ee705bd5",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 908065,
+                  "key": "25962c91-c1d5-47a4-9580-ac6ff3a151ed",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Learn the basics of CSS and start using different properties to create appealing layouts and styling for all types of use cases.",
+                  "title": "CSS",
+                  "duration": 150,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/August/5b85e8e1_3-1-styling-with-css2x/3-1-styling-with-css2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 908051,
+                      "key": "84e47528-8580-48ff-8540-00fa1798f136",
+                      "title": "Why learn CSS?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908056,
+                      "key": "c119e703-4ad0-4e8b-808d-5d9f77757d2d",
+                      "title": "Selectors",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908053,
+                      "key": "9959d5bd-b1dc-4f37-83c9-4e2636d03bfa",
+                      "title": "Linking CSS",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908050,
+                      "key": "7bcdc55a-7a7e-45b3-aa43-ebf0d4b337b8",
+                      "title": "Exercise: Linking CSS",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908057,
+                      "key": "bfdd28c9-1186-4e09-a8d5-c34e08c28b3a",
+                      "title": "Specificity",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908058,
+                      "key": "40e40c66-c516-41fe-affb-af72cb969139",
+                      "title": "The Box Model",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908055,
+                      "key": "fb4f8251-0daa-42c7-9e7d-8051a3903c72",
+                      "title": "Exercise: The Box Model",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908059,
+                      "key": "01a92a2f-23a7-4fe3-b133-291a36341ac1",
+                      "title": "Display and Positioning: Inline & Block",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908052,
+                      "key": "f6c8a7a1-c1f7-42a6-9319-110427324edb",
+                      "title": "Display and Positioning: Z-index",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908062,
+                      "key": "171edeab-284a-4618-842b-f44d1708762d",
+                      "title": "Absolute & Relative Units",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908054,
+                      "key": "07960032-2e83-49d6-8ca6-093093925707",
+                      "title": "Typography",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908063,
+                      "key": "a225edc8-7556-4ac0-a17f-d5082e443e3c",
+                      "title": "Fonts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908064,
+                      "key": "15ef757e-f5d2-4b76-ba03-c673eebef705",
+                      "title": "Colors",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908061,
+                      "key": "b9b6df8c-4462-4c79-ab48-3b0a528dea58",
+                      "title": "Exercise: Debugging CSS",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908060,
+                      "key": "3e7ac724-ee37-42b0-bcad-e4f8d9360d46",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 908316,
+                  "key": "af6deed7-3e8f-4bcc-9ece-1743adcc28e6",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Build on your CSS knowledge by diving into Flexbox, a one-dimensional layout technique for helping organize items within your webpage.",
+                  "title": "CSS Flexbox",
+                  "duration": 90,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/September/59ce97df_2-1-html-css-boxes2x/2-1-html-css-boxes2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 908311,
+                      "key": "51bd0188-1c43-4a88-b507-b7be0129035d",
+                      "title": "Introducing Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908312,
+                      "key": "707d23da-0299-428c-8bb0-ccf716c1ed35",
+                      "title": "A Quick Flexbox Example",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908307,
+                      "key": "14dc4bec-7f8c-4e41-98d8-61a018bf6019",
+                      "title": "Axes and Direction with Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908314,
+                      "key": "8b1bb19a-bba0-4715-8491-03786403cbf6",
+                      "title": "Axes and Direction in Action",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908309,
+                      "key": "b5abc404-153a-4153-b7ec-ad89788910a4",
+                      "title": "Ordering Elements with Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908315,
+                      "key": "1b8e2d51-9af2-4525-b697-4a34d0141f8c",
+                      "title": "Ordering Elements Demo",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908310,
+                      "key": "1d748687-fd8a-4412-baff-b9bdfc65719b",
+                      "title": "Aligning Items & Justifying Content with Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908313,
+                      "key": "7b1a9599-f222-44e8-8758-aae3871d98be",
+                      "title": "Aligning & Justifying in Action",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908308,
+                      "key": "92dcb221-eb1f-481f-891d-0b2e047cf9dc",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 909292,
+                  "key": "eb6fbc90-f3d1-4ff7-99ad-ce245cf1ff92",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Extend your CSS skills even further with CSS Grid, which allows you to organize in two dimensions with rows and columns. Grid can work with Flexbox to lay out pages just like on the modern web.",
+                  "title": "CSS Grid",
+                  "duration": 90,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/August/59a3a0d7_1-12-css-syntax2x/1-12-css-syntax2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 909282,
+                      "key": "a4b4325f-3a45-4ab7-9be8-dd74689cb5d2",
+                      "title": "Grid vs Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909284,
+                      "key": "b347a6a0-81c3-460d-8600-51af2b03c7d6",
+                      "title": "An Example of Grid vs Flexbox",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909283,
+                      "key": "5f1c5526-001f-4343-96e9-75617f9555ca",
+                      "title": "Rows & Columns",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909287,
+                      "key": "6e14c0f6-1858-497f-9558-93b84f074389",
+                      "title": "Rows & Columns in Action",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909288,
+                      "key": "be0bc28a-5740-4984-9eb7-0f0b888e64a4",
+                      "title": "Grid Areas",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909291,
+                      "key": "ad51a7d9-82e3-4e48-bbfc-8ca7e54f06c5",
+                      "title": "Working with Grid Areas",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909285,
+                      "key": "664ec4aa-969a-4a18-92cb-d5f0395205fd",
+                      "title": "Working with Grid Areas II",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909290,
+                      "key": "f2fd554a-27d0-444b-993f-812771898785",
+                      "title": "Advanced Grid",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909289,
+                      "key": "ad73fdef-278f-49b6-b0ac-497c78d08d56",
+                      "title": "Advanced Grid Playground",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909286,
+                      "key": "c23daa9b-d5af-427f-8961-9c7d98d40dc1",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 909366,
+                  "key": "7ac50193-5960-4653-8ff9-d7afeeed82f3",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Start with a basic Grid-based layout for a blog, and learn how to use media queries to build a responsive layout for device types of all sizes! ",
+                  "title": "Creating Responsive Layouts",
+                  "duration": 90,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/September/59ce980a_2-2-css-frameworks-responsive-layouts2x/2-2-css-frameworks-responsive-layouts2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 909360,
+                      "key": "ed521639-cba7-44ae-8db3-e0ed8166aa2a",
+                      "title": "Building Layouts with Grid",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909357,
+                      "key": "76156cc3-6bee-4b87-bfae-2d5a4a45da93",
+                      "title": "A Simple Blog Page",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909358,
+                      "key": "2539ba14-be5e-49cd-a074-3b67771adbcd",
+                      "title": "Media Queries",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909359,
+                      "key": "e78fda03-4d7a-47a9-ad68-6134d2fd47ec",
+                      "title": "Adding Media Queries in Code",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909361,
+                      "key": "e3a2de83-5b0a-4626-b838-78b37f142dec",
+                      "title": "Multiple Breakpoints",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909362,
+                      "key": "b4acc728-e1eb-4986-baf0-9b5b4a70d615",
+                      "title": "Building Responsive Layouts with Flexbox & Grid",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909364,
+                      "key": "26b35194-edfc-4e1d-a094-56c6e19bdd83",
+                      "title": "Nesting Grids in Practice",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909363,
+                      "key": "54459ec3-1817-4f8c-aeff-efec8393a340",
+                      "title": "Course Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909365,
+                      "key": "71a2dcaf-8871-4240-98a1-cc69c139b760",
+                      "title": "Instructor Interview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 906372,
+                  "key": "07824c5b-26fb-4178-92f6-4709ddbc2bf0",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Use your new skills with HTML and CSS to build a personal blog website, complete with a main page and example blog posts! ",
+                  "title": "Personal Blog Website",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be417b7_3-4-creating-your-personal-blog2x/3-4-creating-your-personal-blog2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "37bf126d-d1c5-43d4-94d0-b38072b97fd1",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 30240,
+                    "semantic_type": "Project",
+                    "title": "Personal Blog Website",
+                    "description": "# Personal Blog Website \n\nThis project requires you to utilize your HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations, you'll work to appropriately structure your files, as well as use proper CSS and HTML formatting & style.\n\n## Project Files\nIn this project, you'll get to start from scratch! To complete the project, you are able to decide on the HTML and CSS files to include as part of your work, given that the end result is within the confines of the project rubric provided below. This should include, at minimum, HTML files related to:\n\n- the blog website\n- a blog post\n\nas well as any related CSS files for styling.\n\nMake sure to see the earlier section on **Development Strategy** if you are unsure how to get started.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the Personal Blog Website [project rubric](https://review.udacity.com/#!/rubrics/2667/view). Please make sure to re-review the rubric for detailed project requirements prior to submission.\n\n## Submission\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link below.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2667",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 906373,
+                      "key": "65a8fbfc-9c6a-448e-8525-5e45d1bd3292",
+                      "title": "Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 906673,
+                      "key": "c3781ace-de5d-46b2-a994-742b4341e587",
+                      "title": "Example Blog Websites",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 906378,
+                      "key": "14c4409f-3ae2-425c-b108-df483191f1f0",
+                      "title": "Development Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 909618,
+                      "key": "50b9fec9-e7d2-4e14-a5f8-674cf005c9a6",
+                      "title": "A Note on Style Guides",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 950357,
+                      "key": "a461356e-3b56-437a-b5fd-34b6de891ae9",
+                      "title": "Project Cheat Sheet",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "FEND P1 Lessons Cheat Sheet",
+                            "uri": "https://video.udacity-data.com/topher/2019/October/5d962d17_nd0011-p1-cheat-sheet/nd0011-p1-cheat-sheet.pdf"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 907297,
+          "key": "68c70b08-c36e-4c48-97af-c84d77ddef5e",
+          "title": "JavaScript & The DOM",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this part, you will build a multi-section landing page. You will learn to dynamically add content to a web page and build a landing page that combines your skills with JavaScript, HTML, and CSS to update and control the page and create a dynamic user experience.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 899948,
+              "key": "f7eca45d-0cca-481f-a280-a835629b4be4",
+              "title": "JavaScript & The DOM",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 194594,
+                  "key": "42383e89-ac6a-491a-b7d0-198851287bbe",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "With this major update to the JavaScript language, a number of syntax improvements have been added. In this lesson, you'll learn to improve your JavaScript code with these syntax updates.",
+                  "title": "Syntax",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": null,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/October/59ea8fd2_2-8-syntax2x/2-8-syntax2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 196653,
+                      "key": "08a224ff-d7f5-4086-ab89-f74d3da09d08",
+                      "title": "Harmony, ES6, ES2015...",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196655,
+                      "key": "5192ff97-3950-4db7-bb7b-0020a61d1d87",
+                      "title": "Let and Const",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 217351,
+                      "key": "7c8e752b-d552-4bad-ad3f-0f5f263d5dc9",
+                      "title": "Quiz: Using Let and Const (1-1)",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196686,
+                      "key": "df4360db-645e-428c-a6bd-3650eab1a13d",
+                      "title": "Template Literals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 217366,
+                      "key": "d652189e-a8af-4bd9-8fcd-aab3587e4d86",
+                      "title": "Quiz: Build an HTML Fragment (1-2)",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196688,
+                      "key": "7c7be588-31e9-4c62-9dad-ecf23f943b19",
+                      "title": "Destructuring",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 217370,
+                      "key": "e387e1b2-e233-4740-ab60-c231c7926808",
+                      "title": "Quiz: Destructuring Arrays (1-3)",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196689,
+                      "key": "3f34fe2c-c535-4d9d-bceb-89dcd8f50254",
+                      "title": "Object Literal Shorthand",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196730,
+                      "key": "01c56ec4-634b-4b23-8a41-2fe44acea013",
+                      "title": "Lesson 1 Checkup",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196733,
+                      "key": "c48f069c-9de8-4dc4-ab3a-44036400a02d",
+                      "title": "Iteration",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196703,
+                      "key": "1b26c80a-00b2-4b3d-a354-c665807e6dda",
+                      "title": "Family of For Loops",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196738,
+                      "key": "f1955923-744a-4906-8f64-1ddcb34c6da2",
+                      "title": "For...of Loop",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 217400,
+                      "key": "60509a69-3474-45e9-bca5-f3439b6c9cab",
+                      "title": "Quiz: Writing a For...of Loop (1-4)",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196704,
+                      "key": "398d36e6-3393-4c50-b870-44a4dffb0ac4",
+                      "title": "Spread... Operator",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196705,
+                      "key": "59aad850-4429-42b8-a9e8-f4a7dded102f",
+                      "title": "...Rest Parameter",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 217393,
+                      "key": "6a6c5deb-2f06-4cd7-afab-222716634f10",
+                      "title": "Quiz: Using the Rest Parameter (1-5)",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 196707,
+                      "key": "bd715feb-2540-4f45-9144-8bd6b708f0cd",
+                      "title": "Lesson 1 Summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 442270,
+                  "key": "74c2a096-61db-4302-9d65-6b7fa9b8c329",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "The Document Object Model (DOM) allows developers to interact with and control the rendered page. You'll learn how the DOM is formed, what Nodes and Elements are, and how to select items from the DOM.",
+                  "title": "The Document Object Model",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": null,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a6278fb_1-the-document-object-model2x/1-the-document-object-model2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 442271,
+                      "key": "354d9102-8b45-4a89-91df-6f5ec9022dbd",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467394,
+                      "key": "da27b611-6ac8-4c6f-a124-3ba94c06abad",
+                      "title": "The DOM",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467395,
+                      "key": "025bd091-9767-4375-92bb-23f3dcb15f9c",
+                      "title": "Selecting Page Elements With CSS Selectors",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467456,
+                      "key": "b3643239-ecef-483d-8b9f-af0613781feb",
+                      "title": "Select Page Element By ID",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467465,
+                      "key": "04d813ef-2bfc-4862-a4cc-38057d2a11c3",
+                      "title": "Select Page Elements By Class Or Tag",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467396,
+                      "key": "360fd77c-3a6d-4256-bdf3-a792363e672a",
+                      "title": "Nodes, Elements, and Interfaces...Oh My!",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467397,
+                      "key": "eee59c35-d033-4714-b331-b042b7a36564",
+                      "title": "More Ways To Access Elements",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467398,
+                      "key": "3b4e60bb-40aa-4fcd-ab8b-3ee1827e2356",
+                      "title": "Lesson summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 467126,
+                  "key": "39d760cf-9593-420d-9a97-57bff31e29c1",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Static is boring, so we'll use JavaScript and DOM methods to create new page content, update existing content, and delete content. You'll also learn how to check and set the styling of page elements.",
+                  "title": "Creating Content with JavaScript",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": null,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a62790b_2-creating-content-with-javascript2x/2-creating-content-with-javascript2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 467399,
+                      "key": "24b00792-38d0-4d61-acc9-eb1422fcc284",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467400,
+                      "key": "c7c27fc1-e611-4b5c-84e3-7d1b0075b45f",
+                      "title": "Update Existing Page Content",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467401,
+                      "key": "8cd9dd1c-8347-4e28-ae80-a7cecb48fd00",
+                      "title": "Add New Page Content",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467402,
+                      "key": "6471805e-c4a8-4ed7-8efc-16ba0acbc2c8",
+                      "title": "Remove Page Content",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467403,
+                      "key": "3734dc32-5300-4ad9-96a8-be488f96a180",
+                      "title": "Style Page Content",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467404,
+                      "key": "01e1ac22-20eb-4ffb-be64-4d40aade94d9",
+                      "title": "Lesson summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 467127,
+                  "key": "f270dbcf-eb43-4ce3-b7be-a74d26023496",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Hundreds of events fire every time you interact with a page. Learn what an event is, how to listen for an event and respond to it, what data is included with an event, and the phases of an event.",
+                  "title": "Working with Browser Events",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": null,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a627919_3-working-with-browser-events2x/3-working-with-browser-events2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 467405,
+                      "key": "f63b1837-b096-4707-b0f5-72bc6a93bfac",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467406,
+                      "key": "147bc1d1-b002-4ebd-bbff-8d91ed1691bf",
+                      "title": "Respond to Events",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467913,
+                      "key": "5cb73a2b-6509-45a2-88df-d88b3e811d3d",
+                      "title": "Remove an Event Listener",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467407,
+                      "key": "5fdd280f-9bf8-4c13-b544-24cd9a4fb63e",
+                      "title": "Phases of an Event",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467408,
+                      "key": "85463be2-3206-434e-aa39-4604965daa29",
+                      "title": "Avoid Too Many Events",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467409,
+                      "key": "83a199c3-2ff4-4bc9-9a81-92269046a387",
+                      "title": "Know When The DOM Is Ready",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467410,
+                      "key": "94e8eedd-51c5-477e-ad1a-603b3bf38ca6",
+                      "title": "Lesson summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 467128,
+                  "key": "364ca3da-1eb9-4213-beb4-7791ac4e1ea4",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Learn how to measure the code you write to make sure it's performing efficiently and how reflow and repaint affect performance. Learn how to harness the JavaScript Event loop for performance gains.",
+                  "title": "Performance",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": null,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a62793f_4-performance2x/4-performance2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 467411,
+                      "key": "6e242deb-7793-4c9a-9898-44144ee2c603",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467412,
+                      "key": "535ff7d3-ebe8-41b6-9c32-42ad65f722af",
+                      "title": "Add Page Content Efficiently",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467413,
+                      "key": "d1bee920-e33f-41db-aac3-2c3c5a08db3b",
+                      "title": "Reflow & Repaint",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467414,
+                      "key": "da8ce985-9c2a-468f-8337-448adb2beea0",
+                      "title": "The Call Stack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 476046,
+                      "key": "3461277b-4d6e-43d2-af67-e576f7612863",
+                      "title": "The Event Loop",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 476047,
+                      "key": "625f661e-b478-4844-bd15-59f752379373",
+                      "title": "setTimeout",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467415,
+                      "key": "aa90b94f-715a-4531-a953-9a13bb34f466",
+                      "title": "Lesson summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 467416,
+                      "key": "9df84e00-6a39-451d-bc1f-33a2c5a1fc7c",
+                      "title": "Course summary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 899950,
+                  "key": "00eee03f-0937-4416-8f4d-782ce948f168",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Build a landing page that uses JavaScript to create an interactive navigational experience for the user.",
+                  "title": "Landing Page",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b15b532_optimize-website-ux-and-landing-pages-2/optimize-website-ux-and-landing-pages-2.png",
+                    "width": 1379,
+                    "height": 1209
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "3d051052-cefb-48a2-8f81-0012325bee0d",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 30240,
+                    "semantic_type": "Project",
+                    "title": "Landing Page",
+                    "description": "# Landing Page\n\nThis project requires you to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.\n\n## Project Files\n\nYou can obtain the project code [here](https://github.com/udacity/fend/tree/refresh-2019/projects/landing-page). To complete the project will mostly require modifying the `js/app.js` file, as well as modifications to the `index.html` and `css/styles.css` files to further update and customize your project.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the Landing Page [project rubric](https://review.udacity.com/#!/rubrics/2658/view). Please make sure to re-review the rubric for detailed project requirements prior to submission.\n\n## Submission\n\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link below.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2658",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 900021,
+                      "key": "145fd45b-e14a-4d03-9783-22f7c96daefb",
+                      "title": "Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899952,
+                      "key": "0051720d-3114-49dc-8fd5-1c3cf19fe2a0",
+                      "title": "Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900020,
+                      "key": "1dbc302a-4148-47c4-aa09-9201f07de3bc",
+                      "title": "Development Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 907298,
+          "key": "1ec64536-b8b7-4be6-aaa6-2fe59c0716ed",
+          "title": "Web APIs and Asynchronous Applications",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this part, you’ll apply your new skills to combine data from the OpenWeatherMap API and client side (browser) HTML forms to create a web app that records a weather journal for users. This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather Journal App. ",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 860245,
+              "key": "bd3c5e28-279d-4fab-95af-d90dabb4cc19",
+              "title": "Web APIs and Asynchronous Applications",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 860252,
+                  "key": "53b59aed-9f51-4f92-ac6e-65c6bbe24fef",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson we will introduce the main topics of the course and preview the kind of web app that can be made with the skills developed throughout the following lessons.",
+                  "title": "Course Introduction",
+                  "duration": 5,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/September/5ba14970_5-11-requests-and-apis2x-green/5-11-requests-and-apis2x-green.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 860251,
+                      "key": "3b531417-d415-410d-9fe9-71badbc62f4d",
+                      "title": "Intro: Web API's and Asynchronous Apps",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898284,
+                      "key": "ed4a71c0-3916-4252-bb41-896fea377e21",
+                      "title": "Intro: HTTP Routes & Requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898286,
+                      "key": "0c6e0415-c0b1-43d0-b057-77cf2b698db4",
+                      "title": "Intro: Asynchronous JavaScript",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898285,
+                      "key": "dc40187f-31ab-40b1-9475-62cc810aba32",
+                      "title": "Introduction: Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 860286,
+                  "key": "d40095d0-2744-414c-9c80-cf83748f311e",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, students will learn how to setup a Node + Express environment to develop a web application on their local machine.",
+                  "title": "Node & Express Environment",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/June/5b281878_3-18-writing-developer-friendly-apis-copy-22x/3-18-writing-developer-friendly-apis-copy-22x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 860285,
+                      "key": "d8e2d8f5-2a09-4848-b7af-11713f38ea02",
+                      "title": "Node.js Overview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898966,
+                      "key": "408bb8b4-53af-4fc1-86b7-2fb30ad7040a",
+                      "title": "Using Node",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900270,
+                      "key": "032dc08d-112c-428d-b0b0-1f9b449dc32f",
+                      "title": "Exercise: Node and Package Installation",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860284,
+                      "key": "7ea1abb8-c551-4c8a-bb66-3a372800cb6d",
+                      "title": "Express Overview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900351,
+                      "key": "437b25fb-ad01-4f00-be73-78f2bb9cdfdc",
+                      "title": "Exercise: Including Packages",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860283,
+                      "key": "1b9b1620-cb5b-4289-9caf-afd31d498d86",
+                      "title": "Creating a Local Server I",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898965,
+                      "key": "5dcb0001-a616-4f74-b719-e71b09b94e79",
+                      "title": "Creating a Local Server II",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900353,
+                      "key": "d667cfd8-cf50-4bca-8a5c-fc1fa129fd8e",
+                      "title": "Exercise: Server Set-up",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 898964,
+                      "key": "35440216-2124-4fd0-995e-11e91c3531a1",
+                      "title": "Servers-File Structure Hierarchy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 860326,
+                  "key": "f1b56940-804a-4b26-9ce0-ec3efa25be28",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson students will learn how to use Express to setup server side routes and execute client side handlers for GET and POST requests.",
+                  "title": "HTTP Requests & Routes",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/September/5b9e460d_4-1-https-response-cycle2x/4-1-https-response-cycle2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 860324,
+                      "key": "17a01afa-4238-4e33-96fe-c617ee95337a",
+                      "title": "Routes & GET Requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900331,
+                      "key": "cba89778-dec0-42b0-8ca0-3e683919a9a7",
+                      "title": "Exercise: GET requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899040,
+                      "key": "0fb536c7-a360-4cbc-b480-f4d4606b0fa3",
+                      "title": "More Powerful GET Requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860325,
+                      "key": "bfcd4972-22ff-47ff-9b2e-5453af288361",
+                      "title": "Routes & POST requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900377,
+                      "key": "7dcf87ba-4429-4fbc-badd-fadf6f1eaeab",
+                      "title": "Exercise: POST requests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860323,
+                      "key": "b231900f-1fab-4c7d-abad-6b16f5c384d6",
+                      "title": "Client Side, Server Side",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899041,
+                      "key": "6fb46500-d444-4c8e-a988-b45a9a5931a4",
+                      "title": "Client Side & Server Side Example",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900379,
+                      "key": "4a848ecc-8179-42f3-acc2-053055016aaf",
+                      "title": "Exercise: Client Side & Server Side",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899039,
+                      "key": "0fc174bc-2ecd-45dd-b8d5-5b339bd64f31",
+                      "title": "Processing the POST request",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 860794,
+                  "key": "566843fd-9e65-489f-97d8-56f99a62f505",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson students will learn how to implement asynchronous JavaScript with the Fetch API and Web APIs.",
+                  "title": "Asynchronous JavaScript",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/January/5a5e332d_4-4-chaining-asynchronous-requests2x/4-4-chaining-asynchronous-requests2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 860790,
+                      "key": "f6f63d3f-fc9c-401b-81d9-b55ce51c73f6",
+                      "title": "Async JS",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899069,
+                      "key": "286a4a78-20f9-4831-ba06-a40a70fd8128",
+                      "title": "Async Promises",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900382,
+                      "key": "4a41bfc3-752c-4cc2-b6c7-2dfdfb4b4c9c",
+                      "title": "Exercise: Async Function",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860792,
+                      "key": "9aeacb75-72cb-41fd-b34d-d97c2dec695b",
+                      "title": "Async Fetch w/ Web APIs Intro",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899068,
+                      "key": "fad27c05-0a08-4b3b-b8fe-30395d70c7be",
+                      "title": "Credentials and API keys",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899074,
+                      "key": "9292d504-e4db-464d-8c51-eb77e640f96f",
+                      "title": "Adding Fetch to Your Code",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900384,
+                      "key": "097bb17f-3924-4b50-910d-dcbc67aff782",
+                      "title": "Exercise: Async GET",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899070,
+                      "key": "464f740d-4c9a-4d45-9aab-7b72b43c1570",
+                      "title": "Async Fetch with Web APIs Demo",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860793,
+                      "key": "a893497b-40fe-4897-94f9-e2458f55439b",
+                      "title": "Chaining Promises",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 860791,
+                      "key": "527c00c8-3432-4384-9f8c-390e784e895d",
+                      "title": "Updating UI Elements",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 900386,
+                      "key": "b724e5b7-342e-48d6-a1fb-1742f441aff9",
+                      "title": "Exercise: Putting It All Together",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899073,
+                      "key": "6d095f68-bdba-44e1-80d2-446480821b02",
+                      "title": "Updating UI Elements Demo",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899071,
+                      "key": "a98c0f7e-337c-4567-b9e5-5589e64d38ca",
+                      "title": "Outro",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899072,
+                      "key": "7df8c0e1-73f8-4871-9fad-7b6dbdcf5de2",
+                      "title": "Instructor Interview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 899076,
+                  "key": "76746498-058a-42e8-ad3a-76018c9d167d",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Apply your new skills to combine data from the OpenWeatherMap API and client side (browser) HTML forms, to create a web app that records a weather journal for users.",
+                  "title": "Project: Weather Journal App",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/August/5b635343_1-p-explore-weather-trends2x/1-p-explore-weather-trends2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "4026017b-6c7d-40b3-9ce8-92e2cc835bad",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 30240,
+                    "semantic_type": "Project",
+                    "title": "Weather Journal App",
+                    "description": "# Weather Journal App with Asynchronous JavaScript\n\nThis project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI in a Weather Journal application.\n\n## Project Files\n\nYou can obtain the project code [here](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app). To complete the project will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the Weather-Journal [project rubric](https://review.udacity.com/#!/rubrics/2655/view). Please make sure to re-review the rubric for detailed project requirements prior to submission.\n\n## Submission\n\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link below.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2655",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 899280,
+                      "key": "6989772f-f9d4-4706-9815-19b4a621fb1a",
+                      "title": "Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 899650,
+                      "key": "58e551fe-9a86-4f82-89bc-ab737f5a399e",
+                      "title": "Development Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 907299,
+          "key": "5bb114fe-8add-4c47-bc13-1cee34886c1a",
+          "title": "Build Tools and Single Page Web Apps",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this part, you’ll get a taste of some common production environments and tools used in a front end developer role. You'll build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 908325,
+              "key": "aa658fdb-12bd-489f-9078-7e8b2f789ecb",
+              "title": "Build Tools and Single Page Web Apps ",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 908356,
+                  "key": "c6e36b9d-8876-49cf-a05a-fea5bfba0786",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Get a brief introduction to build tools, including how they can help ease and advance your web development, and what some of the most common build tools are.",
+                  "title": "Intro to Build Tools",
+                  "duration": 60,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/November/59fbb063_3-9-introducing-web-tooling-and-automation2x/3-9-introducing-web-tooling-and-automation2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 908354,
+                      "key": "b7f0c672-bd79-4741-a988-821f43f552af",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908352,
+                      "key": "6f033609-0f73-489c-9e29-fb37b446d905",
+                      "title": "Setting the Stage",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908355,
+                      "key": "3b5c433d-85e8-4b7c-b750-73431ccb4546",
+                      "title": "Intro To Build Tools",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908353,
+                      "key": "2c5ec923-bae5-4d8d-9922-bc0b986c30f4",
+                      "title": "Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 917010,
+                  "key": "91569c5d-69ec-4f20-a768-bbcc9b946306",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "By the end of this lesson you will understand the reasons developers use webpack, and be able to explain at a high level what webpack does.",
+                  "title": "Basics of Webpack",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/April/5adf6f23_analytics-tool/analytics-tool.png",
+                    "width": 1379,
+                    "height": 1209
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 917005,
+                      "key": "f58d925e-cfa9-4f29-93a7-5407a8e51751",
+                      "title": "Introduction to Webpack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917002,
+                      "key": "4290b416-c63b-42ec-8526-c3592b62ec79",
+                      "title": "Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921966,
+                      "key": "1681ed35-2a80-4486-9a72-de2144c7b003",
+                      "title": "Exercise: Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917003,
+                      "key": "43bcc04f-eb88-43a3-ae60-01ae78245820",
+                      "title": "Install Webpack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921961,
+                      "key": "9e8feef9-a8e5-4a77-b65e-81c5ff1d9a0f",
+                      "title": "Exercise: Install Webpack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917001,
+                      "key": "6423eec0-cece-4efe-9ff7-cc8bee72ec21",
+                      "title": "Webpack Entry",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921963,
+                      "key": "62387b34-9dd9-46ae-8055-9f718b176ebe",
+                      "title": "Exercise: Webpack Entry",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917008,
+                      "key": "33381d06-a9ba-4500-baac-a5733fb8beaa",
+                      "title": "Output and Loaders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921962,
+                      "key": "7077541d-8e6b-404a-a411-45ce2b484a7f",
+                      "title": "Exercise: Output & Loaders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917009,
+                      "key": "d9cab1c8-a9d4-479d-bc77-164554b1f172",
+                      "title": "Loaders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921965,
+                      "key": "61bf7e58-94d5-472b-b57f-b2c855451586",
+                      "title": "Exercise: Loaders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917004,
+                      "key": "36a42add-5cc5-41d0-9877-b9388ffb360d",
+                      "title": "Plugins",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921960,
+                      "key": "cfe6e51e-dd60-4dab-9709-6b98501f84d1",
+                      "title": "Exercise: Plugins",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917000,
+                      "key": "73d59db3-1ff6-416b-abcf-d970b9fa951f",
+                      "title": "Mode",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921964,
+                      "key": "e5ee3b39-9b0b-4e5e-ba11-29e5e476a7bb",
+                      "title": "Exercise: Mode",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917006,
+                      "key": "e8f28af5-3770-49be-93e5-c79f969ca13e",
+                      "title": "Convenience in Webpack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921967,
+                      "key": "77a7fff4-f8cf-4675-ab03-a75977fe843f",
+                      "title": "Exercise: Convenience",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 917007,
+                      "key": "7337221c-c86d-45f9-ba73-dae5a7835b76",
+                      "title": "Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 916598,
+                  "key": "066b6252-7814-453b-a1ae-cb55bcfa9912",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "By the end of this lesson you will be able to explain what Sass is and its relation to CSS, and understand the steps necessary to use Sass in a project.",
+                  "title": "Sass and Webpack",
+                  "duration": 60,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/November/59fbb1f1_3-15-web-tooling-and-automation-conclusion2x/3-15-web-tooling-and-automation-conclusion2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 916592,
+                      "key": "9e670ea0-ad3d-486d-8807-6f263c7d7c20",
+                      "title": "Sass Basics",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916596,
+                      "key": "755b873a-7638-4ae9-9b16-8ec410ae81b6",
+                      "title": "Sass Nesting",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921997,
+                      "key": "b584c8d2-44af-4c22-b16c-6d9889fb87c5",
+                      "title": "Exercise: Sass Conversion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916593,
+                      "key": "e8c17229-0242-49d4-a471-fda90df921f3",
+                      "title": "Sass Variables",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916594,
+                      "key": "86b3f8b1-af81-4dd9-b4ae-f0eacdd6f5db",
+                      "title": "Sass Ampersand",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916595,
+                      "key": "5abdefd1-f7f8-4d0c-9567-8620b7a1aad1",
+                      "title": "Webpack and Sass",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921999,
+                      "key": "e7996644-4c2f-45d5-a11f-19a2e1dc387e",
+                      "title": "Exercise: Sass Loaders & Webpack",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 921998,
+                      "key": "a867b473-4ff5-47e0-a4cf-a0130fabd425",
+                      "title": "Optional Exercise: Challenge",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916591,
+                      "key": "9c4f8e07-fe4b-48ec-aef4-6414b25dc09b",
+                      "title": "Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 916641,
+                  "key": "1cfa87cb-377a-4746-a32a-64853dd2624b",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Add some final pieces to your Webpack project, get your full functionality back, and learn about Service Workers.",
+                  "title": " Final Touches",
+                  "duration": 100,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/November/59fbaf85_2-17-the-service-worker2x/2-17-the-service-worker2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 916636,
+                      "key": "64d5f23c-f05d-43df-9e25-c96c72a822cb",
+                      "title": "Broken Project",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916640,
+                      "key": "20f4d350-c665-4314-bfd9-cf22781c9870",
+                      "title": "Fixing Our Functionality",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 922019,
+                      "key": "59c3c1d9-4b97-4b37-acdd-f6f055bc5846",
+                      "title": "Exercise: Fixing Functionality",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 922016,
+                      "key": "497560ac-d577-4641-819f-058e27d10e61",
+                      "title": "Exercise: API Call Challenge",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916638,
+                      "key": "161185d3-812b-4950-b990-f4de56702181",
+                      "title": "Webpack for Production",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 922018,
+                      "key": "785e21a4-a72c-46c7-90cd-c41553fbd476",
+                      "title": "Exercise: Dev Tools Challenge",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916635,
+                      "key": "dda219fc-dc2d-4238-9501-2142f3dca765",
+                      "title": "What are Service Workers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 922020,
+                      "key": "7ce68045-76f3-4967-9193-b508688b3d92",
+                      "title": "Exercise: Service Workers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 916637,
+                      "key": "0cf34553-4f05-41a5-afec-06568cd116b7",
+                      "title": "Course 4 Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 906473,
+                  "key": "adbf2a15-5fa5-466b-a8fe-19ce08b82b61",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.",
+                  "title": "Evaluate a News Article with Natural Language Processing",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/September/5ba92933_1-3-nlp-pipelines/1-3-nlp-pipelines.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "391dad87-db77-43f8-a84d-348ec20f259e",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 30240,
+                    "semantic_type": "Project",
+                    "title": "Evaluate a News Article with Natural Language Processing",
+                    "description": "# Evaluate a News Article with Natural Language Processing\n\nThis project requires you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the [project rubric](https://review.udacity.com/#!/rubrics/2668/view). Please make sure to re-review the rubric for detailed project requirements prior to submission.\n\n## Submission\n\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2668",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 906475,
+                      "key": "84dd3e36-517c-4683-8d46-78384355b372",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 925478,
+                      "key": "5675966c-1a35-4d58-8715-e279d2303167",
+                      "title": "Instructions",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 909714,
+          "key": "6626f10d-e207-475a-9139-7ebfe24daf38",
+          "title": "Career Services",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": null,
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 842230,
+              "key": "97c40fd0-5f40-45fc-997f-6d25ed8cc1c9",
+              "title": "Career Services",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 831099,
+                  "key": "b01370f1-8760-45f0-b243-dea6d8fd524d",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "You're building your online presence. Now learn how to share your story, understand the tech landscape better, and meet industry professionals.",
+                  "title": "Industry Research",
+                  "duration": 60,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b39a9e4_1-2-career-services-available-to-you2x/1-2-career-services-available-to-you2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 553107,
+                      "key": "0c5d9ad2-f611-43c9-a92c-b614a15c9000",
+                      "title": "Self-Reflection: Design Your Blueprint for Success",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 553118,
+                      "key": "9147099c-a893-49a7-a9ce-80ff17737bb0",
+                      "title": "Debrief: Self-Reflection Exercise Part 1",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 559745,
+                      "key": "70f1ae14-eaa5-474e-b100-a576398731df",
+                      "title": "Debrief: Self-Reflection Exercise Part 2",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 553121,
+                      "key": "cae4d4d0-f3c2-4cd5-a00c-85df2defcf71",
+                      "title": "Map Your Career Journey",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 553138,
+                      "key": "735a7e19-7d3d-46d2-90f0-4af22b5e0dea",
+                      "title": "Debrief: Map Your Career Journey",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 552666,
+                      "key": "68c53736-2d64-41a2-9ddc-8c1c18e7b960",
+                      "title": "Conduct an Informational Interview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 552673,
+                      "key": "630098fa-ac4b-47ca-811d-eecffdb3b97d",
+                      "title": "How to Request an Informational Interview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 552717,
+                      "key": "bdc08981-f0f9-425e-8086-4f68bbaf3432",
+                      "title": "Ways to Connect",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 552670,
+                      "key": "922bb7b1-7b36-4940-b9a7-9e5ef84dea72",
+                      "title": "Ask Good Questions",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 552710,
+                      "key": "8d6a9e51-574c-4864-8ad0-b80d17559f48",
+                      "title": "Debrief: Sample Questions Quiz",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 556130,
+                      "key": "ed2f1a7e-3ecd-4ac0-937e-f0a335d5a73b",
+                      "title": "Keep the Conversation Going",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 631083,
+                  "key": "20707806-8f14-420f-b613-4196199a88c1",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Find your next job or connect with industry peers on LinkedIn. Ensure your profile attracts relevant leads that will grow your professional network.",
+                  "title": "Take 30 Min to Improve your LinkedIn",
+                  "duration": 30,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/February/5a8222c0_1-3-career-services-available-to-you2x/1-3-career-services-available-to-you2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "0051a3da-930f-47a1-bd41-d7fe3bd324f4",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 1440,
+                    "semantic_type": "Project",
+                    "title": "Improve Your LinkedIn Profile",
+                    "description": "Have job opportunities come to you by optimizing your LinkedIn profile! Complete this simple process to get personalized tips from a career mentor. \n\nHere’s how to submit your LinkedIn profile for feedback now:\n* Check out this [checklist](https://docs.google.com/document/d/1BZMxuKnBNovOyMelEx7d8ktbsWGj0EJ9KaD81dVC1TE/pub?embedded=true) for tips on optimizing your LinkedIn profile (optional).\n* **Make sure your profile is in English.** If you do not have an English profile yet, check out LinkedIn's [advice](https://www.linkedin.com/help/linkedin/answer/1717/creating-or-deleting-a-profile-in-another-language?lang=en) on how to create a secondary language profile.\n* Make your profile publicly visible. Scroll down and set the profile section toggles to `Show` under the “Edit Visibility” section of  [your public profile edit page](https://www.linkedin.com/public-profile/settings?trk=nprofile-public-profile-settings-redirect).\n * ![Edit Visibility](http://lh3.googleusercontent.com/R0A5rnKYyzLPZJ8B_pkyxdKkvab5qQi2LnEpFq2L-F33TSgzmjduHuUyDi-Z_ka2L7oU50UYqQTeU1n8VcM=s0#w=400&h=333 \"Edit Visibility\")\n* Create a custom profile URL in the “Edit URL” section of [your public profile edit page](https://www.linkedin.com/public-profile/settings?trk=nprofile-public-profile-settings-redirect).\n * ![Edit URL](http://lh3.googleusercontent.com/SGdIHFzKav0QZmOSrrP69xch_F0Ufhu9pLy-nDXYDArHUyzAen7ewoLakVOKn3KvX_CVgJjBWkl_FmPTPqM=s0#w=250&h=120 \"Edit URL\")\n* Submit your public profile URL (such as `www.linkedin.com/in/udacitystudent`) for guidance from a career mentor by clicking “Submit Project” below.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "1910",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 704348,
+                      "key": "c8c3fbd0-b7ba-471e-85b7-eb2b1c3820c0",
+                      "title": "Get Opportunities with LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703862,
+                      "key": "20efad1e-c7b3-432d-86ad-0e798c795d49",
+                      "title": "Use Your Story to Stand Out",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703860,
+                      "key": "a891296f-46ea-457c-89d9-f4ec96a40cae",
+                      "title": "Why Use an Elevator Pitch",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703864,
+                      "key": "0c1acad0-cb41-4260-bd5c-6df07f1b2778",
+                      "title": "Create Your Elevator Pitch",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708825,
+                      "key": "36e84f5b-204e-48c4-8071-293f49886a85",
+                      "title": "Use Your Elevator Pitch on LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 729380,
+                      "key": "a7deba78-27c8-4735-ad9c-7ab2b2b1ad91",
+                      "title": "Create Your Profile With SEO In Mind",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728573,
+                      "key": "6ed9b5b0-43cf-4b65-b01d-345e44dfd765",
+                      "title": "Profile Essentials",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728593,
+                      "key": "d3f369bb-78d7-478a-a909-c6e13683cc18",
+                      "title": "Work Experiences & Accomplishments",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708828,
+                      "key": "eb90e45b-5d77-458b-af34-0f8eaecd45a8",
+                      "title": "Build and Strengthen Your Network",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 617430,
+                      "key": "64ed9954-b423-4a75-ad70-b2a1fbaa3a6d",
+                      "title": "Reaching Out on LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728591,
+                      "key": "1d61fe7d-02e6-4376-a0c5-e01e26969d63",
+                      "title": "Boost Your Visibility",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708834,
+                      "key": "2da1cc73-72cb-4678-b84d-1ab91798e8b3",
+                      "title": "Up Next",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 594372,
+                  "key": "de38d0de-afac-4d34-a339-25c2519cf9f9",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Other professionals are collaborating on GitHub and growing their network. Submit your profile to ensure your profile is on par with leaders in your field.",
+                  "title": "Optimize Your GitHub Profile",
+                  "duration": 75,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/August/5b7218b9_2-5-add-commits-to-a-repo2x-1/2-5-add-commits-to-a-repo2x-1.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "4180859007",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 1440,
+                    "semantic_type": "Project",
+                    "title": "Optimize Your GitHub Profile",
+                    "description": "GitHub Profiles are a key piece of \"evidence\" to an employer that you'd be a good job candidate, because they can see the details of your work. Recruiters use GitHub as a way to find job candidates, and many Nanodegree alumni have received work opportunities from their activity on GitHub. In addition, using GitHub is a way for you to collaborate on projects with other programmers - this will show that you are able to work well with others on an engineering team on the job.\n\n## Submission Instructions\n1. Submit this project after you've done some continuous coding for two weeks, so the reviewer will be able to comment on trends.\n2. Submit your GitHub profile URL as your project.\n3. If you'd like to **opt-out** of this project, please read the instructions underneath the divider line, below.\n\n## Project Resources\n1. [Project Rubric](https://review.udacity.com/#!/rubrics/52/view). *Your project will be reviewed by a Udacity Career Reviewer against this rubric.*\n2. [Project checklist](https://docs.google.com/document/d/1a9AKnNyqfGgdQV5ohPCN5H9ntnEUhMptWMwVBWURCN0/pub?embedded=true). *Based on the project rubric, this is a handy checklist on GitHub best practices.*\n3. [Career Resource Center](https://career-resource-center.udacity.com/linkedin-github-profiles). *Find additional tips and guides on developing your GitHub Profile.*\n\n## Up Next\nContinue developing on GitHub! For project ideas, consider [contributing to open source](https://career-resource-center.udacity.com/contributing-to-open-source).\n\n---\n\n### *Career Review Requirement*\n\n*Your Nanodegree program was designed to ensure your long-term success in the field, and to pursue a successful career you must showcase the skills you’ve learned to employers effectively. **Therefore, this is a requirement for graduation, unless you opt-out.*** \n\n#### Opting Out\n\nIf improving your GitHub profile does not align with your Nanodegree goals, **you may opt-out of this graduation requirement**.\n\nWhen you opt-out:\n\n* *You will no longer be able to submit the GitHub Review from this Nanodegree program and all other Nanodegree programs.*\n* *Your decision to opt-out is final and future access to GitHub Review will need to be purchased separately.*\n\n*If you would like to opt-out, please click [here](https://forms.udacity.com/forms/career-opt-out).*",
+                    "is_public": true,
+                    "summary": "GitHub is a great way for employers to get a sense of how you code. Learn what your GitHub profile says about you and how to improve it to impress employers.",
+                    "forum_path": "c/careers-github-profile-review",
+                    "rubric_id": "52",
+                    "terminal_project_id": "",
+                    "resources": {
+                      "files": [],
+                      "google_plus_link": null,
+                      "career_resource_center_link": null,
+                      "coaching_appointments_link": null,
+                      "office_hours_link": null,
+                      "aws_provisioning_link": null
+                    },
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 653724,
+                      "key": "00b53aa6-a4a0-4eee-a034-39915c379b68",
+                      "title": "Prove Your Skills With GitHub",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 25024,
+                      "key": "58316191600923",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 41373,
+                      "key": "58492985590923",
+                      "title": "GitHub profile important items",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 19532,
+                      "key": "58315398190923",
+                      "title": "Good GitHub repository",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 21541,
+                      "key": "58503485550923",
+                      "title": "Interview with Art - Part 1",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 44395,
+                      "key": "58334298230923",
+                      "title": "Identify fixes for example “bad” profile",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 5637,
+                      "key": "64958716790923",
+                      "title": "Quick Fixes #1",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 23053,
+                      "key": "64786551490923",
+                      "title": "Quick Fixes #2",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 67965,
+                      "key": "65214390560923",
+                      "title": "Writing READMEs with Walter",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 16617,
+                      "key": "64423071120923",
+                      "title": "Interview with Art - Part 2",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 55196,
+                      "key": "65265285770923",
+                      "title": "Commit messages best practices",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 41944,
+                      "key": "64804050710923",
+                      "title": "Reflect on your commit messages",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 91571,
+                      "key": "65053008530923",
+                      "title": "Participating in open source projects",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 56941,
+                      "key": "64818045500923",
+                      "title": "Interview with Art - Part 3",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 5694,
+                      "key": "65019290470923",
+                      "title": "Participating in open source projects 2",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 22046,
+                      "key": "64858046490923",
+                      "title": "Starring interesting repositories",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 594373,
+                      "key": "156ac946-5ac9-45e8-9ca4-7523e6af7234",
+                      "title": "Next Steps",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 907300,
+          "key": "37256ac3-41f4-4aa0-b0f4-cd110eb81863",
+          "title": "Capstone",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "You're now ready to combine all of the skills you’ve developed throughout the Nanodegree program to build an online travel app. You’ll work with data sources from multiple APIs to create a dynamic travel weather planning application that helps people plan trips by generating weather forecasts for the places they’re visiting.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": null,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 906932,
+              "key": "eb6b8a12-4ba5-449b-9f27-be55cc41cee3",
+              "title": "FEND Capstone - Travel App",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 906933,
+                  "key": "f04d6770-d0f2-4c4f-b5e2-199db5d3d53e",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Build a travel app, combining all of your Front End skills into an amazing capstone project for your portfolio. Utilize multiple APIs to present a user with all they need to know about their trip.",
+                  "title": "Project: FEND Capstone - Travel App",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2017/August/59a3a307_2-13-http-in-the-real-world2x/2-13-http-in-the-real-world2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "51287eb2-ed5e-4df4-9e5d-d64742fbc2ca",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 30240,
+                    "semantic_type": "Project",
+                    "title": "FEND Capstone - Travel App",
+                    "description": "# FEND Capstone Project: Travel App\n\nThis project requires you to build out a travel app that, at a minimum, obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs. Given that this is the Capstone project, it's highly encouraged for you to go above and beyond, adding additional functionality and customization to truly stand out with a project you are proud to have at the top of your portfolio!\n\n## Project Files\n\nIf you'd like to start from scratch without any files, you are encouraged to do so! You learn the most by developing on your own! But, it can be a bit challenging having to start from scratch. There’s not the standard starter code you’re used to. If you would like to start with starter code, duplicate your code from project 3 and start there. See the earlier **Getting Started** page for an example visual of one potential finished product.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the Travel Planner App [project rubric](https://review.udacity.com/#!/rubrics/2669/view). Please review for detailed project requirements.\n\n## Submission\n\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link below.\n\n",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2669",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 906935,
+                      "key": "644b7809-6e07-4168-ba8d-dc5bc5bcd5c8",
+                      "title": "Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907147,
+                      "key": "65c2663e-4eb8-46b9-8a3f-e88e928875df",
+                      "title": "Getting Started",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 907148,
+                      "key": "be409c00-ffa9-4140-aefb-eb035d43da07",
+                      "title": "Development Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

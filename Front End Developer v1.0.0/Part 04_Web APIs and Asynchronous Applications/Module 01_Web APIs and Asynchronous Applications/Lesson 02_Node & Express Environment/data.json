@@ -1,0 +1,692 @@
+{
+  "data": {
+    "lesson": {
+      "id": 860286,
+      "key": "d40095d0-2744-414c-9c80-cf83748f311e",
+      "title": "Node & Express Environment",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, students will learn how to setup a Node + Express environment to develop a web application on their local machine.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d40095d0-2744-414c-9c80-cf83748f311e/860286/1572419704758/Node+%26+Express+Environment+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d40095d0-2744-414c-9c80-cf83748f311e/860286/1572419702216/Node+%26+Express+Environment+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 860285,
+          "key": "d8e2d8f5-2a09-4848-b7af-11713f38ea02",
+          "title": "Node.js Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d8e2d8f5-2a09-4848-b7af-11713f38ea02",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860261,
+              "key": "ffa656c1-84ff-48f5-85b6-65513cd34b72",
+              "title": "Node Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Node.js Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860922,
+              "key": "08d1585c-f7e1-4586-81a7-505e2a39660d",
+              "title": "ND#0001 C3 L02 A04 Node JS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "k6bYgYi14vY",
+                "china_cdn_id": "k6bYgYi14vY.mp4"
+              }
+            },
+            {
+              "id": 860254,
+              "key": "dce316dc-144f-458f-9749-e1d1960dcb25",
+              "title": "Node Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The first step to using Node.js is to install it on your computer. You can do so by following the link below and installing the Windows or Mac version, depending on what type of operating system you are using.\n\n[Node.js Download Page](https://nodejs.org/en/download/)\n\nIf you’ve previously installed Node and need to update to a newer version, check out [this article](https://www.hostingadvice.com/how-to/update-node-js-latest-version/).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 898966,
+          "key": "408bb8b4-53af-4fc1-86b7-2fb30ad7040a",
+          "title": "Using Node",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "408bb8b4-53af-4fc1-86b7-2fb30ad7040a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860253,
+              "key": "ee04dcca-d6fb-4e9a-bdeb-b8331f6f773b",
+              "title": "Node Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Using Node\n\nOne of the most useful features of Node is that it comes pre-installed with a standard package manager called **NPM**. NPM started as an easier way to download and manage dependencies of Node.js packages, but now it is also used as a tool in front-end JavaScript as well.\n\nA package in Node.js contains all the files you need for a module. Modules are JavaScript libraries you can include in your project. There are hundreds of thousands of Node.js packages and NPM gives you easy access to all of them! For the purposes of this course we will make heavy use of the Node package called **Express**, as well as packages called **CORS** which allows for communication across the web, and Body-Parser (which is considered in the category of Middleware) which will allow us to parse the data we eventually will be passing through routes on our server. Let’s take a look at how to install and include these last two packages from the command line using NPM:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860255,
+              "key": "33489181-e80a-44e6-8719-ccceba02cafb",
+              "title": "ND#0001 C3 L02 A05 Node JS Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "8mqspW1sy2o",
+                "china_cdn_id": "8mqspW1sy2o.mp4"
+              }
+            },
+            {
+              "id": 860282,
+              "key": "ef2108e3-8ec6-4175-a293-d3bc13f9703b",
+              "title": "Node Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is the code to install packages with NPM from the command line: `npm install package-name` \n\nSo to  install the package called ‘body-parser’:\n`npm install body-parser`\n\nAnd then in a file named `Server.js` the installed package is included and made available in the code with:\n`var bodyParser = require('body-parser')`\n\nNode invokes that `require()` function with a local file path as the function’s only argument.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860257,
+              "key": "ea27a768-7727-4621-9009-62770c939e66",
+              "title": "Node Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ea27a768-7727-4621-9009-62770c939e66",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about Node and NPM. Check all that apply:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Node allows developers to write server-side code",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "NPM is a package manager for Node that allows for easy inclusion of dependencies in a project",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Node comes preinstalled with all the dependencies and packages you need for frontend web apps",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "To include a Node package already installed via the terminal, the `require()` function is used",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860262,
+              "key": "547b5cf2-75a1-4429-bb8b-e5ddb52febf9",
+              "title": "Node Quiz 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "547b5cf2-75a1-4429-bb8b-e5ddb52febf9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Suppose there is a Node package called `amazing.js`. What line of code would you write in the terminal to include that package in your project?",
+                "matchers": [
+                  {
+                    "expression": "npm install amazing"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860264,
+              "key": "60ff819c-9d21-45df-ba12-faa037f322e1",
+              "title": "Node Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### More on Node\n\n- For more information about Node.js, you can read [their website and documentation](https://nodejs.org/en/ ), or [follow @node.js on Twitter](https://twitter.com/nodejs).\n- You can learn more about NPM from their [website](https://www.npmjs.com).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 900270,
+          "key": "032dc08d-112c-428d-b0b0-1f9b449dc32f",
+          "title": "Exercise: Node and Package Installation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "032dc08d-112c-428d-b0b0-1f9b449dc32f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900271,
+              "key": "d45eb4de-ffb5-4e15-8940-b8ba7a7e72b9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900270xJUPYTERLsn8fcvwx",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-7pam7",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "1",
+                    "pageStart": "1",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 860284,
+          "key": "7ea1abb8-c551-4c8a-bb66-3a372800cb6d",
+          "title": "Express Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ea1abb8-c551-4c8a-bb66-3a372800cb6d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860256,
+              "key": "8850dbc5-4ec9-460d-b7ac-b52d870fedef",
+              "title": "Express Installation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Express Overview\n\nTo install express, we use the `npm install express` command in the terminal.\n Using Express we set up an instance of our web app like this:\n```\n// Express to run server and routes\nconst express = require('express');\n\n// Start up an instance of app\nconst app = express();\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860266,
+              "key": "f1f9725d-950d-471d-99a6-2f82b20a86c6",
+              "title": "ND#0001 C3 L02 A01 Express Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wLhDznQMzco",
+                "china_cdn_id": "wLhDznQMzco.mp4"
+              }
+            },
+            {
+              "id": 860275,
+              "key": "ceb45368-d0db-4e99-af8d-483ef867df93",
+              "title": "Express Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "First we include `express` in our project and then we instantiate an instance of the app we are going to build in a file called `server.js`. Once we have created an instance of our app using Express, we can connect the other packages we have installed on the command line to our app in our code with the `.use()` method. Express version 4 and above require extra middle-ware layer to handle a POST request. This middle-ware is called as `bodyParser`. This used to be an internal part of Express framework, but now you have to install it separately.  Below is an example of how the body-parser and cors packages discussed earlier could be connected to the app instance.\n```\n/* Dependencies */\nconst bodyParser = require('body-parser')\n/* Middleware*/\n//Here we are configuring express to use body-parser as middle-ware.\napp.use(bodyParser.urlencoded({ extended: false }));\napp.use(bodyParser.json());\n// Cors for cross origin allowance\nconst cors = require('cors');\napp.use(cors());\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860278,
+              "key": "4fe8b447-3b4d-4402-aea3-d8d0f4065823",
+              "title": "Express Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4fe8b447-3b4d-4402-aea3-d8d0f4065823",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not a feature associated with Express:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Express is used to setup a server environment to create a webapp locally",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Express can connect middleware such as a data parser to a web app.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Express is an API for web apps.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Express allows you to use HTTP routes and requests with easy handlers.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860280,
+              "key": "628b805a-2691-468c-b3e4-68ed8b9042f8",
+              "title": "Express Quiz 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "628b805a-2691-468c-b3e4-68ed8b9042f8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Assume you have installed a package `amazing.js` from the terminal, and included it in your project using `require()`. Assuming you have an instance of an express app running with the name `app`, what line of code would you write to connect the app to the 'amazing.js' package?",
+                "matchers": [
+                  {
+                    "expression": "app.use\\(amazing\\(\\)\\)(;|\\s)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860279,
+              "key": "59e094eb-48b6-4957-9e63-968f0dc14b3e",
+              "title": "Express Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\n```js\napp.use(amazing());\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>\n\nSo far we have just seen how Express can be used to create an instance of a web app, and to include other Node packages in that web app, but the real fun of Express is unleashed with Routes. Before we can work with routes however, there are a couple other topics we need to cover. Next we'll learn what a server is, and how to create one locally to develop web projects on our own machines.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860260,
+              "key": "969009b2-2a95-469e-ba95-7a4053981fae",
+              "title": "Express Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### More on Express\n\nYou can learn more about Node and Express by reading the Express/Node introduction on the [MDN web docs page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction).\n\n### What about `cors`, `urlencoded` and `json`?\n\nWhile we won’t cover `cors`, `urlencoded` and `json` in-depth here, if you want to read about more on each, see the following links:\n\n- [Cross-origin resource sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and related [Express documentation for CORS](https://expressjs.com/en/resources/middleware/cors.html)\n- [URL Encoding](https://en.wikipedia.org/wiki/Percent-encoding) and related [Express documentation for `bodyParser`’s `urlencoded` functionality](https://github.com/expressjs/body-parser#bodyparserurlencodedoptions)\n- [JavaScript Object Notation (JSON)](https://en.wikipedia.org/wiki/JSON) and related [Express documentation for `bodyParser`’s `json` functionality](https://github.com/expressjs/body-parser#bodyparserjsonoptions)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 900351,
+          "key": "437b25fb-ad01-4f00-be73-78f2bb9cdfdc",
+          "title": "Exercise: Including Packages",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "437b25fb-ad01-4f00-be73-78f2bb9cdfdc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900633,
+              "key": "4596e9c5-6729-4f43-a6ff-3d388e5ff57b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900351xJUPYTERLa9cwb7q6",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-7546f",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "2",
+                    "pageStart": "2",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 860283,
+          "key": "1b9b1620-cb5b-4289-9caf-afd31d498d86",
+          "title": "Creating a Local Server I",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b9b1620-cb5b-4289-9caf-afd31d498d86",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860271,
+              "key": "a9c16341-7d6b-41ed-bbd8-d17547a2388c",
+              "title": "Server Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Creating A Local Server With Node & Express",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860276,
+              "key": "33b849e0-38a0-4ef5-9e00-e69a67bc6da6",
+              "title": "ND#0001 C3 L02 A07 Server",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z-2dxTVYnT4",
+                "china_cdn_id": "z-2dxTVYnT4.mp4"
+              }
+            },
+            {
+              "id": 860265,
+              "key": "ff77aa3d-ae8c-4f77-b0f1-708dcb3d873e",
+              "title": "Server Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Another way you might see this same server code written is with an arrow function. Here is an example of the same code using an arrow function:\n```js\nconst server = app.listen(port, ()=>{console.log(`running on localhost: ${port}`)})\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1016091,
+              "key": "d341044f-dd47-4b7a-9c3e-2e1034056f78",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## What's an arrow function?\n\nArrow functions are a shorter, more efficient way to write functions. In what takes a regular function three lines of code, arrow functions can be written with one. \n\nHere's an example of a regular function and then we'll write it as an arrow function: \n\n**Regular Function **\n\n`function addition(number){\n     return 4 + number\n}`\n\n`addition(4);`\n` \n\n**Arrow Function**\n\n`var addition = number => 4 + number`\n\n`addition(4);`\n\nAs you can see, there are less need for parenthesis and return statements, allowing the syntax to be much more compact. Both are acceptable ways of writing functions, and best practice would be for you to be consistent in how you write your code. Even if you choose not to write your code with arrow functions, you should still be aware of how they are written. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1016096,
+              "key": "47958049-0985-4677-8eba-c6fe523ab171",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Steps to creating a local server\n\n #### Set your variables \n\nIn this example, we set our variable to port 8000. \n\n`const port = 8000;`\n\n#### Utilize the `.listen()` method\n\nSet your variable named server, and pass the listen method with two arguments port and listening. \n\n`const server = app.listen(port, listening);`\n\nThe **port** argument refers to the port variable we set above. The *listening* argument refers to a callback function we create. \n\n#### The listening function \n\nThis function will run when we execute the listen method to let you know that the server is running and on which port by logging messages to the console. \n\n```\nfunction listening(){\n     console.log(\"server running\"); \n     console.log(`running on localhost: {$port}`);\n}\n```\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 898965,
+          "key": "5dcb0001-a616-4f74-b719-e71b09b94e79",
+          "title": "Creating a Local Server II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5dcb0001-a616-4f74-b719-e71b09b94e79",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860270,
+              "key": "485aefbe-254b-4c4e-878a-84e7268e7e74",
+              "title": "Server Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Creating a Local Server - Part 2\n\nBecause we are writing server-side code, the console.log code will execute in the terminal, instead of the browser where you may be used to. Here is a video showing what this process looks like:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860269,
+              "key": "846b535f-1499-4b73-9f9b-5c9c1bef13b6",
+              "title": "ND#0001 C3 L02 A08 Server Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gS3H36P07xA",
+                "china_cdn_id": "gS3H36P07xA.mp4"
+              }
+            },
+            {
+              "id": 860268,
+              "key": "682641de-e499-4260-a4de-8e56478d7d90",
+              "title": "Server Quiz",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "682641de-e499-4260-a4de-8e56478d7d90",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Install the Express package from the terminal (make sure you have pointed the terminal to the directory where you are creating your server code).",
+                "Include the Express package in your code.",
+                "Write the code to start the server.",
+                "Check the terminal for confirmation that the server is working or any error messages for issues with the code.",
+                "Open your browser and go to the port specified in your code--ready to rock!"
+              ],
+              "positive_feedback": "Boom, now you understand how to create a server with Node and Express.",
+              "video_feedback": null,
+              "description": "Think about the steps to setting up a server and make sure you understand the logic:"
+            },
+            {
+              "id": 899037,
+              "key": "7c4b0a09-43bb-4b6b-a8dd-e30a8ea52ff3",
+              "title": "Server Quiz 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7c4b0a09-43bb-4b6b-a8dd-e30a8ea52ff3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Assuming you have created an app instance named `app`, and set variable named `port` to `8000` and have created a callback function named `listening` -- what line of code would you add above the callback function to successfully initiate a server named `server`?",
+                "matchers": [
+                  {
+                    "expression": "const\\s*server\\s*=\\s*app\\.listen\\(port\\,\\slistening\\)(;|\\s*)"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 900353,
+          "key": "d667cfd8-cf50-4bca-8a5c-fc1fa129fd8e",
+          "title": "Exercise: Server Set-up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d667cfd8-cf50-4bca-8a5c-fc1fa129fd8e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 900634,
+              "key": "892b6ca0-7369-48e6-89ee-d9bc53902ae9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r848937c900353xJUPYTERLk0r85uiz",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-kxezt",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": 3000,
+                    "ports": [],
+                    "pageEnd": "3",
+                    "pageStart": "3",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 898964,
+          "key": "35440216-2124-4fd0-995e-11e91c3531a1",
+          "title": "Servers-File Structure Hierarchy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35440216-2124-4fd0-995e-11e91c3531a1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 860277,
+              "key": "68ded13e-3162-4555-ab6b-12355544f9c4",
+              "title": "Server + Project Folder Hierarchy",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Servers-File Structure Hierarchy",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860258,
+              "key": "b251440c-92ce-4138-8108-cdce1f9129f1",
+              "title": "ND#0001 C3 L02 A08 Server + Project Folder Hierarchy Demo",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "C12lfUB8I0w",
+                "china_cdn_id": "C12lfUB8I0w.mp4"
+              }
+            },
+            {
+              "id": 860274,
+              "key": "acf6d95c-cbd7-4e6f-9334-32cd481ec74d",
+              "title": "Example Explanation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "All of the files pictured above are included in the projects main folder, which is often referred to as the project 'root'. After making sure your project folders are setup in this way, the only thing you need to do is write one line of code in the `server.js` file that points the server code to the folder that has the `index.html` and any additional pages. In the example above the name of that folder is `website`, so in the `server.js` file the following line of code needs to be added:\n\n`app.use(express.static('website'));`\n\nThis line of code connects our server-side code (the code in the `server.js` file) to our client-side code (the browser code written in the files housed in the `website` folder).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860273,
+              "key": "0809fd9f-6196-413c-9a32-21fc76eccf67",
+              "title": "Server-Client Code Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0809fd9f-6196-413c-9a32-21fc76eccf67",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Assume you are writing server-side code in a file that is inside the root directory with another folder named 'public'. What line of code would you write in your server file to point your app to use that folder? ",
+                "matchers": [
+                  {
+                    "expression": "app\\.use\\(express\\.static\\(('|\")public('|\")\\)\\)(;|\\s*)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 860267,
+              "key": "2145cc60-4c0b-4a06-a112-cc824bbc7f11",
+              "title": "Server Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we covered how to create a server to run a web app locally in your browser, and to setup the ability to pass code between different parts of a web app through routes. We also covered the folder structure for web apps with an Express server. We will cover routes in the next lesson.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 860272,
+              "key": "0e31c3c0-caa1-447a-ad3f-038d78295ccb",
+              "title": "Server Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### More on Express servers\n\nFor more information on Express you can visit their [website](https://expressjs.com), or see this basic [example of an Express server](https://expressjs.com/en/starter/hello-world.html).",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

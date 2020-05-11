@@ -1,0 +1,2051 @@
+{
+  "data": {
+    "lesson": {
+      "id": 917010,
+      "key": "91569c5d-69ec-4f20-a768-bbcc9b946306",
+      "title": "Basics of Webpack",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "By the end of this lesson you will understand the reasons developers use webpack, and be able to explain at a high level what webpack does.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/91569c5d-69ec-4f20-a768-bbcc9b946306/917010/1565986729033/Basics+of+Webpack+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/91569c5d-69ec-4f20-a768-bbcc9b946306/917010/1565986725570/Basics+of+Webpack+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 917005,
+          "key": "f58d925e-cfa9-4f29-93a7-5407a8e51751",
+          "title": "Introduction to Webpack",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f58d925e-cfa9-4f29-93a7-5407a8e51751",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916962,
+              "key": "9d908120-e730-49c8-9b1f-a65c622e0faa",
+              "title": "Introduction to webpack Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Getting Started with Webpack\n\nThe webpack documentation describes itself this way: \n\n> At its core, **webpack** is a **static module bundler** for modern JavaScript applications.\n\nBut…what does that really mean? \n\nThis image from the Webpack website is a good visual.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916943,
+              "key": "e55e8aa0-8993-42ae-a580-5c2c123742e8",
+              "title": "Introduction to webpack Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d570a29_webpack-bundles/webpack-bundles.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e55e8aa0-8993-42ae-a580-5c2c123742e8",
+              "caption": "Webpack Bundles Your Website Assets!   \nFrom https://webpack.js.org/",
+              "alt": "Webpack bundles your website assets",
+              "width": 1000,
+              "height": 350,
+              "instructor_notes": null
+            },
+            {
+              "id": 916955,
+              "key": "d3b0dd8e-89e3-440d-b33a-069eb18211eb",
+              "title": "Webpack Intro Continued",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The idea here is that on the left you have all the various asset file formats you will probably come across in a project. You might not recognize all the extensions, but just imagine that these are all your images, stylesheets, javascripts and more. \n\nWebpack takes all the assets on the left and “bundles” or combines them into fewer files that are much easier to manage. Notice that multiple .js files on the left became one .js file on the right - that’s because the two files were combined into one large .js file.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916934,
+              "key": "690d3ed4-b863-4a2d-9804-14d16f366f2c",
+              "title": "FEND C04 L02 A01 Intro To Webpack",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0SOWFdFaESQ",
+                "china_cdn_id": "0SOWFdFaESQ.mp4"
+              }
+            },
+            {
+              "id": 916982,
+              "key": "12518f7f-b221-46ee-b5f6-dd38a876142e",
+              "title": "Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "12518f7f-b221-46ee-b5f6-dd38a876142e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Based on what you know of Webpack so far, which of these tasks would NOT be performed by webpack: ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Running Typescript files",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Configure a development server",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Base64 encoding image files",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Adding dynamic css references to html",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Run a linter on our code",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk6",
+                    "text": "All of the above could be done with webpack",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917020,
+              "key": "2a88b251-98c7-4c5d-824b-1cc52e664753",
+              "title": "FEND C04 L2 Question 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QAiKWiHH8TI",
+                "china_cdn_id": "QAiKWiHH8TI.mp4"
+              }
+            },
+            {
+              "id": 916942,
+              "key": "e683c6bc-3849-4e48-b850-b42e2cb223d0",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e683c6bc-3849-4e48-b850-b42e2cb223d0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Tell us how you have addressed an issue caused by conflicting asset files (or if you haven't experienced this first hand, tell us about a situation where this could happen). Examples could be styles conflicting with a third party stylesheet, or a bug caused by the order of javascript files."
+              },
+              "answer": {
+                "text": "When you get questions like “”tell us how you addressed an issue where” or “explain when you used [x]” in an interview, people often feel like they don’t have a valid answer unless they have worked on a project where they actually did those things. But feel free to answer with things you have learned to do. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 917002,
+          "key": "4290b416-c63b-42ec-8526-c3592b62ec79",
+          "title": "Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4290b416-c63b-42ec-8526-c3592b62ec79",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916978,
+              "key": "23cf6a41-e8af-43f2-8109-9a07b3998d12",
+              "title": "Introduction",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this section we're going to walk through the starter code that will form the foundation of our project. In the next few lessons we will walk through all the steps of setting up webpack on this node and express app. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916940,
+              "key": "9b764063-04a9-4908-b196-bba5efe99a69",
+              "title": "FEND C04 L02 A02 Getting Started",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c0mLsDZEPNY",
+                "china_cdn_id": "c0mLsDZEPNY.mp4"
+              }
+            },
+            {
+              "id": 916933,
+              "key": "cfcde9ab-5041-43fa-90db-84fbfadc4b99",
+              "title": "Getting Set Up",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This course is going to include a lot of work on your own repository. We chose this style of course work for many reasons, the main reason being that no one memorizes these configuration settings. In fact it is probably not to your benefit to do so. By the end of the course, we want you to own a solid example to look back at for new projects. Also, when working on your own repository you have more freedom to try things and change things - which is an excellent way to learn! Just remember to stop and make a branch or at least commit before going off onto a rabbit trail. \n\nRight now, take some time to just get this starter code up and running on your machine before we start with Webpack. You’ll have two options here: 1) Fork [this repo](https://github.com/udacity/fend-webpack-content) then clone it onto your own machine, or 2) you can use the in-classroom workspaces spread throughout this lesson, so that you don’t need to deal with any environment setup. Can you remember the steps for getting a project like this set up?  Don’t worry, you can always take a look at the project readme if you have any trouble. You are good to go when you can see the page we saw in the demo.\n\nThis repository is going to be an important resource for you throughout this course, take a minute to poke around. Each section of our webpack setup is reflected as its own branch in the repository, and each branch has a file documenting the steps taken in the branch. When you fork the repo, you can add your own personal notes to this markdown file.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916950,
+              "key": "c85f4883-1bfe-47a2-9d54-7445db53884c",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c85f4883-1bfe-47a2-9d54-7445db53884c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When you use npm to install a new package, how many files/folders in your code change?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "3",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "4",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916957,
+              "key": "f413c328-222e-41fe-8ca7-bd6b7be1f4cc",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f413c328-222e-41fe-8ca7-bd6b7be1f4cc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What do the commands ```npm i``` or ```yarn``` do? Choose the best answer.",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "When used with the name of a node module, they install that package",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "They update the versions of all modules in your node_modules folder",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "They create a new node_modules folder, whether or not you already have one",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "They install all modules listed in the package.json and add to or create a new node_modules folder",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916980,
+              "key": "e1fcea29-c98c-4fbd-9847-3d18973dc962",
+              "title": "FEND C04 L2 Question 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xyCCWU8KlR4",
+                "china_cdn_id": "xyCCWU8KlR4.mp4"
+              }
+            },
+            {
+              "id": 916938,
+              "key": "ebc331be-b341-4db5-a4aa-debf158c8ed0",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ebc331be-b341-4db5-a4aa-debf158c8ed0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What information can go into a package.json file? Name everything you can think of. "
+              },
+              "answer": {
+                "text": "Things that must be in your answer:\nNpm scripts\nDependencies (should mention dev dependencies vs general dependencies)\nApp information (name, version, license, etc..)\nPotential answers for this question:\nGithub repo name\nStarting point\nNPM privacy\n\n… if you want to take a look at all the things, go here: https://docs.npmjs.com/files/package.json",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921966,
+          "key": "1681ed35-2a80-4486-9a72-de2144c7b003",
+          "title": "Exercise: Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1681ed35-2a80-4486-9a72-de2144c7b003",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921944,
+              "key": "0ee8b101-a5c2-4829-8562-ad43745a5624",
+              "title": "Exercise: Getting Started Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#  Udacity Workspace vs. Local Environment\n\nBelow, we’ve included a Udacity workspace. Here, you'll be able to work on exercises without leaving the classroom environment. However, if you instead want to work on the exercises on your local machine, we’ve also included instructions in that case with the task list below.\n\nIf you are working locally, you will want to use [this repository](https://github.com/udacity/fend-webpack-content) for your work - make sure to fork it and then clone it to your local machine to avoid accidentally trying to push your updates to the Udacity master repository.\n\nNote that this repository makes use of git branches for each step of this lesson. You will want to use the step *before* the exercise you are on as a starting point (or your own code, if you feel you completed the previous step completely). So, the first exercise is branch `0-initial-setup`, but you’ll also want to use that as the basis for the second exercise (remember - computer science often starts from zero!). You’ll use the next branch `1-install-webpack` when you move onto the third exercise.\n\nIf you need to check which branches are available, use `git branch -a`. Then, once you know which branch you want, use `git checkout {branch-name}`, e.g. `git checkout 0-initial-setup`.\n\n## Exercise: Getting Started\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921946,
+              "key": "bb1817e1-f03f-4874-8989-788182e230ad",
+              "title": "Exercise: Getting Started Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bb1817e1-f03f-4874-8989-788182e230ad",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Clone it onto your own machine",
+                "Install npm packages",
+                "[optional] Change server to run on different port",
+                "Start server (find the start command in package.json)"
+              ],
+              "positive_feedback": "Good Job! Remember that if you ever get stumped or break your code, you can always check out a fresh start from the git repo. You can check out a specific git branch from a repo with this command: \n\n```\ngit clone --single-branch --branch <branchname> <remote-repo>\n```",
+              "video_feedback": null,
+              "description": "Fork [this repo](https://github.com/udacity/fend-webpack-content)."
+            },
+            {
+              "id": 921968,
+              "key": "7919d6b9-5dc0-4736-982e-d0fe099315f3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917507xJUPYTERL0ebng9hs",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-w7iqn",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917003,
+          "key": "43bcc04f-eb88-43a3-ae60-01ae78245820",
+          "title": "Install Webpack",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "43bcc04f-eb88-43a3-ae60-01ae78245820",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916993,
+              "key": "c424f2f4-969e-430d-863f-b7a15251df53",
+              "title": "Installing Webpack",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "And just like that, we’re ready to get down to business with Webpack. At the time this course is created, the most recent stable version of Webpack is version 4. Webpack 4 comes with some significant changes from previous versions, so you will find different information out there if you read an older tutorial. \n\nOne of the new things about version 4, is that webpack declared a few default settings that are automatically in place when you install webpack. So, you might not even need a webpack config file. Our app won’t be following all the default settings, so we will need a custom config file, but it’s just a cool thing that webpack changed. \n\nSo, first things first, we need to install webpack. It is an npm package, so we run our usual npm install command, and while we’re at it, we’ll install the CLI tool as well. A CLI tool is a pretty common thing you’ll see accompanying developer tools. Its a terminal program that allows you to run commands from the command line and you install it like a normal npm package, so we will install both of these at the same time:\n\n```\nnpm i webpack webpack-cli\n```\n\n*Remember that ```npm i``` is just shorthand for ```npm install```*.\n\nYou have been successful when you see `webpack` and `webpack-cli` added to your `package.json` dependencies.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916948,
+              "key": "269f7c34-edaa-40a6-a0a2-c0f200bfc238",
+              "title": "FEND C04 L02 A03 Install Webpack",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xlCHfzz8ZOA",
+                "china_cdn_id": "xlCHfzz8ZOA.mp4"
+              }
+            },
+            {
+              "id": 916986,
+              "key": "12d9ef59-3f08-4e19-bb38-cefcc96b106f",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "12d9ef59-3f08-4e19-bb38-cefcc96b106f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A webpack config file:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Allows us to override the webpack default setup as necessary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Is required by webpack and our developer co-workers to state how we will use webpack",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916939,
+              "key": "f8305b09-250d-42e6-b1e2-2d41b1c7ce44",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f8305b09-250d-42e6-b1e2-2d41b1c7ce44",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "At work, a project requires the use of a technology that is completely new to you. What steps would you take to learn the required technology? "
+              },
+              "answer": {
+                "text": "I came across these types of questions fairly often while interviewing. Companies want to understand your process, and they really want to know that you are confident and capable of picking up new languages quickly. Most importantly with questions like this, show that you have a process for learning and let your hard work learning code shine to highlight just how quickly you pick up these topics.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921961,
+          "key": "9e8feef9-a8e5-4a77-b65e-81c5ff1d9a0f",
+          "title": "Exercise: Install Webpack",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9e8feef9-a8e5-4a77-b65e-81c5ff1d9a0f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921945,
+              "key": "03071b0e-a4b4-4d3d-b209-3631cc854fee",
+              "title": "Exercise: Install Webpack Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Install Webpack\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921947,
+              "key": "c4522889-f8c9-410b-bd4f-263c8c268b7d",
+              "title": "Exercise: Install Webpack Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c4522889-f8c9-410b-bd4f-263c8c268b7d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Install webpack and webpack cli",
+                "Add the config file: webpack.config.js",
+                "Add necessary require statements and module.exports to config file\n\n```\nconst path = require(‘path’) \nconst webpack = require('webpack')\n\nmodule.exports = {\n\n}\n```",
+                "Add a new webpack npm script to your package.json\n\n``` \"build\": \"webpack\" ```",
+                "Try running webpack (You should get a Webpack error in terminal, but you’ll see it trying to run) \n\n```npm run build```",
+                "Git commit"
+              ],
+              "positive_feedback": "Excellent work!",
+              "video_feedback": null,
+              "description": "In your own repo:"
+            },
+            {
+              "id": 921969,
+              "key": "f4c440a7-b497-47d1-b04c-97980a6b101c",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917509xJUPYTERL3cbskb4g",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-73oh7",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917001,
+          "key": "6423eec0-cece-4efe-9ff7-cc8bee72ec21",
+          "title": "Webpack Entry",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6423eec0-cece-4efe-9ff7-cc8bee72ec21",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916935,
+              "key": "18927266-2747-45d0-b5cd-05469b6fd657",
+              "title": "Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "So now we come to the first concept - the Webpack entry point. Webpack broke at the last step because it didn’t have an entry point.\n\nWebpack is going to make a map of our app assets and all of their dependencies, but it needs somewhere to start. The default location for the webpack entry point is `./src/index.js` - but because we are already set up with express and have a slightly different file structure, that file doesn't exist! Instead, we need to tell webpack to use a custom entry point. For us, that will be:\n\n`’./src/client/index.js’`",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916941,
+              "key": "b69f5631-cb0d-490a-b08a-3b394f85a8f4",
+              "title": "FEND C04 L02 A04 Webpackentry",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t17jVF37cmQ",
+                "china_cdn_id": "t17jVF37cmQ.mp4"
+              }
+            },
+            {
+              "id": 916944,
+              "key": "4c439a95-4103-4d81-bea6-44710b69ed31",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4c439a95-4103-4d81-bea6-44710b69ed31",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the starter app that we have so far, how many asset files do you see that will be mapped?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "4",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "6",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "7",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916954,
+              "key": "7331acd5-c9dc-4527-843e-d1f1c47da1fe",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7331acd5-c9dc-4527-843e-d1f1c47da1fe",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Without using build tools, what are the strategies available to you for loading assets in a particular order? "
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921963,
+          "key": "62387b34-9dd9-46ae-8055-9f718b176ebe",
+          "title": "Exercise: Webpack Entry",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "62387b34-9dd9-46ae-8055-9f718b176ebe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921951,
+              "key": "da5d0ce8-f82f-435e-ac74-20f04a73eeed",
+              "title": "Exercise: Webpack Entry Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Webpack Entry\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921948,
+              "key": "1ea829a1-1e9a-4439-8d0a-16245d5949c5",
+              "title": "Exercise: Webpack Entry Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1ea829a1-1e9a-4439-8d0a-16245d5949c5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Add an index.js file to the `client` directory (you may need to remove the existing one from the repo)",
+                "Add the entry point attribute to webpack config\n`'./src/client/index.js'`",
+                "Add an alert to the `index.js` so we can see it run",
+                "Build webpack",
+                "Check for a `dist` folder - look in the `main.js` file for the alert you added",
+                "Commit your changes!"
+              ],
+              "positive_feedback": "You’ve been successful if you see your alert showing up in the `main.js`",
+              "video_feedback": null,
+              "description": "In your project:"
+            },
+            {
+              "id": 921970,
+              "key": "a367014f-8330-40e7-b110-7ae8d8b7fcb2",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917510xJUPYTERLkkh5rw7e",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-667bf",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917008,
+          "key": "33381d06-a9ba-4500-baac-a5733fb8beaa",
+          "title": "Output and Loaders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33381d06-a9ba-4500-baac-a5733fb8beaa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916949,
+              "key": "bc90566a-945a-4f61-a2d5-e9090a3b89b3",
+              "title": "Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We have setup webpack just enough to be performing the most basic function of webpack - creating a dist folder with a main.js file from our entry point. And all of that is great - but none of it is useful yet. \n\nWhat’s wrong? Let’s take a look:\n\n1. The distribution folder has no connection whatsoever to our app. If you start the express server, our app is still functioning exactly the same way it did in part 0. \n2. The main.js file of our distribution folder contains none of the javascript or other assets we wrote for our webpage.\n\n\nIn short - there are some things wrong with our distribution folder. So it’s time to take a look at customizing the webpack output. The “output” of webpack is - no surprise here - the distribution folder. It is where webpack drops or “outputs” the neat bundles of assets it creates from the individual files we point it to. \n\nSo we are going to solve the issues above by setting up our webpack output, along with a few other tasks required to make it all work. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916996,
+              "key": "33c1b347-3291-4901-91dd-c89c6b0bfb6c",
+              "title": "FEND C04 L02 A05 Output And Loaders",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fXjmVLke49w",
+                "china_cdn_id": "fXjmVLke49w.mp4"
+              }
+            },
+            {
+              "id": 917447,
+              "key": "0fd8524f-14f0-4a57-acdd-085a1cbe4a17",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0fd8524f-14f0-4a57-acdd-085a1cbe4a17",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If you were told to install a node module called awesomest-linter for your development dependencies, what command would you write? ",
+                "matchers": [
+                  {
+                    "expression": "npm install --dev awesomest-linter"
+                  },
+                  {
+                    "expression": "yarn add --dev awesomest-linter"
+                  },
+                  {
+                    "expression": "npm i -D awesomest-linter"
+                  },
+                  {
+                    "expression": "yarn add -D awesomest-linter"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917448,
+              "key": "b917f9e0-f34b-4ab2-8ae3-38131c693d47",
+              "title": "Webpack Output RegEx Quiz Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\nThere are a handful of valid solutions here.\n\n- `npm install --dev awesomest-linter`\n- `yarn add --dev awesomest-linter`\n- `npm i -D awesomest-linter`\n- `yarn add -D awesomest-linter`\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916945,
+              "key": "c2a197b1-09c4-4a1c-8a76-b0d142a58783",
+              "title": "Webpack Output and Loaders Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c2a197b1-09c4-4a1c-8a76-b0d142a58783",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When using webpack, if you need to change the button background color, which of the following theoretical files would you choose to edit?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "bundle.min.css",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "ui.css",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "main.css",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916994,
+              "key": "75ef0cab-2db8-4b7a-a1a2-9c7afbed24ee",
+              "title": "Installing Babel",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It might seem strange that we have to add ANOTHER library before we’re even finished setting up the first library - but believe me, that’s how it goes. Babel itself is also not an easy tool to use necessarily, it requires a bit of setup but it is widely used throughout the javascript world to translate new ES syntax into vanilla js that can run on browsers etc. They describe their tool like this:\n\nBabel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.\n\nOnce you have the hang of this setup, I have personally found it helpful to have babel even on projects that don’t have Webpack. Sometimes I’ll install it just for the convenience … like the convenience of no semicolons or being able to use import/export syntax. \n\nFirst off, we need to install Babel via npm. Babel occasionally changes its install requirements, but at the moment these are the configurations that work and seem to be pretty stable:\n\n```npm i -D @babel/core @babel/preset-env babel-loader```\n\nRemember that the -D will install these as **development** dependencies.\n\nAnd now, just like webpack, babel also requires a config file. In this case, it is a fairly simple one. \n\nCreate a new file ```.babelrc``` in the root of the project. Fill it with this code:\n\n```\n{ ‘presets’: ['@babel/preset-env'] }```\n\nNow, we’re about to go through a whole rigamarole of settings, these aren’t the kind of settings I would commit to memory necessarily, but I will try to explain the steps as we go along. \n\nFirst, we have both webpack and babel installed, now we have to get webpack to use babel. Doing that forces us to use a part of webpack we haven’t explained yet - we will explain them I promise - but that would jump us just a little ahead of where we are, so for now, you can copy and paste this part. We will observe what it does and then circle back around to explain it. \n\nSo, back we go to the webpack config, because we have some things to add. \n\nFirst, we could specify the “output” of our webpack config, it would look something like this:\n\n```output: { ...output options }```\n\nBut at the moment, we don’t need to add any custom settings there. The default settings are good enough for us - creating a dist folder in the root of our project.\n\nSo, output is set, but there’s still the matter of getting webpack to use babel. For that we’ll use a webpack loader. Loaders are what we will circle back around to in a second, but for now, add this to your webpack config.\n\n```\n    module: {\n            rules: [\n                    {\n                test: '/\\.js$/',\n                exclude: /node_modules/,\n                loader: \"babel-loader\"\n                    }\n            ]\n    }\n```\n\nNow, with that loader in place, we should be able to get going. \n\nGo to your index.js file and import our two javascript files (also make sure you export them in the original files!). Then console log one of the functions. Here is an example:\n\n```\nimport { checkForName } from './js/nameChecker'\nimport { handleSubmit } from './js/formHandler'\n\nconsole.log(checkForName);\n\nalert(\"I EXIST\")\n```\nReally we don’t need the alert any more, but either way, delete the current distribution folder and rerun the build command. \n\nYou have been successful if you see your console logged function in the main.js that is output. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916972,
+              "key": "110c4b12-7bdf-4bfb-8c7b-42fc0be4a1e7",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "110c4b12-7bdf-4bfb-8c7b-42fc0be4a1e7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Babel is a javascript library that allows us to:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Use any version of javascript we want, in any file",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Use javascript in any type of file like .html, .css, etc...",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Use the latest version of javascript, even if our browser or runtime doesn't allow it",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Use extra javascript features that don't yet exist in the language spec",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916956,
+              "key": "d0952247-33e5-4bf7-9c3f-30ba7b5693e0",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d0952247-33e5-4bf7-9c3f-30ba7b5693e0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What file would you look for in a project to see if it is using babel?",
+                "matchers": [
+                  {
+                    "expression": "(\\w*babelrc\\w*)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917449,
+              "key": "c11967da-d479-4240-814b-4133dc54b2ca",
+              "title": "Babel RegEx Quiz Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_2\" style=\"display:none\">\n`.babelrc`\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_2') .style.display=='none') {document.getElementById('spoiler_2') .style.display=''}else{document.getElementById('spoiler_2') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916979,
+              "key": "fe1f6ea8-dbe2-4e10-adb8-4a47309cb1df",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fe1f6ea8-dbe2-4e10-adb8-4a47309cb1df",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Why are webpack and babel seen together so frequently?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Babel allows developers to use convenient es6 syntax that works well with Webpack in a front end application",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Webpack requires Babel and Babel is made to be run with Webpack.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Babel requires no extra setup when used with webpack",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "They are not frequently used together, this example is only being used because we are not using a framework.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916965,
+              "key": "c8a3d3df-153b-42b3-9394-5ee5fece6521",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c8a3d3df-153b-42b3-9394-5ee5fece6521",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What is the difference between source code and built code?"
+              },
+              "answer": {
+                "text": "This is a good question to know the answer to, not because you will be asked it point blank like this necessarily, but because knowing the answer means you understand enough about the front end ecosystem and are probably able to jump into a larger project and contribute meaningful front end work. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921962,
+          "key": "7077541d-8e6b-404a-a411-45ce2b484a7f",
+          "title": "Exercise: Output & Loaders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7077541d-8e6b-404a-a411-45ce2b484a7f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921955,
+              "key": "bd5da89b-fb2a-48bf-8be6-d10efd745d14",
+              "title": "Exercise: Output & Loaders Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Output & Loaders\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921949,
+              "key": "2bff1ba0-3dc2-4f96-96f5-e7efb3eb6e51",
+              "title": "Exercise: Output & Loaders Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2bff1ba0-3dc2-4f96-96f5-e7efb3eb6e51",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "For now, hardcode a reference to your javascript into the index.html:\n\n```html\n<script type=\"text/javascript\" src=\"../../../dist/main.js\">\n</script>\n```",
+                "Add babel to your repo:\n\r```\nnpm i -D @babel/core @babel/preset-env babel-loader\n```",
+                "Create a .babelrc file and fill it with these settings:\r\r```\n{ ‘presets’: ['@babel/preset-env'] }\n```"
+              ],
+              "positive_feedback": "Way to go! Babel is a great tool to have in your arsenal, you’ll hear a lot more about it if you do React work later on.",
+              "video_feedback": null,
+              "description": "Now it’s your turn! Follow the steps below to add babel and the correct import statements to your repo."
+            },
+            {
+              "id": 921971,
+              "key": "f89fb17c-3f9d-4683-a61d-eb48b32ac64b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917511xJUPYTERL38novqek",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-1bl95",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917009,
+          "key": "d9cab1c8-a9d4-479d-bc77-164554b1f172",
+          "title": "Loaders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d9cab1c8-a9d4-479d-bc77-164554b1f172",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916968,
+              "key": "73a6135a-c8ef-479f-987e-24fcc9f90441",
+              "title": "Loaders",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the last section we got webpack’s output configured - but to use babel we had to add a loader to our webpack config. We used it then without knowing what it was, but now we can revisit it. \n\nLet’s take another look at that loader. \n\n```\nmodule: {\n    rules: [\n        {\n            test: '/\\.js$/',\n            exclude: /node_modules/,\n            loader: \"babel-loader\"\n        }\n    ]\n}\n```\n\nNow take a look at how Webpack describes loaders:\n\n> Out of the box, webpack only understands JavaScript and JSON files. Loaders allow webpack to process other types of files and convert them into valid modules that can be consumed by your application.\n\nSo loaders allow us to transform files of one type into another type so that webpack can work with them. It might not have looked like we were transforming file types in the step shown above, but we were actually taking vanilla js files and running the babel-loader over them to turn them into es6 files. \n\nThere are all sorts of loaders for webpack - take a look at [this list](https://webpack.js.org/loaders/). In webpack, most of the things you need to do will end up needing a loader. \n\nWe will visit a few more loaders later, but for now, just notice how they work. The `rules` array will contain all of our loaders, each loader specifies what types of files it will run on by running a regex matcher - in the case above we are looking for all .js files - the `$` at the end simply means that nothing comes after that. \n\nBut simply looking for all the .js files in our project would be problematic, as we don’t want to run this on all the files we have in our node modules. For that kind of use case, we also have an exclude option available to us, and then we simply name the loader to be run on the selected files. Some loaders will have different options, you can always look it up in the loader documentation.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916953,
+              "key": "502fe999-fad1-4111-bf06-4c62368798ed",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "502fe999-fad1-4111-bf06-4c62368798ed",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Documentation",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Being able to read documentation is a super power that will allow you to rise quickly in your skills as a developer. Go to the [webpack loader documentation](https://webpack.js.org/loaders/) and recap one or two things that you learn, or that confuse you."
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            },
+            {
+              "id": 916992,
+              "key": "264498a9-f02b-4c02-ad15-18391567e856",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "264498a9-f02b-4c02-ad15-18391567e856",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What webpack loader regex rule would you write to find all css files?",
+                "matchers": [
+                  {
+                    "expression": "(\\w*.css\\$\\w*)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917450,
+              "key": "25bfc67c-c6ea-41ac-be4e-97e7d727c44b",
+              "title": "Webpack Regex Loader RegEx Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\nThe rule should contain `.css$`.\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916971,
+              "key": "9a2df032-f85c-40c6-9095-aaef959bd28a",
+              "title": "FEND C04 L2 Question 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "w4EX_huj6Jo",
+                "china_cdn_id": "w4EX_huj6Jo.mp4"
+              }
+            },
+            {
+              "id": 916999,
+              "key": "23ac535d-8c4b-4457-84bd-7a41d2270ca2",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "23ac535d-8c4b-4457-84bd-7a41d2270ca2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What are some examples of es6 syntax? Do you have a favorite?"
+              },
+              "answer": {
+                "text": "When you are going for a front end job interview, it’s always good to have some of these on the top of your head. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921965,
+          "key": "61bf7e58-94d5-472b-b57f-b2c855451586",
+          "title": "Exercise: Loaders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61bf7e58-94d5-472b-b57f-b2c855451586",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921942,
+              "key": "20733526-db06-4f8f-b59f-f678f13da503",
+              "title": "Exercise: Loaders Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Loaders\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921943,
+              "key": "ad276f94-b90e-464f-9f1f-66517b753a1b",
+              "title": "Exercise: Loaders Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad276f94-b90e-464f-9f1f-66517b753a1b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Make sure you have installed Babel according to the instructions in the last tasklist.",
+                "Tell webpack to use our new babel loader; add this to the module.exports in webpack config:\n```\nmodule: {\n    rules: [\n        {\n            test: '/\\.js$/',\n            exclude: /node_modules/,\n            loader: \"babel-loader\"\n        }\n    ]\n }\n```",
+                "Add export statements to your javascript files \n```\nexport { functionName }\n```",
+                "Add import statements for your javascript files in the index.js\n```\nimport { functionName } from './js/fileName'\n```",
+                "Delete your dist folder. You can delete it through your text editor, but it’s good practice to try it in the command line. Run the following command from your project root: \n``\n`rm -rf dist\n```",
+                "Re-build webpack and watch the text that shows up in your terminal. You should see the names of your javascript files included in the files Webpack has looked through. You might not find your javascript code in the main.js, but as long as you can see that Webpack found your js files, it is all working as expected."
+              ],
+              "positive_feedback": "Great job!",
+              "video_feedback": null,
+              "description": "Take some time to play with the Webpack loader we installed."
+            },
+            {
+              "id": 921950,
+              "key": "3caad530-a0fb-4b50-8c36-1781b8765ef2",
+              "title": "Exercise: Loaders Optional Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3caad530-a0fb-4b50-8c36-1781b8765ef2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Before doing ANYTHING - create a new git branch! Anytime you want to try an experiment, just make a branch.",
+                "Go to the documentation for the loader you want to try",
+                "Implement and see if you can get it to work. Remember to google any errors you get and look up the github repo for the loader if you come across any issues."
+              ],
+              "positive_feedback": "Wonderful! You were able to implement a new loader. You saw how many loader options there were for Webpack - all of those are now open to you!",
+              "video_feedback": null,
+              "description": "Choose another loader to add to webpack. I would suggest starting with one of the following:\n- [JSON loader](https://webpack.js.org/loaders/json-loader/)\n- [Eslint loader](https://webpack.js.org/loaders/eslint-loader/)\n- [File Loader](https://webpack.js.org/loaders/file-loader/)"
+            },
+            {
+              "id": 921972,
+              "key": "849990cd-414e-4b1c-bed6-7cfe93381bbc",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917512xJUPYTERLcahtulam",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-0d8mt",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917004,
+          "key": "36a42add-5cc5-41d0-9877-b9388ffb360d",
+          "title": "Plugins",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "36a42add-5cc5-41d0-9877-b9388ffb360d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916973,
+              "key": "e8d8aef0-7df4-4c44-9dae-43fbe9bf97f1",
+              "title": "Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Plugins are one of the last vital concepts for webpack. The Webpack documentation explains them like this:\n\n> While loaders are used to transform certain types of modules, plugins can be leveraged to perform a wider range of tasks like bundle optimization, asset management and injection of environment variables.\n\nSo, pretty much anything that we need to do that falls outside the range of loaders will be accomplished with plugins. \n\nPlugins can do all sorts of things, from automatically adding asset references to an html file (which we’ll cover in a second) to allowing for hot module replacement - which is used in React’s Create React App to create an auto updating development server. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916997,
+              "key": "d589109c-1109-4633-821e-4dec4445e277",
+              "title": "FEND C04 L02 A06 Plugins",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "X8r2Male-Wg",
+                "china_cdn_id": "X8r2Male-Wg.mp4"
+              }
+            },
+            {
+              "id": 916998,
+              "key": "ebe2e645-d142-42ab-b915-f1b3e49c70b2",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ebe2e645-d142-42ab-b915-f1b3e49c70b2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Would a webpack plugin or loader be responsible for creating global constant values that can be used throughout the application?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Plugin",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Loader",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916989,
+              "key": "d3e2a1ec-98d2-409a-95e6-3397138df34d",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d3e2a1ec-98d2-409a-95e6-3397138df34d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Would a webpack plugin or loader be responsible for taking a .less file and returning css?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Plugin",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Loader",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916960,
+              "key": "2185b5db-8534-4f2f-8bc1-7ee82fc9473d",
+              "title": "Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2185b5db-8534-4f2f-8bc1-7ee82fc9473d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are the three steps to install most plugins:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Declare a new instance of the plugin in the plugins list",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Require the plugin from the node modules directory",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Install the plugin via yarn or npm",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Instantiate the plugin at the top of the file",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916991,
+              "key": "484db9f4-6156-4a15-a78e-19e8039e3df0",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "484db9f4-6156-4a15-a78e-19e8039e3df0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "In javascript, when you see the \"new\" keyword, what does it do and what does it say about the thing it is being called on?"
+              },
+              "answer": {
+                "text": "Some words and concepts that should be part of your answer here are: \n\n- The word instantiate, you create a new instance of the class\n- We create instances from classes, so the thing it is called on must be a class\n- If you want to get into the nitty gritty, you could talk about javascript pseudo classes and how the new keyword in javascript classes is really just syntactic sugar for javascript prototypes",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921960,
+          "key": "cfe6e51e-dd60-4dab-9709-6b98501f84d1",
+          "title": "Exercise: Plugins",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cfe6e51e-dd60-4dab-9709-6b98501f84d1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921952,
+              "key": "2971b1de-b757-43c9-bf0c-5d7ff1a0da05",
+              "title": "Exercise: Plugins Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Plugins\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921954,
+              "key": "c14802a2-4628-43c0-a293-053cf22315b4",
+              "title": "Exercise: Plugins Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c14802a2-4628-43c0-a293-053cf22315b4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Install the html webpack plugin\n```\nnpm i -D html-webpack-plugin\n```",
+                "Require the plugin at the top of your webpack config\n```\nconst HtmlWebPackPlugin = require(‘html-webpack-plugin’)\n```",
+                "Add a plugins list to the webpack config and instantiate the plugin\n```\nplugins: [\n    new HtmlWebPackPlugin({\n        template: \"./src/client/views/index.html\",\n        filename: \"./index.html\",\n    })\n]\n```",
+                "Run webpack and observe the new dist folder output",
+                "Update your server file. Change the home route to use the index file from dist:\n```\napp.get('/', function (req, res) {\n    res.sendFile('dist/index.html')\n})\n```",
+                "Update your server file to look for asset files in the dist instead of client. \nChange:\n```\napp.use(express.static('src/client'))\n```\nTo:\n```\napp.use(express.static('dist'))\n```",
+                "Run the server",
+                "Git commit"
+              ],
+              "positive_feedback": "Good job! You’ve been successful if you see a new index.html file in your dist folder. Remember that if you get stumped, you can always check out a fresh start from the git repo. You can check out a specific git branch from a repo with this command: \n```\ngit clone --single-branch --branch <branchname> <remote-repo>\n```",
+              "video_feedback": null,
+              "description": "In your repo:"
+            },
+            {
+              "id": 921973,
+              "key": "e9a74618-511e-4e9d-89c9-f5fe6a1c522e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917513xJUPYTERLhnlew48o",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-111uv",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917000,
+          "key": "73d59db3-1ff6-416b-abcf-d970b9fa951f",
+          "title": "Mode",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73d59db3-1ff6-416b-abcf-d970b9fa951f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916988,
+              "key": "300ca309-9fb5-4181-b44f-347bf65dba2b",
+              "title": "Introduction to Mode",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The last core Webpack concept we’re going to cover is Mode. When you build, you probably noticed the warning:\n\n```pseudo\nWARNING in configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\n```\n\nThe issue is that we haven’t told webpack which mode to run in. Modes won’t make sense until we delve into environments. You have probably already come across the idea of environments in code projects, or at least heard mention of a “development” or “prod” environment. But in order to use webpack to its true potential, we have to fully understand these concepts. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916983,
+              "key": "9aa5a517-ccdd-499f-9d13-625f6c382734",
+              "title": "Production vs Development",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Production vs. Development Environments\n\nDevelopers refer to the various “states” of a website as environments. When we are developing a website, we call it the development environment - we run the server on localhost and use tools that are specifically convenient for us as developers. On the other hand, there is a production environment, which is our code on a server and where we can tune every tool and file for optimal efficiency, thereby giving our users the best experience when they use the webpage. There can be many environments for a project, like a testing environment or review environment, but we are going to focus on development and production for now.\n\nThere are lots of tools that aim to make writing code easier for developers. One of these tools, called “sass”, we will cover in a future lesson, but for now just know that it is css with some developer friendly syntax and features. It’s great that we have tools that make development easier, but if you take sass as an example - we can’t run sass on a server. All our sass files have to be run through a transpiler in order to become css that can go on a live webpage. No matter how awesome a development tool is, in the end our code will be judged by how well it runs on a server, and oftentimes what is best for the server is the opposite of what is convenient for developers. So how do we handle both of these environments? By utilizing build tools, we can make code that is convenient for our dev team, without sacrificing speed on the server. \n\nOne of the awesome features of webpack, is that it lets us apply configurations to our code based on the environment we are running. We can create a development environment (MODE in webpack) and run totally different loaders and plugins than we do for production mode.\n\nNow we have learned the second part of why we use build tools. First, we learned that build tools allow devs to use the tools that are more convenient for them. The other side of that coin is that build tools simultaneously allow devs to optimize code for the server. Build tools like Webpack are one tool we can use to help us with organization in all environments. If that doesn’t fully make sense now, don’t worry too much, it will become more clear as we go along.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916984,
+              "key": "65a604b3-d0d3-4f6c-a421-7da71fa8c790",
+              "title": "Mode Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d570a42_mode-graphic/mode-graphic.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/65a604b3-d0d3-4f6c-a421-7da71fa8c790",
+              "caption": "You can see that a lot of times, what is best for developers is the opposite of what is most efficient for the server. Webpack helps us have the best of both worlds.",
+              "alt": "You can see that a lot of times, what is best for developers is the opposite of what is most efficient for the server. Webpack helps us have the best of both worlds.",
+              "width": 650,
+              "height": 375,
+              "instructor_notes": null
+            },
+            {
+              "id": 916959,
+              "key": "7673d870-88ce-4a65-b3e6-6ea3d259772f",
+              "title": "FEND C04 L02 A07 Mode",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OGgpLWG3KEc",
+                "china_cdn_id": "OGgpLWG3KEc.mp4"
+              }
+            },
+            {
+              "id": 916951,
+              "key": "110f241b-16d6-411c-9f46-1a8dc093308b",
+              "title": "Mode Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "110f241b-16d6-411c-9f46-1a8dc093308b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which environment is concerned with what happens on a server?",
+                "matchers": [
+                  {
+                    "expression": "(\\w*prod\\w*)|(\\w*Prod\\w*)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917451,
+              "key": "80520117-3de2-45e1-86d3-0b10e05f9538",
+              "title": "Prod RegEx Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\n`prod` or `production`\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916995,
+              "key": "ba038271-5cdf-4e11-a540-dde72fb64f08",
+              "title": "Mode Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ba038271-5cdf-4e11-a540-dde72fb64f08",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select the following webpack loaders and plugins that you would expect to find in development mode and not in production mode",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "CSS minifiers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Linters",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "An uglify package for javascript",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "A source map mode for debugging",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916958,
+              "key": "d129e841-18b7-43f9-be37-092c7aafc76d",
+              "title": "Mode Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d129e841-18b7-43f9-be37-092c7aafc76d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which environment has the most direct effect on users?\n",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Development",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Production",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916981,
+              "key": "e4aea950-3e25-4c36-86e8-d6f676009d64",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e4aea950-3e25-4c36-86e8-d6f676009d64",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Would you minify files for development or production? Why?"
+              },
+              "answer": {
+                "text": "Some interview questions will feel deceptively easy. That doesn’t necessarily mean that the question has an unexpected answer. With a question like this, the interviewer really wants to know that you understand the concepts and differences between development and production. In this question, you can answer by simply saying “production”, but you would be missing out. The “why” part is your big opportunity to show just how much you know about the subject. Even if the interviewer does not add the “why” at the end in person. Pretend it’s there. Take every opportunity to show your grasp of important concepts.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921964,
+          "key": "e5ee3b39-9b0b-4e5e-ba11-29e5e476a7bb",
+          "title": "Exercise: Mode",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e5ee3b39-9b0b-4e5e-ba11-29e5e476a7bb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921953,
+              "key": "bc139122-478a-4e4b-9b02-f328d5bfdcad",
+              "title": "Exercise: Mode Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Mode\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921956,
+              "key": "9e39dcf1-6bb3-4d39-b678-e7214918a76b",
+              "title": "Exercise: Mode Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9e39dcf1-6bb3-4d39-b678-e7214918a76b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Experiment with setting the mode in the webpack script when you run it",
+                "Observe the dist folder output",
+                "Create a prod config file",
+                "Update your npm scripts",
+                "Git commit"
+              ],
+              "positive_feedback": "Fantastic work!",
+              "video_feedback": null,
+              "description": "Your turn!"
+            },
+            {
+              "id": 921974,
+              "key": "65ae70e7-db7d-428a-934d-b6c83526749d",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917514xJUPYTERLpgcv0lgt",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-4izh0",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917006,
+          "key": "e8f28af5-3770-49be-93e5-c79f969ca13e",
+          "title": "Convenience in Webpack",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e8f28af5-3770-49be-93e5-c79f969ca13e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916987,
+              "key": "13652de5-00eb-4b89-876e-578b948a7554",
+              "title": "Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Congratulations! \n\nWe have made our tedious way through all of the webpack concepts. Now we get to actually make things awesome. \n\nAs you probably noted during this lesson so far, there are some things about the process we have now that aren’t exactly smooth. Overall, I wouldn’t call our set up a good dev experience and we don’t have production set up at all. It is functional, and that’s about it. But the whole point of using all these tools is to make our lives easier. So...what’s going wrong? Let’s use what we’ve learned to make some improvements. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916952,
+              "key": "d7d589e8-7041-4a32-8909-25a9f798823b",
+              "title": "FEND C04 L02 A08 Convenience",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "to49zMD_SgY",
+                "china_cdn_id": "to49zMD_SgY.mp4"
+              }
+            },
+            {
+              "id": 916961,
+              "key": "2c8ae4e1-55ab-40ea-862b-475213137c55",
+              "title": "Clean Webpack Server",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Up next, have you noticed how we often have to remove the dist folder manually before re-running the build script?  From what I have seen, when you rebuild, new code will be added to the bundled files, but if there was old code that you got rid of, webpack build does not remove the old stuff. So, we have been removing the dist folder via the terminal and before rebuilding. \n\nReally though, that is an extra and unnecessary step. If we wanted to go really low tech, we could just edit our build script:\n```\nrm -rf dist && webpack-dev-server  --config webpack.dev.js --open\n```\n\nAnd there’s really nothing wrong with that. Honestly, being comfortable customizing your npm scripts will make so many things easier. But, it is doing a little bit of extra work. That script blindly deletes everything and then rebuilds it, even if 99% of the code remained the same. \n\nTo be a little more efficient, there is a webpack plugin called Clean. From its documentation:\n\n> By default, this plugin will remove all files inside webpack's output.path directory, as well as all unused webpack assets after every successful rebuild.\n\nNow, some people will choose to go with the simpler blanket dist folder delete, but just to try it, lets install the clean plugin. \n\n```\nnpm i -D clean-webpack-plugin\n```\n\nThen, as we learned before, to make webpack use a plugin, we have to do two things:\n\nAdd a require statement to the top of the webpack config file:\n```\nconst { CleanWebpackPlugin } = require('clean-webpack-plugin');\n```\nAdd the plugin to Plugins array in the module.exports. The clean plugin is a good example of a plugin that allows for various options. Take a look at this:\n\nWe could use CleanWebpackPlugin like this:\n```\n    new CleanWebpackPlugin()\n```\nAnd the above would function. When there are no options passed in, a plugin will run all the default settings, but we can also pass in our custom selections of the various plugin options, like this:\n\n```\n        new CleanWebpackPlugin({\n                // Simulate the removal of files\n                dry: true,\n                // Write Logs to Console\n                verbose: true,\n                // Automatically remove all unused webpack assets on rebuild\n                cleanStaleWebpackAssets: true,\n                protectWebpackAssets: false\n        })\n```\n\nYou can’t know what options a plugin allows without reading the documentation for that plugin. \n\nAdd that code to your wepack.dev.js file and rerun the build script, now you’ll see a few lines added to the webpack output that tell you the clean plugin is functioning.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916974,
+              "key": "a232ba2d-818b-414a-9fb9-66cf7e544059",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a232ba2d-818b-414a-9fb9-66cf7e544059",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Reflect",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What do you think are the most time-saving developer tools for you? Which tools do you absolutely want in a development environment, or which could you do without?"
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            },
+            {
+              "id": 916985,
+              "key": "58e74204-a6b7-4752-9bf7-90ae71f1c999",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "58e74204-a6b7-4752-9bf7-90ae71f1c999",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You start work on a project with webpack already installed, but there is no specific build for production.  Walk me through the steps of setting up a production environment in webpack"
+              },
+              "answer": {
+                "text": "This is a very specific webpack question, and not one you would probably come across in a jr level job anywhere, but it is a good example of a question that dives more into the specifics of a technology. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921967,
+          "key": "77a7fff4-f8cf-4675-ab03-a75977fe843f",
+          "title": "Exercise: Convenience",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "77a7fff4-f8cf-4675-ab03-a75977fe843f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921959,
+              "key": "bc67de34-c4dc-4db4-8fe0-f142799b3fa1",
+              "title": "Exercise: Convenience Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Convenience\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921957,
+              "key": "d3f77079-8d37-4957-ba18-d83805f0b372",
+              "title": "Exercise: Convenience Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d3f77079-8d37-4957-ba18-d83805f0b372",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Install the webpack dev server\n```\nnpm i -D webpack-dev-server\n```",
+                "Edit the build-dev npm script to use webpack-dev-server, it should look like this:\n```\nwebpack-dev-server --config webpack.dev.js --open\n```",
+                "Next, implement one of the following:\n- Clean Webpack plugin\n- Source Maps"
+              ],
+              "positive_feedback": "Great job! The first time is the trickiest, but it looks like you’ve got it down!",
+              "video_feedback": null,
+              "description": "Now it’s time to get some more practice."
+            },
+            {
+              "id": 921958,
+              "key": "5b52c430-0ad0-4708-8564-3d61048562c5",
+              "title": "Exercise: Convenience Optional Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5b52c430-0ad0-4708-8564-3d61048562c5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Installation instructions can be found [here](https://www.npmjs.com/package/webpack-bundle-analyzer).",
+                "You’ve been successful when you can generate the webpage that shows you all your bundles!"
+              ],
+              "positive_feedback": "It’s always fun to discover new tools.",
+              "video_feedback": null,
+              "description": "If you feel comfortable with the things we’ve learned so far, I highly recommend you try out this fun Bundle Analyzer. It will give you a graphical representation of all the bundles in your code. We’ve done enough hand holding, so try this one on your own!"
+            },
+            {
+              "id": 921975,
+              "key": "239d0d05-6c40-49ea-ace3-992459a5372e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c917515xJUPYTERLe6qqet8y",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-ft9i2",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 917007,
+          "key": "7337221c-c86d-45f9-ba73-dae5a7835b76",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7337221c-c86d-45f9-ba73-dae5a7835b76",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916966,
+              "key": "1c298f55-bdf9-49de-accc-82420edfabc1",
+              "title": "FEND C04 L02 A09 Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "g7WFRiqofbk",
+                "china_cdn_id": "g7WFRiqofbk.mp4"
+              }
+            },
+            {
+              "id": 916963,
+              "key": "58a570e0-6105-4452-b4af-7df620aa5417",
+              "title": "Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you want to go further with webpack, check out these topics next:\n\n- [Multiple entry points with webpack](https://github.com/webpack/webpack/tree/master/examples/multiple-entry-points)\n- [Cache busting with webpack](https://webpack.js.org/guides/caching/)\n- [Using webpack to be more efficient with your styles and assets](http://jonathancreamer.com/advanced-webpack-part-1-the-commonschunk-plugin/)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

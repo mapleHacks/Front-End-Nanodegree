@@ -1,0 +1,596 @@
+{
+  "data": {
+    "lesson": {
+      "id": 908356,
+      "key": "c6e36b9d-8876-49cf-a05a-fea5bfba0786",
+      "title": "Intro to Build Tools",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Get a brief introduction to build tools, including how they can help ease and advance your web development, and what some of the most common build tools are.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/c6e36b9d-8876-49cf-a05a-fea5bfba0786/908356/1565986159881/Intro+to+Build+Tools+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/c6e36b9d-8876-49cf-a05a-fea5bfba0786/908356/1565986157412/Intro+to+Build+Tools+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 908354,
+          "key": "b7f0c672-bd79-4741-a988-821f43f552af",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b7f0c672-bd79-4741-a988-821f43f552af",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908326,
+              "key": "cb78e1ef-92c1-4e09-be25-8088ca286798",
+              "title": "FEND C04 L01 A01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jxUAmng9q-I",
+                "china_cdn_id": "jxUAmng9q-I.mp4"
+              }
+            },
+            {
+              "id": 908333,
+              "key": "a9626dc2-551e-4ff1-9cf8-0cd5b976809b",
+              "title": "Welcome",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Welcome to part four of the front end development course! \n\nYou have learned to build a webpage with HTML and CSS, and to make it interactive with Javascript. You have all the tools you need to make a fully functional website - and that’s awesome! But you might be asking - where do I go from here? In this course we are going to cover some tools that will take your front end web development skills to a professional level. We will focus on a build tool called Webpack and let it take us on a tour through all the most common technologies and strategies you’ll see in a professional front end project. \n\nThis course is really about a mental shift. Up to this point we have built toy apps for the purpose of learning that typically only have one user - us. But how does our development need to change in order to build, say, a large company website with a whole team of devs? We’re going to explore that and a whole lot more in the coming modules.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908327,
+              "key": "c2938824-c912-4e2d-a281-473b72e51cd1",
+              "title": "Baseline Questions",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c2938824-c912-4e2d-a281-473b72e51cd1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Getting a baseline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Have you ever used build tools in a project?"
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 908330,
+              "key": "ab8318ee-660a-45ec-9322-9d8c11d91267",
+              "title": "Baseline Questions",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ab8318ee-660a-45ec-9322-9d8c11d91267",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Getting a baseline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "As you start this course, what is your current understanding of build tools (if any)? What are they? What are they for/what do they do?  "
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 908331,
+              "key": "424e343a-7d6c-4576-a52d-aeb1cadec9cc",
+              "title": "Baseline Questions",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "424e343a-7d6c-4576-a52d-aeb1cadec9cc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Getting a baseline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "As you start this course, what is your current understanding of Webpack (if any)? Feel free to throw out even bits and pieces if you can't think of a full description. Things like where is Webpack used, what it does, other technologies that use it, etc..  "
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 908344,
+              "key": "a111d532-f4bb-4734-872b-d3bd8bc0d02e",
+              "title": "FEND C04 L1 Question 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4uDl9Lbbk1Y",
+                "china_cdn_id": "4uDl9Lbbk1Y.mp4"
+              }
+            },
+            {
+              "id": 908328,
+              "key": "e1f2500f-41a3-4c85-aaef-502de1b579f1",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e1f2500f-41a3-4c85-aaef-502de1b579f1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Tell me about one tool you have used that improved your frontend workflow and why. This could be anything from a text editor plugin, linter, time tracker, etc... whatever you like.  "
+              },
+              "answer": {
+                "text": "Good job! Feel free to try these interview questions as often as you want, the more practice the better.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 908352,
+          "key": "6f033609-0f73-489c-9e29-fb37b446d905",
+          "title": "Setting the Stage",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6f033609-0f73-489c-9e29-fb37b446d905",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908342,
+              "key": "b4caece0-6649-47c2-9ceb-6f7c84c88695",
+              "title": "Introduction",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### In this section we are going to talk about why we need build tools for front end projects.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908338,
+              "key": "2c51fb69-e688-4eae-aa19-7d4045504999",
+              "title": "Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Go to the [Udacity website](https://www.udacity.com/) and inspect element to look at all of the assets on the Udacity home page.\n\n**Pro tip:** Don't just open inspector and go to the head tag element to see what's there. One of my favorite browser dev tools is the Network tab. Go there and you can look at all the requests made by the page, separate them by type, see the http request responsible, see the response, etc.. I could do an entire course just on this tab probably. You can learn a ton by taking a look at sites this way and it is a priceless debugging tool.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908335,
+              "key": "2133a605-38c7-4b4e-a517-094b1b4e7428",
+              "title": "FEND C04 L01 A02 Setting The Stage",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5EioUT_gfbk",
+                "china_cdn_id": "5EioUT_gfbk.mp4"
+              }
+            },
+            {
+              "id": 908332,
+              "key": "99cb91da-986b-4f10-ab55-fd876b1c63e8",
+              "title": "On your own",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "99cb91da-986b-4f10-ab55-fd876b1c63e8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Go to two websites you visit often or like",
+                "Inspect their dependency lists just like we did Udacity's website earlier",
+                "Take note of any trends, questions, or observations you have while inspecting each"
+              ],
+              "positive_feedback": "Amazing work!",
+              "video_feedback": null,
+              "description": "More practice examples."
+            },
+            {
+              "id": 908336,
+              "key": "5991dc2e-a86c-4a1f-bd61-e2cbada53b97",
+              "title": "Questions",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5991dc2e-a86c-4a1f-bd61-e2cbada53b97",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Reflect",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What are some of your observations and takeaways from looking at Udacity and the other website assets?"
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            },
+            {
+              "id": 908348,
+              "key": "7c89cf31-e2a6-4db5-8263-e7093705131d",
+              "title": "Questions",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7c89cf31-e2a6-4db5-8263-e7093705131d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When loading website styles the order in which each css file is loaded matters",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908347,
+              "key": "4aa6118b-7865-459c-b577-b851003c11c3",
+              "title": "FEND C04 L1 Question 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mL94nBz918Y",
+                "china_cdn_id": "mL94nBz918Y.mp4"
+              }
+            },
+            {
+              "id": 908334,
+              "key": "fce740af-3b78-4cc5-b1eb-ae2c7ab6ebc4",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fce740af-3b78-4cc5-b1eb-ae2c7ab6ebc4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "If a client is complaining that their website load time is too slow, what things would you do to assess where the slowdown is occurring and what might fix the issue?"
+              },
+              "answer": {
+                "text": "Some good points you would want to hit if asked this question:\nUse the network tab to look at the overall size of the webpage and if any assets are too big\nLook at what third party scripts are loading and when\nTry Google lighthouse audits (if you haven’t heard of it, look it up you’ll love it)",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 908355,
+          "key": "3b5c433d-85e8-4b7c-b750-73431ccb4546",
+          "title": "Intro To Build Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3b5c433d-85e8-4b7c-b750-73431ccb4546",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908340,
+              "key": "17d8a890-e05c-4109-900d-d2418598199c",
+              "title": "Introduction",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### In this section we are going to talk about some general principles that all build tools have in common, and then introduce how Webpack fits into that role.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908339,
+              "key": "446ba727-8779-487d-90aa-84335d659a25",
+              "title": "FEND C04 L01 A03 Intro To Build Tools",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dUSYFpGS48U",
+                "china_cdn_id": "dUSYFpGS48U.mp4"
+              }
+            },
+            {
+              "id": 908343,
+              "key": "ebd36f24-387d-412f-adc8-e964c8f23257",
+              "title": "Example Config",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Build tools will manage all our assets so that we don’t have to by combining them all into a single file (or sometimes a few files). We create a set of rules for the build tool to follow, telling it specifically how we want each type of asset handled, and then it follows our rules, takes all the assets and bundles them into a single large file, which has everything loading in the correct order and is much easier for us to deal with. Typically, files with names like bundle or main are the result of a build tool combining many assets into one.\n\nWhat does it look like to write these rules for a build tool? Rules are written into config files. Just to give you a glimpse of where we’re headed, here is an example webpack config file. Don’t worry, this should look like gibberish right now, but we’re just going to take a look at a few things. \n\n\n```javascript\n\nmodule.exports = {\n  entry: './src/index.js',\n  output: {\n    path: path.join(__dirname, 'dist'),\n    filename: 'main.js',\n  },\n  module: {\n       rules: [\n          {\n                test: /\\.js$/,\n                exclude: /node_modules/,\n                loader: \"babel-loader\",\n          },\n          {\n                test: /\\.html$/,\n                use: [{ loader: \"html-loader\"}],\n                },\n                {\n                    test: /\\.scss$/,\n                    use: [ 'style-loader', 'css-loader', 'sass-loader' ]\n                }\n       ]\n },\n  plugins: [\n    new HtmlWebPackPlugin({\n           template: \"./src/html/index.html\",\n           filename: \"./index.html\",\n    })\n  ]\n}\n\n```\n\nOne thing to notice is that we’re in javascript land! You can see that this config file is 100% normal javascript. Webpack is entirely built with js. \n\nYou can also see a whole section here in the middle titled “rules”. Not surprisingly, this is where we declare the rules that will govern our different assets. You might also have noticed that each rule targets a certain type of file with regex.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908337,
+              "key": "fe2200f8-4ae9-41eb-ba56-b60303e97b38",
+              "title": "Activity",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fe2200f8-4ae9-41eb-ba56-b60303e97b38",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Do a quick google search (not more than 10 minutes) for front end build tools",
+                "Note what names you see, or other facts that stand out"
+              ],
+              "positive_feedback": "Great Work. Keep it up!",
+              "video_feedback": null,
+              "description": "A developer’s best friend is their search engine! Take some time to do this quick search and see what you find."
+            },
+            {
+              "id": 908349,
+              "key": "00feac3d-fec1-4c65-8c4f-913601ac6e7f",
+              "title": "Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "00feac3d-fec1-4c65-8c4f-913601ac6e7f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What kinds of assets might care which order they are loaded in?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Styles",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Images",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Javascript",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Third party libraries",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908346,
+              "key": "f10a933b-9b88-42e4-95ca-9c529130ac0b",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f10a933b-9b88-42e4-95ca-9c529130ac0b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Build Tools are a category of front end development technology that:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Help store our application assets for safe keeping",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Help developers write their asset management requirements into programmatic rules that can be run on command to save time and effort",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Instruct developers on how to organize and test their asset delivery systems",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Ensure all projects meet the agreed upon industry standard for managing assets",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908351,
+              "key": "a6f92c36-57c0-4796-9814-f11f3108954d",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a6f92c36-57c0-4796-9814-f11f3108954d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "So far, we know that Webpack is:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "A Javascript tool for better server management",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "A Javascript tool for better asset management",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A JSON tool for more efficient DOM manipulation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "A PHP tool for better asset management",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917021,
+              "key": "1dcb8229-26c0-4cf7-bd7f-c3679718c299",
+              "title": "FEND C04 L1 Question 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mm9I7rsKg0A",
+                "china_cdn_id": "mm9I7rsKg0A.mp4"
+              }
+            },
+            {
+              "id": 908350,
+              "key": "4ecd5cf6-cea5-4e04-947c-9b6407292602",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4ecd5cf6-cea5-4e04-947c-9b6407292602",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Explain what role build tools play in modern frontend development."
+              },
+              "answer": {
+                "text": "Thanks for your response. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 908353,
+          "key": "2c5ec923-bae5-4d8d-9922-bc0b986c30f4",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2c5ec923-bae5-4d8d-9922-bc0b986c30f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908345,
+              "key": "8d490bb1-0304-45fe-9b7e-ebaa5ffd7ca2",
+              "title": "FEND C04 L01 A04 Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UwcF7-c36eg",
+                "china_cdn_id": "UwcF7-c36eg.mp4"
+              }
+            },
+            {
+              "id": 908341,
+              "key": "a834f46e-d45c-474a-9262-3ad0a23d850a",
+              "title": "Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To get a wider view of all the options in the build tool world, this is a good [compare/contrast article](https://survivejs.com/webpack/appendices/comparison/) to give you the lay of the land, though it was written a few years ago and not all of the details are correct for current versions, the technologies listed there representative of what is out there, though webpack would probably be at the top of that list if it had been written today.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "data": {
+    "lesson": {
+      "id": 908316,
+      "key": "af6deed7-3e8f-4bcc-9ece-1743adcc28e6",
+      "title": "CSS Flexbox",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Build on your CSS knowledge by diving into Flexbox, a one-dimensional layout technique for helping organize items within your webpage.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/af6deed7-3e8f-4bcc-9ece-1743adcc28e6/908316/1581983694280/CSS+Flexbox+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/af6deed7-3e8f-4bcc-9ece-1743adcc28e6/908316/1581983689347/CSS+Flexbox+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 908311,
+          "key": "51bd0188-1c43-4a88-b507-b7be0129035d",
+          "title": "Introducing Flexbox",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "51bd0188-1c43-4a88-b507-b7be0129035d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908305,
+              "key": "d8a82695-dceb-4b57-b8f1-5d98b72b2d02",
+              "title": "Introducing Flexbox Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introducing Flexbox",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908284,
+              "key": "3f46af74-1989-46e5-b7ed-86250e2d017a",
+              "title": "ND001 C01 L03 01 Introducing Flexbox",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1RIj3J4TJfQ",
+                "china_cdn_id": "1RIj3J4TJfQ.mp4"
+              }
+            },
+            {
+              "id": 908285,
+              "key": "52718880-f751-45d6-8a0a-1cce5191542a",
+              "title": "Introducing Flexbox Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To use flexbox set the `display` property of a div to `flex`. The items inside that element will automatically become flex items, and you can then use the flexbox syntax in your CSS code.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908312,
+          "key": "707d23da-0299-428c-8bb0-ccf716c1ed35",
+          "title": "A Quick Flexbox Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "707d23da-0299-428c-8bb0-ccf716c1ed35",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908273,
+              "key": "cf853505-0244-4630-9658-de40b9042e95",
+              "title": "A Quick Flexbox Example Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# A Quick Flexbox Example",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908271,
+              "key": "936b01f1-a2d6-45b5-b806-a968e44e9e40",
+              "title": "ND001 C01 L03 02 Introducing Flexbox Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Wp--K4tnM9g",
+                "china_cdn_id": "Wp--K4tnM9g.mp4"
+              }
+            },
+            {
+              "id": 908296,
+              "key": "407573b9-55a6-4505-8b21-5adddd4f02dd",
+              "title": "Introducing Flexbox Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By setting an element's `display` property to `flex`, all elements inside of it become flex items that can be laid out in a customized way following design patterns like columns, rows, alignment, and distribution.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908272,
+              "key": "e21bfcd9-d62e-4d46-9ff1-a9fdd4d722bb",
+              "title": "Introducing Flexbox Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e21bfcd9-d62e-4d46-9ff1-a9fdd4d722bb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What do you add to your code to begin using flexbox properties?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "By setting the `display` property of the parent element to `flex`.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "By setting the `display` properties of the items inside the parent container to `flex`.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Just start using flexbox properties like `align-items` and `justify-content`.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908319,
+              "key": "90dcbb47-dbbe-422b-835d-e82b9379ade8",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c908312xHTMLLIVEnfyuyk7z",
+              "pool_id": "webterminal",
+              "view_id": "html-live-9uy5a",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 908274,
+              "key": "b2b20a92-088a-4fdd-9d40-9274665b4307",
+              "title": "Introducing Flexbox Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here, we have learned that Flexbox (the Flexible Box Module) is a set of CSS rules for stretching multiple columns or rows across a parent container. Flex is unique amongst CSS properties because you have a main container and the items nested within it. CSS flex has properties that apply to both the element itself, and the items inside of it.\n\nTo use flexbox set the `display` property of the parent container to `flex`:\n```\n.container{\n  display:flex;\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908282,
+              "key": "d7be2f17-9362-41e1-be48-e7a31e105844",
+              "title": "Introducing Flexbox Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further research\n\nFor more information about a Flexbox overview, see [this MDN entry](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908307,
+          "key": "14dc4bec-7f8c-4e41-98d8-61a018bf6019",
+          "title": "Axes and Direction with Flexbox",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "14dc4bec-7f8c-4e41-98d8-61a018bf6019",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908280,
+              "key": "82b0e887-3a61-4f13-8eed-13eea4aad133",
+              "title": "Axes and Direction with Flexbox Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Axes and Direction with Flexbox",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908287,
+              "key": "74ea83ec-85b2-4aa2-a334-45b170a9ffff",
+              "title": "ND001 C01 L03 03 Axes And Direction With Flexbox",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nk746LmofK8",
+                "china_cdn_id": "nk746LmofK8.mp4"
+              }
+            },
+            {
+              "id": 908290,
+              "key": "7450e0db-9997-4f49-abbe-2f2c7420fb2e",
+              "title": "Axes and Direction with Flexbox Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The Flexbox model relies on two axes: the main axis and the cross axis. The main axis is defined by flex-direction, which has four possible values:\n\n- `row`\n- `row-reverse`\n- `column`\n- `column-reverse`\n\nThe two row settings will create the main axis horizontally - or `inline` direction. The two column settings will create the main axis vertically - or `block` direction. `block` or `inline` here refer to the CSS display settings which we have covered previously. \n\nThe axis determines the flow of your content - you can think of this as being either rows or columns - and they will be determined when you start aligning and justifying content within a flex container.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908314,
+          "key": "8b1bb19a-bba0-4715-8491-03786403cbf6",
+          "title": "Axes and Direction in Action",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b1bb19a-bba0-4715-8491-03786403cbf6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908279,
+              "key": "a61fada1-6f69-461d-a318-c6ad493ffa0b",
+              "title": "Axes and Direction with Flexbox Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Axes and Direction in Action\n\nAfter setting an element's display to flex, the next thing you will usually want to state is whether the elements inside the container should be laid out in rows or columns. You can do this using the `flex-direction` property, and setting its value to either column or row.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908277,
+              "key": "66d32d22-896d-4902-a430-f33b5463c085",
+              "title": "ND001 C01 L03 04 Axes And Direction With Flexbox Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OohsQcDvdJc",
+                "china_cdn_id": "OohsQcDvdJc.mp4"
+              }
+            },
+            {
+              "id": 908289,
+              "key": "a4ad770d-5144-4e8e-afd0-a3316a62fa24",
+              "title": "Axes and Direction with Flexbox Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To set the layout of the items in a flex container to either a row or column use the `flex-direction` property like this:\n\n```\n.container{\n  display:flex;\n  flex-direction: row\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908278,
+              "key": "948bb0dc-0e2c-44f2-9579-4c0d0757c325",
+              "title": "Axes and Direction with Flexbox Problem Set",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "948bb0dc-0e2c-44f2-9579-4c0d0757c325",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "If the `flex-direction` is set to `row` or `row-reverse` the main axis is horizontal.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "If the `flex-direction` is set to `column` or `column-reverse` the main axis is vertical.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "If the main axis is horizontal the cross axis is vertical.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "The two axis control the flow of space in flexbox and correspond to the `align-items` and `justify-content` properties.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908320,
+              "key": "356414b9-a768-45c3-8a89-1d055bfb4218",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c908314xHTMLLIVEhqegt0nd",
+              "pool_id": "webterminal",
+              "view_id": "html-live-rm6dr",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 908276,
+              "key": "c8b04846-9271-46c5-9a0e-bffa14eeefe6",
+              "title": "Axes and Direction with Flexbox Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Axes and direction are important concepts for understanding flexbox. They are both conceptual and technical which can be tricky. One suggestion is to try and draw your flex containers out first in a notebook. This can be helpful for mapping out axes and direction.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908297,
+              "key": "f5c2013d-aee5-4fa9-8b9c-b1b9f5867cc5",
+              "title": "Axes and Direction with Flexbox Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\nFor more on axis and direction with flexbox see the [documentation here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#The_two_axes_of_flexbox).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908309,
+          "key": "b5abc404-153a-4153-b7ec-ad89788910a4",
+          "title": "Ordering Elements with Flexbox",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b5abc404-153a-4153-b7ec-ad89788910a4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908291,
+              "key": "4330d28f-8d1f-4c06-b583-9f1501b8765d",
+              "title": "Ordering Elements with Flexbox Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Ordering Elements with Flexbox",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908286,
+              "key": "383ff346-8e28-41b6-8e69-b8b66b9b3d1a",
+              "title": "ND001 C01 L03 05 Ordering Elements With Flexbox",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MfdXaLz1yzM",
+                "china_cdn_id": "MfdXaLz1yzM.mp4"
+              }
+            },
+            {
+              "id": 908300,
+              "key": "d218433c-bc81-419c-b5e5-318dd49f9aaa",
+              "title": "Ordering Elements with Flexbox Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are three ways to explicitly set the order in which items will appear in a grid.\n\n1. Moving the HTML code for the elements themselves to reorder\n2. Appending `-reverse` to `row` or `column` will reverse the order in the specified row or column\n3. Using the `order` property of the individual items inside the grid",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908315,
+          "key": "1b8e2d51-9af2-4525-b697-4a34d0141f8c",
+          "title": "Ordering Elements Demo",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b8e2d51-9af2-4525-b697-4a34d0141f8c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908306,
+              "key": "0fedbab3-a85c-459f-94a8-b8bf587bc142",
+              "title": "Ordering Elements with Flexbox Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Ordering Elements Demo\n\n`flex-direction:row;` will lay elements out from left to right. But `flex-direction:row-reverse` will flip that order and display elements from right to left.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908302,
+              "key": "e5e8a3ad-f8ae-4146-9e1a-0195486eb994",
+              "title": "ND001 C01 L03 06 Ordering Elements With Flexbox V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "iPi0d4d1Rds",
+                "china_cdn_id": "iPi0d4d1Rds.mp4"
+              }
+            },
+            {
+              "id": 908283,
+              "key": "b1036031-5840-41ab-abd4-ac433156e0c0",
+              "title": "Ordering Elements with Flexbox Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The row and columns settings for flex elements can be reversed by appending `-reverse` to either property value.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908303,
+              "key": "5390d01d-d70c-4c6f-b6d3-10b1f39fc34c",
+              "title": "Ordering Elements with Flexbox Problem Set",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5390d01d-d70c-4c6f-b6d3-10b1f39fc34c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is NOT a valid way to order elements inside a grid with Flexbox?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Moving the HTML code for the elements themselves to reorder",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Appending `-reverse` to `row` or `column` to reverse the order in the specified row or column",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Naming the elements in numeric order",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Using the `order` property of the individual items inside the grid",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908322,
+              "key": "e15dc612-445d-46ee-80a4-9122ec141817",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c908315xHTMLLIVEh0704k2p",
+              "pool_id": "webterminal",
+              "view_id": "html-live-syzzw",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 908275,
+              "key": "13f565c2-e268-4018-bc2d-d05dd77c61f1",
+              "title": "Ordering Elements with Flexbox Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Summary\n\nThe order of flex items is by default determined by the order they appear in your code. You can explicitly change this order using either `-reverse` or with the CSS property `order`.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908288,
+              "key": "fb1e9c3f-83b4-494e-8bfd-499c90db29e2",
+              "title": "Ordering Elements with Flexbox Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\nFor more information on ordering flex items, you can see this section of [the flexbox MDN article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#Ordering_flex_items).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908310,
+          "key": "1d748687-fd8a-4412-baff-b9bdfc65719b",
+          "title": "Aligning Items & Justifying Content with Flexbox",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1d748687-fd8a-4412-baff-b9bdfc65719b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908301,
+              "key": "8793ecf2-c720-44d8-8594-8d95302a259a",
+              "title": "Aligning Items & Justifying Content with Flexbox Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Aligning Items & Justifying Content with Flexbox",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908295,
+              "key": "de2bb318-412f-49a3-9eab-c706fbebe413",
+              "title": "ND001 C01 L03 07 Aligning Items   Justifying Content With Flexbox",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "s9Z4tTWbbAY",
+                "china_cdn_id": "s9Z4tTWbbAY.mp4"
+              }
+            },
+            {
+              "id": 908292,
+              "key": "0d936101-555d-4030-bfd2-cf68ad176a49",
+              "title": "Aligning Items & Justifying Content with Flexbox Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To align items on the cross axis use `align-items` with the possible values:\n- stretch\n- flex-start\n- flex-end\n- center\n\nTo justify content on the main axis use `justify-content`, which has the possible values:\n- flex-start\n- flex-end\n- center\n- space-around\n- space-between\n- space-evenly",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908313,
+          "key": "7b1a9599-f222-44e8-8758-aae3871d98be",
+          "title": "Aligning & Justifying in Action",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7b1a9599-f222-44e8-8758-aae3871d98be",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908281,
+              "key": "e6d2c65d-d384-4684-9f64-ab43fa07e2a0",
+              "title": "Aligning Items & Justifying Content with Flexbox Example Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Aligning & Justifying in Action\n\nAligning, justifying, and distributing is what flexbox is all about. Up next, we will focus in on two of the most powerful properties that flex introduces to achieve such easy and elegant layouts.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908298,
+              "key": "ab588e34-f313-4c35-8a53-42cf0ca8b80b",
+              "title": "ND001 C01 L03 08 Aligning Items   Justifying Content With Flexbox Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Ois3sh2AAQw",
+                "china_cdn_id": "Ois3sh2AAQw.mp4"
+              }
+            },
+            {
+              "id": 908304,
+              "key": "38601322-df38-4088-bd29-35cb8b608059",
+              "title": "Aligning Items & Justifying Content with Flexbox Example Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By setting different values for the properties `align-items` and `justify-content` you can easily create elegant distribution of elements across the available space.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 908294,
+              "key": "eab5a75e-2408-4652-ac3b-0b3d1759fca6",
+              "title": "Aligning Items & Justifying Content with Flexbox Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "eab5a75e-2408-4652-ac3b-0b3d1759fca6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "The align-items property will align the items on the cross axis.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "The justify-content property will align the items on the cross axis.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "The align-items property will align the items on the main axis.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 908323,
+              "key": "55e48bba-f21f-41c4-8857-a0f9f0478f1b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c908313xHTMLLIVEa434jhc5",
+              "pool_id": "webterminal",
+              "view_id": "html-live-ly7ly",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/instructions.md",
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 908299,
+              "key": "6f5a55fb-c9d0-425c-8d1e-f8a1e68ec8d1",
+              "title": "Aligning Items & Justifying Content with Flexbox Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\nFor further research on the topics covered in this section, see this MDN article [Alignment, justification and distribution of free space between items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Alignment_justification_and_distribution_of_free_space_between_items).\n\nReading the documentation will make you smarter and enjoy coding more!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 908308,
+          "key": "92dcb221-eb1f-481f-891d-0b2e047cf9dc",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92dcb221-eb1f-481f-891d-0b2e047cf9dc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 908293,
+              "key": "0ead08cd-45a5-4226-bb6f-21c612e0783e",
+              "title": "ND001 C01 L03 09 Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2jcMOMV_hj4",
+                "china_cdn_id": "2jcMOMV_hj4.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

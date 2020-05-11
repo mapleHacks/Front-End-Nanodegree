@@ -1,0 +1,95 @@
+{
+  "data": {
+    "lesson": {
+      "id": 899076,
+      "key": "76746498-058a-42e8-ad3a-76018c9d167d",
+      "title": "Project: Weather Journal App",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Apply your new skills to combine data from the OpenWeatherMap API and client side (browser) HTML forms, to create a web app that records a weather journal for users.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "4026017b-6c7d-40b3-9ce8-92e2cc835bad",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 30240,
+        "semantic_type": "Project",
+        "title": "Weather Journal App",
+        "description": "# Weather Journal App with Asynchronous JavaScript\n\nThis project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI in a Weather Journal application.\n\n## Project Files\n\nYou can obtain the project code [here](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app). To complete the project will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.\n\n## Rubric\n\nYour project will be evaluated by a Udacity code reviewer according to the Weather-Journal [project rubric](https://review.udacity.com/#!/rubrics/2655/view). Please make sure to re-review the rubric for detailed project requirements prior to submission.\n\n## Submission\n\nOnce you've met all of the rubric requirements, you can submit your project as either a zip file or a Github repository link below.",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2655",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 899280,
+          "key": "6989772f-f9d4-4706-9815-19b4a621fb1a",
+          "title": "Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6989772f-f9d4-4706-9815-19b4a621fb1a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899647,
+              "key": "b41d7621-4a1a-446d-b233-035db6f59049",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Getting Started\n\n## Introduction\n\nThis project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.\n\n## Project Rubric\nYour project will be evaluated by a Udacity code reviewer according to the Weather-Journal [project rubric](https://review.udacity.com/#!/rubrics/2655/view). Please review the rubric for detailed project requirements.\nIf you'd like to start from scratch without any files, you are encouraged to do so! You learn the most by developing on your own. But, it can be a bit challenging having to start from scratch, so we do provide a starter project (i.e., a \"skeleton\") to use.\n\n## Get the Starter Code\nYou can download the starter code below by cloning the specific branch 'refresh-2019':\n\n- [The Weather Journal project repository](https://github.com/udacity/fend/tree/refresh-2019)\n\n\nThe starter code has all the elements and CSS you will need to complete the project, plus a little help getting started with the JavaScript. If you decide to start development on your own and then get stuck, you can always take a peek at the starter code available at the links provided for inspiration.\n\nIf you want to try the project without the starter code, and would like to use a comments only version of the finished JS code, you can find that at the link below.\n- [Comments only version of final JS code](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app/commentsOnlyJS) (`commentsOnlyJS` directory)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 899648,
+              "key": "f7dc9606-785a-4a11-a00f-45eca4e162c6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Web APIs and Asynchronous Applications\nGreat! You now have the starter code. Before moving forward, make sure you are comfortable with the content from Web APIs and Asynchronous Applications. \n\nAsk yourself:\n\n- How do I setup a [Node environment with Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) and the necessary project dependencies?\n- How do I setup [a server with GET and POST routes](https://expressjs.com/en/guide/routing.html)?\n- How do I create developer credentials for a Web API?\n- How do I use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) with my credentials and user input to get dynamic data into my app routes?\n- How do I access a GET route on the server side, from a function called on the client side?\n- How do I [chain Promises](https://javascript.info/promise-chaining) together \n- How do I access HTML elements with JavaScript and set their properties dynamically?",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 899650,
+          "key": "58e551fe-9a86-4f82-89bc-ab737f5a399e",
+          "title": "Development Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58e551fe-9a86-4f82-89bc-ab737f5a399e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 899651,
+              "key": "fd304177-9d34-4882-8779-ccd0a6c3675f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Development Strategy\nFor this project, you will be writing most of your code in two files: `server.js` and `website/app.js`. Note that it's very important that you plan your project before you start writing any code! Break your project down into small pieces of work and strategize your approach to each one. With these bite-sized amounts, it'll be easier to debug and fix any issues that appear.\n\n## Testing\nTesting your code as you go is an excellent development approach. If you would like to write and run tests for parts of your implementation code, you can use the file `tests.js` to see examples of test code you might write along the development path.\n\nFeel free to implement your own design workflow, but if you get stuck -- here is a walkthrough to get you up and running!\n\n1. *Start by setting up your project environment.* Make sure Node is installed from the terminal. Install the packages Express, Body-Parser, and Cors from the terminal and them include them your `server.js` file.\n   - Create a server running on the port of your choosing\n   - Add a `console.log()` to the server callback function, and test that your server is running using Node in the terminal to run the file `server.js`\n2. *Add a GET route that returns the `projectData` object in your server code* Then, add a POST route that adds incoming data to `projectData`.\n   - The POST route should anticipate receiving three pieces of data from the request body\n     - temperature\n     - date\n     - user response\n   - Make sure your POST route is setup to add each of these values with a key to `projectData`.\n3. *Acquire API credentials from OpenWeatherMap website*. Use your credentials and the base url to create global variables at the top of your `app.js` code. \n   - Write an `async` function in `app.js` that uses `fetch()` to make a GET request to the OpenWeatherMap API.\n   - Create an event listener for the element with the id: `generate`, with a callback function to execute when it is clicked.\n   - Inside that callback function call your `async` GET request with the parameters:\n     - base url\n     - user entered zip code (see input in html with id `zip`)\n     - personal API key\n4. After your successful retrieval of the weather data, you will need to chain another Promise that makes a POST request to add the API data, as well as data entered by the user, to your app.\n   - You will need to write another `async` function to make this POST request.\n   - The function should receive a path and a data object.\n   - The data object should include\n     - temperature\n     - date\n     - user response\n   - Remember, you can access the value of DOM elements by selecting them in your JS code.\n\n5. *Finally, chain another Promise that updates the UI dynamically* Write another `async` function that is called after the completed POST request. This function should retrieve data from our app, select the necessary elements on the DOM (`index.html`), and then update their necessary values to reflect the dynamic values for:\n   - Temperature\n   - Date\n   - User input",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

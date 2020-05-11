@@ -1,0 +1,1030 @@
+{
+  "data": {
+    "lesson": {
+      "id": 916598,
+      "key": "066b6252-7814-453b-a1ae-cb55bcfa9912",
+      "title": "Sass and Webpack",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "By the end of this lesson you will be able to explain what Sass is and its relation to CSS, and understand the steps necessary to use Sass in a project.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/066b6252-7814-453b-a1ae-cb55bcfa9912/916598/1565986736562/Sass+and+Webpack+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/066b6252-7814-453b-a1ae-cb55bcfa9912/916598/1565986734165/Sass+and+Webpack+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 916592,
+          "key": "9e670ea0-ad3d-486d-8807-6f263c7d7c20",
+          "title": "Sass Basics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9e670ea0-ad3d-486d-8807-6f263c7d7c20",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916561,
+              "key": "35ca1c23-0d77-49d6-8e5f-8411e648b6d7",
+              "title": "FEND C4 L3 A01 WHAT IS SASS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6gNGsa5ImP8",
+                "china_cdn_id": "6gNGsa5ImP8.mp4"
+              }
+            },
+            {
+              "id": 916583,
+              "key": "9ca9f06f-0309-479f-936c-23b1cc9bd031",
+              "title": "Using Sass",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When a developer writes a `.scss` file, there is a problem. Browsers don’t know what Sass is, they don’t run Sass, they run CSS. Sass transpiles to CSS - or in more common english - Sass can be directly translated to CSS. Anything you write in Sass can be written in 100% pure CSS, they are equivalent to each other, but the Sass syntax is going to be much shorter and easier to write than the CSS. \n\nSass now comes with some of its own tools to run that translation process to create CSS, but since we’re using webpack anyway, we’re going to leverage webpack to do that job.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916557,
+              "key": "a5d4a9d3-7b9c-45b1-a757-828627eb9310",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a5d4a9d3-7b9c-45b1-a757-828627eb9310",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "From what you have learned of webpack loaders and plugins, which one do you think we will need to turn our `.scss` files into `.css` files?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "A Loader",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "A Plugin",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916559,
+              "key": "8a498073-520c-4e6f-b5f5-7c2c9d5d2d92",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8a498073-520c-4e6f-b5f5-7c2c9d5d2d92",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Reflect",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Do you have any previous experience with sass?"
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 916558,
+              "key": "95add0f8-d948-47eb-b3ab-9684b24f5213",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "95add0f8-d948-47eb-b3ab-9684b24f5213",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "CSS is valid Sass and Sass can be transpiled to pure CSS",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916577,
+              "key": "da9745fd-d240-441e-82df-2bfe9b1155a0",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "da9745fd-d240-441e-82df-2bfe9b1155a0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Name two or three reasons developers often prefer to work with sass or less over vanilla css."
+              },
+              "answer": {
+                "text": "Some common answers would be:\nTerser, more efficient syntax than css (like sass nesting)\nExtra syntax options (like the sass ampersand)\nMore flexibility (sass variables, mixins, and includes)",
+                "video": null
+              }
+            },
+            {
+              "id": 916565,
+              "key": "5bc3ae68-2c58-496b-8f74-cf6a1e52bc43",
+              "title": "Conclusion",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Learning sass is worth every minute of your time as you hone your front end developer skills. These days it is pretty much required knowledge and it could be a whole course of its own. Unfortunately, this course is jam-packed enough as it is so we aren’t going to spend much time here. On the bright side, the sass website has a [good tutorial](https://sass-lang.com/guide) that will take you through all the basics. In the next few sections, I’ll highlight three of the concepts I think are most important to learn about sass.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 916596,
+          "key": "755b873a-7638-4ae9-9b16-8ec410ae81b6",
+          "title": "Sass Nesting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "755b873a-7638-4ae9-9b16-8ec410ae81b6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916556,
+              "key": "2bf4ab49-1590-45c5-bf73-bc07ad6a4c54",
+              "title": "Main Concept",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Nesting is one of the key features of Sass. HTML elements are nested, and so CSS is nested by nature, but that isn't reflected in CSS syntax. Sass allows you to write styles for nested elements in a much more intuitive way. Writing nested sass can mean that you don't have to create nearly as many individual classes, which can save a lot of time and markup. Not only that, but you are much more likely to be able to edit styles by only touching the CSS file, without having to go back and forth between the HTML and CSS. As a rule of thumb though, *if you find yourself nesting more than three levels deep*, it’s probably time for a new class. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916584,
+              "key": "34123b25-2823-47f1-aae1-ea6af2536f21",
+              "title": "Nesting Examples",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Take a look at these examples of nesting:\n\n```sass\nnav {\n  ul {\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n\n  li { display: inline-block; }\n\n  a {\n    display: block;\n    padding: 6px 12px;\n    text-decoration: none;\n  }\n}\n```\n\nThe code above, when translated to css, would become:\n```css\nnav ul {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\nnav li {\n  display: inline-block;\n}\nnav a {\n  display: block;\n  padding: 6px 12px;\n  text-decoration: none;\n}\n```\nI chose this feature as one of the core things to know about sass because it is probably the single feature that most impacts your ability to write compact and efficient styles. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916560,
+              "key": "33e00a36-fd32-4923-b423-7297229f8ce0",
+              "title": "Practice",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson (and the next), if you want to work on your local machine, you should fork and clone [this repo](https://github.com/udacity/fend-webpack-sass). Otherwise, we have once again provided in-classroom workspaces for you to use.\n\nCurrently all of the files in our github app are CSS file format - except the Sass resets file that I have provided for you. Now, you should translate all the remaining files from CSS to Sass.\n\n*HINT* - The least effort you could put out to complete this step would be to change all the file names to `.scss` and leave the content all the same. CSS is valid Sass!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916585,
+              "key": "71c6b3d1-1641-4d4b-b707-ad452f489a8f",
+              "title": "Practice Question",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Quiz: Sass vs. CSS\n\nWhat css would be generated by the following sass code? \n\n```\nsection.hero {\n    width: 100vw;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    \n    img {\n         background-image: url('mybg.jpeg');\n         background-size: cover;\n    }\n\n    h1, h3 {\n         font-family: 'cool font', sans-serif;\n    }\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 917462,
+              "key": "1666bc5e-bbf7-4d1b-8401-6a59afeb46a4",
+              "title": "Practice Options",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##### Option 1\n```\nsection.hero {\n   width: 100vw;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\nsection.hero img {\n    background-image: url('mybg.jpeg');\n    background-size: cover;\n}\n\nsection.hero img h1,  section.hero img h3 {\n    font-family: 'cool font', sans-serif;\n}\n```\n\n##### Option 2 \n```\nsection.hero {\n   width: 100vw;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\nimg section.hero {\n    background-image: url('mybg.jpeg');\n    background-size: cover;\n}\n\nsection.hero h1,  h3 {\n    font-family: 'cool font', sans-serif;\n}\n```\n\n##### Option 3\n```\nsection.hero {\n   width: 100vw;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\nsection.hero img  {\n    background-image: url('mybg.jpeg');\n    background-size: cover;\n}\n\nsection.hero h1,  h3 {\n    font-family: 'cool font', sans-serif;\n}\n```\n\n##### Option 4\n```\nsection.hero {\n   width: 100vw;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\nsection.hero img  {\n    background-image: url('mybg.jpeg');\n    background-size: cover;\n}\n\nsection.hero h1,  section.hero h3 {\n    font-family: 'cool font', sans-serif;\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916588,
+              "key": "38ac00e5-387d-49e0-8f04-fa5d896099bf",
+              "title": "Practice",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "38ac00e5-387d-49e0-8f04-fa5d896099bf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select one of the following options that correlates to the options listed above.",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Option 1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Option 2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Option 3",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Option 4",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916562,
+              "key": "406b1ebf-a3e4-4248-9657-0038152d2d7d",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "406b1ebf-a3e4-4248-9657-0038152d2d7d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Explain sass nesting syntax and its advantages over vanilla css. "
+              },
+              "answer": {
+                "text": "If you need help remembering some of the main points, go back to video for this section. Some quick points are:\n\nFewer classes required\nShorter stylesheets",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 921997,
+          "key": "b584c8d2-44af-4c22-b16c-6d9889fb87c5",
+          "title": "Exercise: Sass Conversion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b584c8d2-44af-4c22-b16c-6d9889fb87c5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921992,
+              "key": "09e4a87c-dd71-42da-900e-740b7b53f312",
+              "title": "Exercise: Sass Conversion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Sass Conversion\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.\n\n## Local work\n\nIf you want to work locally, you can use [this repo](https://github.com/udacity/fend-webpack-sass) to get started, or continue from your work in the previous lesson. This same repository will be used for this lesson and the following lesson. Once again, the different branches are the different steps at each exercise - make sure to use the branch *before* the current exercise (if you aren’t continuing from your own code), as the branch for each exercise contains the related solution code.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921991,
+              "key": "c9f0710b-851d-4656-b2dd-1b31e3c050bd",
+              "title": "Exercise: Sass Conversion Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c9f0710b-851d-4656-b2dd-1b31e3c050bd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Convert all CSS code and/or files to Sass"
+              ],
+              "positive_feedback": "Nice work!",
+              "video_feedback": null,
+              "description": "Convert your CSS to Sass!"
+            },
+            {
+              "id": 922000,
+              "key": "137046ed-1d9a-4bd6-8420-0c4433a13ffc",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c918930xJUPYTERLzdbvoxtq",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-1kv50",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 916593,
+          "key": "e8c17229-0242-49d4-a471-fda90df921f3",
+          "title": "Sass Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e8c17229-0242-49d4-a471-fda90df921f3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916566,
+              "key": "8c4ab617-9c2d-4153-b118-3235b6cd8c8e",
+              "title": "Sass Variables Usage",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Variables\n\nAnother great sass feature is actually one that’s available in vanilla css as well, but the intentional use of variables in stylesheets, especially when [theming](https://css-tricks.com/css-custom-properties-theming/), can make for far more flexible and understandable styles. \n\n```scss\n$font-stack: Helvetica, sans-serif;\n$primary-color: #333;\n\nbody {\n  font: 100% $font-stack;\n  color: $primary-color;\n}\n```\nIn CSS becomes:\n\n```\nbody {\n  font: 100% Helvetica, sans-serif;\n  color: #333;\n}\n```\nPerhaps that doesn’t look impressive, but what it means most certainly is. Imagine, you’ve built a website with hard coded values for font all throughout. The client comes to two days before launch, after the last pass of QA, and tells you that everything looks good but they want to change the font (as happens from time to time). You might cringe, because it will take you an hour to go through every single reference to font in the whole app, replace it with the new one and change sizes proportionally. Or, you might sigh a sigh of relief because you used a sass variable, and now all of those 170 references to font are all using the same single variable, you change that one value in your code, and can go to bed early that night instead of staying up and working. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916586,
+              "key": "f8cea010-149a-4dea-b5a3-ebabf90e43b6",
+              "title": "Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f8cea010-149a-4dea-b5a3-ebabf90e43b6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select the css properties that might be most valuable as css variables:\n\n",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "primary and secondary theme colors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "fonts",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "line height and padding in paragraphs and sections",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "warning colors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "icons",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk6",
+                    "text": "transitions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk7",
+                    "text": "all of the above",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916569,
+              "key": "c4f34007-a916-4169-9fa5-a945248df2f1",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c4f34007-a916-4169-9fa5-a945248df2f1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Sass variables are denoted with a:",
+                "matchers": [
+                  {
+                    "expression": "([\\$])"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917461,
+              "key": "0b5abcbe-0af7-41c1-a10b-2aeb8889d22e",
+              "title": "Sass Variables RegEx Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\n`$`\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916575,
+              "key": "b9512885-9592-4c08-a69f-dc0bf6d9a404",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b9512885-9592-4c08-a69f-dc0bf6d9a404",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Write the `sass` variable declarations required by this code (the values don't matter, you can choose whatever you want): \n```\nsection.header {\n     background: $theme-secondary;\n     color: $font-main;\n     nav {\n           display: flex;\n            ul { \n                   margin: $theme-spacing\n            }\n      }\n}\n```",
+                "matchers": [
+                  {
+                    "expression": "(\\$theme-secondary.*)\n(\\$font-main.*)\n(\\$theme-spacing.*)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917463,
+              "key": "7b2f5307-4690-4eff-91e7-e9bcec27cc42",
+              "title": "Sass Values RegEx Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_2\" style=\"display:none\">\nYour answer should look something like this:\n```\n$theme-secondary: #000000;\n$font-main: fantasy;\n$theme-spacing: 25px;\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_2') .style.display=='none') {document.getElementById('spoiler_2') .style.display=''}else{document.getElementById('spoiler_2') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 916594,
+          "key": "86b3f8b1-af81-4dd9-b4ae-f0eacdd6f5db",
+          "title": "Sass Ampersand",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86b3f8b1-af81-4dd9-b4ae-f0eacdd6f5db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916567,
+              "key": "2b21f70b-abe6-46ae-a136-030cd92d47b3",
+              "title": "FEND C4 L3 A02 SASS AMPERSAND",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vs_qf9NoOus",
+                "china_cdn_id": "vs_qf9NoOus.mp4"
+              }
+            },
+            {
+              "id": 916571,
+              "key": "7e17720d-6d02-4c2f-8443-8ab9771c0acc",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7e17720d-6d02-4c2f-8443-8ab9771c0acc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Exploration",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "I will keep making this point throughout the course - there is no better way to advance as a developer than to read source code and documentation. While it might not be the most fun, you will learn that technology in the most full sense - at least if the documentation is good. Fortunately, the Sass documentation is top-notch, so go to their docs [here](https://sass-lang.com/guide) and look up one concept that we did not cover in this course. Explain it in this free response."
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 916570,
+              "key": "3f356289-f8f2-43ac-ac2b-b841ea6340e0",
+              "title": "Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3f356289-f8f2-43ac-ac2b-b841ea6340e0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Sass can do all of the following EXCEPT:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Make shorter stylesheets by using terser syntax",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Make our site faster by serving sass directly from the server",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Help us write more reusable styles",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Give us more flexibility in the way we apply styles",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916564,
+              "key": "d32c1a95-e85d-4f5b-9cad-181cfcf5a3c7",
+              "title": "Quiz",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d32c1a95-e85d-4f5b-9cad-181cfcf5a3c7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which sass concept we covered would you use most to style all states of a tooltip on our site?",
+                "matchers": [
+                  {
+                    "expression": "\\bampersand|&"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 917464,
+              "key": "e07df0f0-6724-47dc-ba4c-71315ab4283f",
+              "title": "Ampersand RegEx Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<div id=\"spoiler_1\" style=\"display:none\">\n`&` or `ampersand`\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916590,
+              "key": "77a420ec-219b-4794-abb1-b2bde99cd2ca",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "77a420ec-219b-4794-abb1-b2bde99cd2ca",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Choose one piece of sass syntax and explain what it is for, how to use it, and what css it generates."
+              },
+              "answer": {
+                "text": "Have fun with this one! They’ve given you free reign to give whatever answer you are most prepared for. So be confident and excited, maybe even tell them your favorite piece of sass syntax and why you like it.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 916595,
+          "key": "5abdefd1-f7f8-4d0c-9567-8620b7a1aad1",
+          "title": "Webpack and Sass",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5abdefd1-f7f8-4d0c-9567-8620b7a1aad1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916572,
+              "key": "e4f2a14c-7a6b-4520-9bff-fefa6db63b67",
+              "title": "Installing Loaders",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "So now for the webpack portion of all of this. Like we talked about earlier, we are going to use webpack loaders to turn our sass into css. First let’s install all the tools we’ll need:\n```\nnpm i -D style-loader node-sass css-loader sass-loader\n```\n\nThen add this test case to the rules array in your dev webpack config.\n\n```\n{\n        test: /\\.scss$/,\n        use: [ 'style-loader', 'css-loader', 'sass-loader' ]\n}\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916589,
+              "key": "13e761e1-107d-496a-a2d5-4b77f83421bb",
+              "title": "FEND C4 L3 A03 WEBPACK AND SASS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kdt0_KhohHE",
+                "china_cdn_id": "kdt0_KhohHE.mp4"
+              }
+            },
+            {
+              "id": 916581,
+              "key": "74b7d52e-e4bf-4a3c-b3e5-dad8ae7defc5",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "74b7d52e-e4bf-4a3c-b3e5-dad8ae7defc5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is going wrong in the video?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "we don't have the right test case",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "we still need another loader for the step between css-loader and style-loader",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "we aren't importing the sass files as a dependency",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "we have to edit our server.js file",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916580,
+              "key": "bd7e4450-7697-462f-a64b-075e49624957",
+              "title": "What Went Wrong",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Well, if you think back to how we got the javascript files into our main.js, we are missing one of those steps for our css. Really, there are three things you have to do to use webpack loaders. You have to:\n\n1. install the loader\n2. call the loader in the webpack config while targeting the correct file extensions\n3. require the files in index.js\n\nAnd there you have it. We have all this lovely sass code, but we never tell webpack that it is required. And because of the dependency tree that webpack builds, if nothing ever requires a file, it’s as if it doesn’t exist. \n\nSo, to fix that, let’s go to `client/index.js`.\n\nBecause of css-loader, we can add some lines like this:\n\n```\nimport './styles/resets.scss'\n```\n\nThis time check the `main.js` for some of our sass styles, and they should just be there!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916579,
+              "key": "3b2050d7-7d50-4a0f-a452-46d1751f62e1",
+              "title": "Next Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Now, one thing that might feel awkward, is that all of our css styles are being run through our main.js. Webpack natively only understands javascript, so it makes sense that until we tell it to do otherwise, it turns everything into javascript by default. Now, this isn’t a problem for development mode necessarily, but it can cause styles to load a split second after content on the server, so we are going to have to clean that up for production mode later on. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 916578,
+              "key": "d030213c-f4c0-4610-b689-734670309c46",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d030213c-f4c0-4610-b689-734670309c46",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The following loaders would run in which order:\n\n```\n{\n        test: /\\.less$/,\n        use: [ 'one', 'two', 'three' ]\n}\n```\n",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "one, two, three",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "three, two, one",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "(if two is a long running process)\nthree, one, two",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "(if two is a long running process)\none, three, two",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 916576,
+              "key": "5669316d-2af5-4d6a-840a-af5174ea1a64",
+              "title": "Interview Question",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5669316d-2af5-4d6a-840a-af5174ea1a64",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Interview Question",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Explain the practice of chaining loaders in webpack. What is the value of this webpack feature, how is it implemented, etc.."
+              },
+              "answer": {
+                "text": "Thanks for your response!",
+                "video": null
+              }
+            },
+            {
+              "id": 916573,
+              "key": "3e42a0fa-b0e0-4be9-a551-27717c38f178",
+              "title": "Webpack and Sass Conclusion",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We know enough sass to be dangerous, and we can add it to a webpack project. We got a little more practice with loaders and learned that they can be a lot more helpful when chained together than just by themselves. \n\nThere are so many more things that you can do with loaders that we just don’t have time to go into. Some of these things include:\n\n- [Loading images](https://medium.com/a-beginners-guide-for-webpack-2/handling-images-e1a2a2c28f8d)\n- [Working in typescript or other languages that compile to javascript](https://webpack.js.org/guides/typescript/)\n- Working with third party style and js libraries like [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/webpack/) or [Material](https://github.com/callemall/material-ui-webpack-example)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 921999,
+          "key": "e7996644-4c2f-45d5-a11f-19a2e1dc387e",
+          "title": "Exercise: Sass Loaders & Webpack",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e7996644-4c2f-45d5-a11f-19a2e1dc387e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921995,
+              "key": "db13f22c-6d2d-4351-a441-439badcf1f03",
+              "title": "Exercise: Sass Loaders & Webpack Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Sass Loaders & Webpack\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921996,
+              "key": "fb2dca9e-126c-4a12-b032-85e02fbdb182",
+              "title": "Exercise: Sass Loaders & Webpack Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fb2dca9e-126c-4a12-b032-85e02fbdb182",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Install the sass loaders and their dependencies",
+                "Add the sass loaders\n```\n{\n    test: /\\.scss$/,\n    use: [ 'style-loader', 'css-loader', 'sass-loader' ]\n}\n```",
+                "Change all your css files to sass files",
+                "Import the sass files into index.js. You can use this import format as a template:\n```import './styles/resets.scss'```",
+                "Run webpack and look for your styles in the bundled js file"
+              ],
+              "positive_feedback": "Amazing!",
+              "video_feedback": null,
+              "description": "In your own repo, do the following:"
+            },
+            {
+              "id": 922001,
+              "key": "327de991-ddaa-4a87-a8ab-ce75f6a9fe34",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c918945xJUPYTERLtbxwd71d",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-4j5as",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 921998,
+          "key": "a867b473-4ff5-47e0-a4cf-a0130fabd425",
+          "title": "Optional Exercise: Challenge",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a867b473-4ff5-47e0-a4cf-a0130fabd425",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 921993,
+              "key": "a2fc2a38-40bc-4ca8-902c-76db96230fff",
+              "title": "Optional Exercise: Challenge Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Optional Exercise: Challenge\n\nIf you are using the classroom workspace, you *do not* need to use the tasklist below - it’s here to help those working on their local machines. The same instructions are included in the workspace, so you should click “Expand” on the bottom left to be able to use your full screen.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 921994,
+              "key": "f41d9b32-89ae-4af1-8d51-b6b6769d3a44",
+              "title": "Optional Exercise: Challenge Tasklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f41d9b32-89ae-4af1-8d51-b6b6769d3a44",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Add to your sass styles to implement the sass syntax we learned in this course",
+                "Try implementing one or two other features of sass that we didn't cover"
+              ],
+              "positive_feedback": "Perfect!",
+              "video_feedback": null,
+              "description": "If you’re tracking along with this lesson pretty well, try this challenge! It is optional."
+            },
+            {
+              "id": 922002,
+              "key": "53d33a96-2f4c-477a-a444-d1cb7cb08b0d",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r179038c918951xJUPYTERL7iwys1m4",
+              "pool_id": "jupyterlab",
+              "view_id": "jupyter-lab-fehqy",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "port": "3000",
+                    "ports": [],
+                    "pageEnd": "",
+                    "pageStart": "",
+                    "allowSubmit": false,
+                    "defaultPath": "/",
+                    "actionButtonText": ""
+                  },
+                  "kind": "jupyter-lab"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 916591,
+          "key": "9c4f8e07-fe4b-48ec-aef4-6414b25dc09b",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9c4f8e07-fe4b-48ec-aef4-6414b25dc09b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 916582,
+              "key": "35b59274-c3f3-472a-9a49-9af40fe354ed",
+              "title": "FEND C4 L3 A04 CONCLUSION",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hPLCp5HU7pg",
+                "china_cdn_id": "hPLCp5HU7pg.mp4"
+              }
+            },
+            {
+              "id": 916574,
+              "key": "4fd41b4c-df5f-4285-abef-0ea249f38fbd",
+              "title": "Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As a front end developer, proficiency with styling is of utmost importance. And it isn't always as easy at it seems. For some great `css` and `sass` tutorials, take a look at these resources:\n- [A to Z CSS](https://www.sitepoint.com/tag/atoz-css/)\n- [Getting Started with Sass](https://scotch.io/tutorials/getting-started-with-sass)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
